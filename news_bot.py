@@ -33,21 +33,16 @@ TARGET_TZ = pytz.timezone("Europe/Madrid")
 
 CACHE_FILE = "news_cache.json"
 
-# ========= MENCIONES =========
-
 MENTIONS = [
     "@almtaiwea76",
     "@xaxepro99",
-]  # usuarios a etiquetar en noticias y alertas [web:428][web:436]
+]
 
 
-# ========= DRIFT: HTTP =========
+# ========= HTTP =========
 
 def fetch_html_safe() -> str | None:
-    """
-    Hace GET a /news. Si devuelve 200 OK, retorna el HTML.
-    Si no es 200 o salta error, devuelve None y no chafamos la cache. [web:451][web:454][web:456][web:459]
-    """
+    """GET /news. Si status 200, devuelve HTML; si no, avisa y devuelve None."""
     try:
         session = requests.Session()
         r = session.get(URL, headers=HEADERS, cookies=COOKIES, timeout=30)
@@ -67,7 +62,7 @@ def fetch_html_safe() -> str | None:
         return None
 
 
-# ========= DRIFT: TIEMPO =========
+# ========= TIEMPO =========
 
 def parse_datetime_to_europe(date_str: str) -> str:
     dt_naive = datetime.strptime(date_str, "%m/%d/%Y, %I:%M:%S %p")
@@ -77,17 +72,17 @@ def parse_datetime_to_europe(date_str: str) -> str:
 
 
 def minutes_until_event(datetime_raw: str) -> float:
-    """Minutos desde ahora (Madrid) hasta la hora del evento."""
+    """Minutos desde ahora (Madrid) hasta la hora del evento. Puede ser negativo."""
     dt_naive = datetime.strptime(datetime_raw, "%m/%d/%Y, %I:%M:%S %p")
     dt_source = SOURCE_TZ.localize(dt_naive)
     dt_target = dt_source.astimezone(TARGET_TZ)
 
     now_local = datetime.now(TARGET_TZ)
     delta = dt_target - now_local
-    return delta.total_seconds() / 60.0  # puede ser negativo [web:392][web:405]
+    return delta.total_seconds() / 60.0  # [web:391][web:405][web:396][web:527]
 
 
-# ========= DRIFT: PARSEO =========
+# ========= PARSEO =========
 
 def parse_events(html: str):
     soup = BeautifulSoup(html, "lxml")
@@ -197,7 +192,7 @@ def build_mentions_line() -> str:
 # ========= ALERTAS < 1 HORA =========
 
 def build_alert_text(minutes: int, event_name: str) -> str:
-    """Construye el texto de alerta con sirenas, minutos, nombre y menciones."""
+    """Texto de alerta con sirenas, minutos, nombre y menciones."""
     mention_line = build_mentions_line()
     base = f"NEWS ALERT 🚨🚨 in {minutes} minutes — {event_name}"
     if mention_line:
@@ -235,14 +230,14 @@ def send_alerts_for_upcoming_events(events):
 
 
 # ========= MAIN =========
+
 def main():
     # 1. Cargar cache actual
     cache = load_cache()
     events = cache["events"]
     last_news_sent_at = cache["last_news_sent_at"]
 
-    # 2. Intentar refrescar eventos desde /news
-    #    Solo si la respuesta es OK (200), chafamos la cache con los nuevos.
+    # 2. Intentar refrescar eventos desde /news (solo si 200)
     html = fetch_html_safe()
     if html is not None:
         print("Respuesta 200 OK, actualizando eventos desde /news.")
@@ -308,11 +303,8 @@ def main():
             if "passed" in e["time_to"].lower():
                 continue
 
-            # Destacar el evento más cercano
             if nearest_event is not None and e is nearest_event:
-                line = (
-                    f"🔥 *{e['datetime_eu']}* - *{e['name']}* ({e['time_to']})"
-                )
+                line = f"🔥 *{e['datetime_eu']}* - *{e['name']}* ({e['time_to']})"
             else:
                 line = f"*{e['datetime_eu']}* - {e['name']} ({e['time_to']})"
 
@@ -321,20 +313,24 @@ def main():
         if not lines:
             print("No hay eventos high pendientes para resumen.")
         else:
-            message = "DRIFT NEWS:\n\n" + "\n".join(lines)
+            header = f"DRIFT NEWS ({len(lines)} eventos high):\n\n"
+            message = header + "\n".join(lines)
             mentions_line = build_mentions_line()
             if mentions_line:
                 message += "\n\n" + mentions_line
             print("Mandando resumen de noticias:\n", message)
             send_telegram_message(message)
-            # Actualizar timestamp en cache
             last_news_sent_at = now_local.isoformat()
             save_cache(last_news_sent_at, events)
     else:
         print("No toca enviar resumen de noticias (menos de 30 min o sin eventos).")
 
-    # 5. Enviar alertas para eventos high con menos de 1h (cada run de 10 min)
+    # 5. Enviar alertas para eventos high con menos de 1h (cada run)
     if events:
         send_alerts_for_upcoming_events(events)
     else:
         print("Sin eventos, no hay alertas que enviar.")
+
+
+if __name__ == "__main__":
+    main()
