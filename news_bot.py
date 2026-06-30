@@ -101,6 +101,22 @@ def parse_events(html: str):
 
 # ========= CACHE =========
 
+def load_cached_events():
+    if not os.path.exists(CACHE_FILE):
+        return None
+
+    try:
+        with open(CACHE_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        if isinstance(data, list):
+            print(f"Cache cargada desde {CACHE_FILE} con {len(data)} eventos.")
+            return data
+        return None
+    except Exception as e:
+        print("Error leyendo cache:", e)
+        return None
+
+
 def save_cached_events(events):
     try:
         with open(CACHE_FILE, "w", encoding="utf-8") as f:
@@ -130,14 +146,28 @@ def send_telegram_message(text: str):
 # ========= MAIN =========
 
 def main():
-    html = fetch_html()
-    events = parse_events(html)
-    print(f"Eventos descargados: {len(events)}")
+    # 1. Intentar usar cache del repo
+    events = load_cached_events()
 
-    # Guardar todos los eventos en el archivo de cache
-    save_cached_events(events)
+    use_cache = False
+    if events:
+        # Miramos si hay al menos un evento high pendiente en la cache
+        for e in events:
+            if e["impact"].lower() == "high" and "passed" not in e["time_to"].lower():
+                use_cache = True
+                break
 
-    # Filtrar eventos high pendientes para enviar
+    if use_cache:
+        print("Usando cache existente, sin hacer GET /news.")
+    else:
+        print("Cache vacía o sin eventos high pendientes; haciendo GET /news.")
+        html = fetch_html()
+        events = parse_events(html)
+        save_cached_events(events)
+
+    print(f"Eventos disponibles: {len(events)}")
+
+    # 2. Filtrar eventos high pendientes para enviar
     lines = []
     for e in events:
         if e["impact"].lower() != "high":
@@ -152,6 +182,7 @@ def main():
         print("No hay eventos high pendientes.")
         return
 
+    # 3. Construir mensaje y enviar
     message = "DRIFT NEWS:\n\n" + "\n".join(lines)
     print(message)
     send_telegram_message(message)
