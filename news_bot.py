@@ -28,8 +28,10 @@ HEADERS = {
     "accept-language": "es-ES,es;q=0.9,en;q=0.8,ar;q=0.7",
 }
 
+# Drift da las fechas en UTC (SOURCE_TZ)
 SOURCE_TZ = pytz.utc
-TARGET_TZ = pytz.timezone("Europe/Madrid")
+# Ahora usamos horario de Brasil (São Paulo, UTC-3 sin DST) [web:672][web:675][web:667][web:674]
+TARGET_TZ = pytz.timezone("America/Sao_Paulo")
 
 CACHE_FILE = "news_cache.json"
 
@@ -68,22 +70,23 @@ def fetch_html_safe() -> str | None:
 
 # ========= TIEMPO =========
 
-def parse_datetime_to_europe(date_str: str) -> str:
+def parse_datetime_to_target(date_str: str) -> str:
+    """Convierte fecha de Drift (UTC) a horario de Brasil (São Paulo)."""
     dt_naive = datetime.strptime(date_str, "%m/%d/%Y, %I:%M:%S %p")
     dt_source = SOURCE_TZ.localize(dt_naive)
-    dt_target = dt_source.astimezone(TARGET_TZ)
+    dt_target = dt_source.astimezone(TARGET_TZ)  # [web:673][web:674][web:676]
     return dt_target.strftime("%d/%m/%Y %H:%M")
 
 
 def minutes_until_event(datetime_raw: str) -> float:
-    """Minutos desde ahora (Madrid) hasta la hora del evento. Puede ser negativo."""
+    """Minutos desde ahora (Brasil) hasta la hora del evento. Puede ser negativo."""
     dt_naive = datetime.strptime(datetime_raw, "%m/%d/%Y, %I:%M:%S %p")
     dt_source = SOURCE_TZ.localize(dt_naive)
     dt_target = dt_source.astimezone(TARGET_TZ)
 
     now_local = datetime.now(TARGET_TZ)
     delta = dt_target - now_local
-    return delta.total_seconds() / 60.0  # [web:647][web:651][web:652]
+    return delta.total_seconds() / 60.0  # la diferencia es la misma en cualquier huso [web:663]
 
 
 # ========= PARSEO =========
@@ -117,14 +120,14 @@ def parse_events(html: str):
             continue
 
         try:
-            datetime_eu = parse_datetime_to_europe(datetime_str_raw)
+            datetime_target = parse_datetime_to_target(datetime_str_raw)
         except Exception:
-            datetime_eu = datetime_str_raw
+            datetime_target = datetime_str_raw
 
         events.append({
             "name": name,
-            "datetime_raw": datetime_str_raw,
-            "datetime_eu": datetime_eu,
+            "datetime_raw": datetime_str_raw,   # siempre en formato Drift (UTC string)
+            "datetime_local": datetime_target,  # ahora en horario de Brasil
             "impact": impact,
             "time_to": time_to,
         })
@@ -243,7 +246,7 @@ def send_alerts_for_upcoming_events(events):
             print(f"[ALERT] No se pudo calcular minutos para {e['name']}: {ex}")
             continue
 
-        print(f"[ALERT] {e['name']} empieza en {minutes:.1f} minutos.")
+        print(f"[ALERT] {e['name']} empieza en {minutes:.1f} minutos (hora Brasil).")
 
         if minutes <= 0:
             continue  # ya han pasado o están empezando
@@ -304,8 +307,8 @@ def main():
     # Solo si quedan 3 o menos eventos high no passed, mandamos aviso solo a @xaxepro99
     if 0 < num_high_pending <= 3:
         warning = (
-            "DRIFT WARNING: quedan 3 o menos eventos high pendientes. "
-            "Si ves más en la web, posible problema de cookies.\n"
+            f"DRIFT WARNING: el bot ve {num_high_pending} eventos high pendientes "
+            "en horario de Brasil. Si ves más en la web, posible problema de cookies.\n"
             f"{ERROR_MENTION}"
         )
         print("[MAIN]", warning)
@@ -313,7 +316,7 @@ def main():
 
     # 3. Decidir si toca enviar resumen de noticias (cada 30 minutos)
     now_local = datetime.now(TARGET_TZ)
-    print(f"[MAIN] Ahora (TARGET_TZ): {now_local.isoformat()}")
+    print(f"[MAIN] Ahora (Brasil, TARGET_TZ): {now_local.isoformat()}")
 
     should_send_news = False
 
@@ -359,7 +362,7 @@ def main():
                 print(f"[MAIN] Error calculando minutos para {e['name']}: {ex}")
                 continue
 
-            print(f"[MAIN] {e['name']} pendiente, empieza en {m:.1f} minutos.")
+            print(f"[MAIN] {e['name']} pendiente, empieza en {m:.1f} minutos (hora Brasil).")
 
             if m <= 0:
                 continue
@@ -380,16 +383,16 @@ def main():
                 continue
 
             if nearest_event is not None and e is nearest_event:
-                line = f"🔥 *{e['datetime_eu']}* - *{e['name']}* ({e['time_to']})"
+                line = f"🔥 *{e['datetime_local']}* - *{e['name']}* ({e['time_to']})"
             else:
-                line = f"*{e['datetime_eu']}* - {e['name']} ({e['time_to']})"
+                line = f"*{e['datetime_local']}* - {e['name']} ({e['time_to']})"
 
             lines.append(line)
 
         if not lines:
             print("[MAIN] No hay eventos high pendientes para resumen.")
         else:
-            header = f"DRIFT NEWS ({len(lines)} eventos high):\n\n"
+            header = f"DRIFT NEWS (hora Brasil, {len(lines)} eventos high):\n\n"
             message = header + "\n".join(lines)
             mentions_line = build_mentions_line()
             if mentions_line:
