@@ -33,26 +33,43 @@ TARGET_TZ = pytz.timezone("Europe/Madrid")
 
 CACHE_FILE = "news_cache.json"
 
-# Pon aquí vuestros @username
+# ========= MENCIONES =========
+
 MENTIONS = [
     "@almtaiwea76",
     "@xaxepro99",
-]  # cámbialos por los reales [web:428][web:436]
+]  # usuarios a etiquetar en noticias y alertas [web:428][web:436]
 
 
 # ========= DRIFT: HTTP =========
 
-def fetch_html() -> str:
-    session = requests.Session()
-    r = session.get(URL, headers=HEADERS, cookies=COOKIES, timeout=30)
-    r.raise_for_status()
-    return r.text
+def fetch_html_safe() -> str | None:
+    """
+    Hace GET a /news. Si devuelve 200 OK, retorna el HTML.
+    Si no es 200 o salta error, devuelve None y no chafamos la cache. [web:451][web:454][web:456][web:459]
+    """
+    try:
+        session = requests.Session()
+        r = session.get(URL, headers=HEADERS, cookies=COOKIES, timeout=30)
+        status = r.status_code
+        print(f"GET {URL} status: {status}")
+        if status == 200:
+            return r.text
+        else:
+            msg = f"DRIFT ERROR: /news status {status}, no se actualiza cache."
+            print(msg)
+            send_telegram_message(msg)
+            return None
+    except Exception as e:
+        msg = f"DRIFT ERROR: /news exception: {e}, no se actualiza cache."
+        print(msg)
+        send_telegram_message(msg)
+        return None
 
 
 # ========= DRIFT: TIEMPO =========
 
 def parse_datetime_to_europe(date_str: str) -> str:
-    # Ej: '6/30/2026, 1:30:00 AM'
     dt_naive = datetime.strptime(date_str, "%m/%d/%Y, %I:%M:%S %p")
     dt_source = SOURCE_TZ.localize(dt_naive)
     dt_target = dt_source.astimezone(TARGET_TZ)
@@ -141,7 +158,7 @@ def load_cache():
 
 
 def save_cache(last_news_sent_at, events):
-    """Guarda timestamp y lista de eventos."""
+    """Chafa siempre la lista de eventos con los nuevos."""
     try:
         payload = {
             "last_news_sent_at": last_news_sent_at,
@@ -220,44 +237,49 @@ def send_alerts_for_upcoming_events(events):
 # ========= MAIN =========
 
 def main():
-    # 1. Cargar cache
+    # 1. Cargar cache actual
     cache = load_cache()
     events = cache["events"]
     last_news_sent_at = cache["last_news_sent_at"]
 
-    # 2. Si cache está vacía, hacer GET /news y rellenar una sola vez
-    if not events:
-        print("Cache vacía, haciendo GET /news.")
-        html = fetch_html()
-        events = parse_events(html)
-        print(f"Eventos descargados: {len(events)}")
+    # 2. Intentar refrescar eventos desde /news
+    #    Solo si la respuesta es OK (200), chafamos la cache con los nuevos.
+    html = fetch_html_safe()
+    if html is not None:
+        print("Respuesta 200 OK, actualizando eventos desde /news.")
+        new_events = parse_events(html)
+        print(f"Nuevos eventos descargados: {len(new_events)}")
+        events = new_events
         save_cache(last_news_sent_at, events)
     else:
-        print(f"Usando eventos de cache: {len(events)}")
+        print("No se actualiza cache; se mantienen eventos anteriores.")
 
     # 3. Decidir si toca enviar resumen de noticias (cada 30 minutos)
     now_local = datetime.now(TARGET_TZ)
     should_send_news = False
 
-    if last_news_sent_at is None:
-        print("Nunca se ha enviado resumen, enviando ahora.")
-        should_send_news = True
+    if not events:
+        print("No hay eventos en cache, no hay resumen que enviar.")
     else:
-        try:
-            last_dt = datetime.fromisoformat(last_news_sent_at)
-            delta = now_local - last_dt
-            minutes_since = delta.total_seconds() / 60.0  # diferencia en minutos [web:392][web:405]
-            print(f"Han pasado {minutes_since:.1f} minutos desde el último resumen.")
-            if minutes_since >= 30.0:
-                should_send_news = True
-            else:
-                print("Aún no han pasado 30 minutos; no enviamos resumen.")
-        except Exception as e:
-            print("Error parseando last_news_sent_at, enviamos resumen por seguridad:", e)
+        if last_news_sent_at is None:
+            print("Nunca se ha enviado resumen, enviando ahora.")
             should_send_news = True
+        else:
+            try:
+                last_dt = datetime.fromisoformat(last_news_sent_at)
+                delta = now_local - last_dt
+                minutes_since = delta.total_seconds() / 60.0  # diferencia en minutos [web:392][web:405]
+                print(f"Han pasado {minutes_since:.1f} minutos desde el último resumen.")
+                if minutes_since >= 30.0:
+                    should_send_news = True
+                else:
+                    print("Aún no han pasado 30 minutos; no enviamos resumen.")
+            except Exception as e:
+                print("Error parseando last_news_sent_at, enviamos resumen por seguridad:", e)
+                should_send_news = True
 
     # 4. Enviar resumen si toca (primero resumen, luego alertas)
-    if should_send_news:
+    if should_send_news and events:
         lines = []
         for e in events:
             if e["impact"].lower() != "high":
@@ -281,10 +303,13 @@ def main():
             last_news_sent_at = now_local.isoformat()
             save_cache(last_news_sent_at, events)
     else:
-        print("No toca enviar resumen de noticias (menos de 30 min).")
+        print("No toca enviar resumen de noticias (menos de 30 min o sin eventos).")
 
     # 5. Enviar alertas para eventos high con menos de 1h (cada run de 10 min)
-    send_alerts_for_upcoming_events(events)
+    if events:
+        send_alerts_for_upcoming_events(events)
+    else:
+        print("Sin eventos, no hay alertas que enviar.")
 
 
 if __name__ == "__main__":
