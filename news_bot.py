@@ -87,24 +87,11 @@ def parse_events(html: str):
     return events
 
 
-def load_cached_events():
-    if not os.path.exists(CACHE_FILE):
-        return None
-
-    try:
-        with open(CACHE_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        if isinstance(data, list):
-            return data
-        return None
-    except Exception:
-        return None
-
-
 def save_cached_events(events):
     try:
         with open(CACHE_FILE, "w", encoding="utf-8") as f:
             json.dump(events, f, ensure_ascii=False, indent=2)
+        print(f"Cache guardada en {CACHE_FILE} con {len(events)} eventos.")
     except Exception as e:
         print("Error guardando cache:", e)
 
@@ -125,26 +112,16 @@ def send_telegram_message(text: str):
 
 
 def main():
-    # 1. Intentar cargar cache
-    events = load_cached_events()
+    html = fetch_html()
+    events = parse_events(html)
+    print(f"Eventos descargados: {len(events)}")
 
-    if events is not None:
-        print(f"Usando cache, eventos: {len(events)}")
-    else:
-        print("Sin cache, haciendo GET a /news")
-        html = fetch_html()
-        events = parse_events(html)
-        print(f"Eventos descargados: {len(events)}")
-        save_cached_events(events)
+    # Guardar todos los eventos en el archivo de cache
+    save_cached_events(events)
 
-    # 2. Filtrar eventos high pendientes
+    # Filtrar eventos high pendientes para enviar
     lines = []
-    remaining_events = []
-
     for e in events:
-        # Guardamos todos los eventos para seguir usando la cache
-        remaining_events.append(e)
-
         if e["impact"].lower() != "high":
             continue
         if "passed" in e["time_to"].lower():
@@ -157,13 +134,9 @@ def main():
         print("No hay eventos high pendientes.")
         return
 
-    # 3. Construir mensaje y enviar
     message = "DRIFT NEWS:\n\n" + "\n".join(lines)
     print(message)
     send_telegram_message(message)
-
-    # 4. Actualizar cache (por ejemplo, dejarla tal cual o luego mejorarla para borrar pasados)
-    save_cached_events(remaining_events)
 
 
 if __name__ == "__main__":
