@@ -3,7 +3,7 @@ name: Drift News Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 * * * *'  # aprox cada hora, minuto 5 [web:361][web:365][web:367]
+    - cron: '*/15 * * * *'  # aprox cada hora, minuto 5 [web:361][web:365][web:367]
 
 permissions:
   contents: write  # necesario para hacer push con GITHUB_TOKEN [web:353]
