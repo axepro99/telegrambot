@@ -33,10 +33,14 @@ TARGET_TZ = pytz.timezone("Europe/Madrid")
 
 CACHE_FILE = "news_cache.json"
 
+# Menciones normales para resúmenes y alertas
 MENTIONS = [
     "@almtaiwea76",
     "@xaxepro99",
 ]
+
+# Mención solo para avisos de error/0 eventos
+ERROR_MENTION = "@xaxepro99"
 
 
 # ========= HTTP =========
@@ -51,12 +55,12 @@ def fetch_html_safe() -> str | None:
         if status == 200:
             return r.text
         else:
-            msg = f"DRIFT ERROR: /news status {status}, no se actualiza cache."
+            msg = f"DRIFT ERROR: /news status {status}, no se actualiza cache.\n{ERROR_MENTION}"
             print("[HTTP]", msg)
             send_telegram_message(msg)
             return None
     except Exception as e:
-        msg = f"DRIFT ERROR: /news exception: {e}, no se actualiza cache."
+        msg = f"DRIFT ERROR: /news exception: {e}, no se actualiza cache.\n{ERROR_MENTION}"
         print("[HTTP]", msg)
         send_telegram_message(msg)
         return None
@@ -283,10 +287,11 @@ def main():
             save_cache(last_news_sent_at, events, cache_created_at)
             print("[MAIN] Cache actualizada con eventos nuevos.")
         else:
-            # Si no hay eventos, mantenemos cache anterior
+            # Si no hay eventos, mantenemos cache anterior y avisamos solo a @xaxepro99
             warning = (
                 "DRIFT WARNING: /news devolvió 0 eventos, se mantiene la cache anterior. "
-                "Posible cookie caducada o cambios en la página."
+                "Posible cookie caducada o cambios en la página.\n"
+                f"{ERROR_MENTION}"
             )
             print("[MAIN]", warning)
             send_telegram_message(warning)
