@@ -1,5 +1,6 @@
 {
   "last_news_sent_at": "2026-07-01T01:26:41.236213+02:00",
+  "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
       "name": "CN Manufacturing PMI (Jun)",
@@ -55,63 +56,63 @@
       "datetime_raw": "7/1/2026, 9:00:00 AM",
       "datetime_eu": "01/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 9h 33m"
+      "time_to": "in 9h 29m"
     },
     {
       "name": "US ADP Nonfarm Employment Change (Jun)",
       "datetime_raw": "7/1/2026, 12:15:00 PM",
       "datetime_eu": "01/07/2026 14:15",
       "impact": "high",
-      "time_to": "in 12h 48m"
+      "time_to": "in 12h 44m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Jun)",
       "datetime_raw": "7/1/2026, 1:45:00 PM",
       "datetime_eu": "01/07/2026 15:45",
       "impact": "high",
-      "time_to": "in 14h 18m"
+      "time_to": "in 14h 14m"
     },
     {
       "name": "US ISM Manufacturing PMI (Jun)",
       "datetime_raw": "7/1/2026, 2:00:00 PM",
       "datetime_eu": "01/07/2026 16:00",
       "impact": "high",
-      "time_to": "in 14h 33m"
+      "time_to": "in 14h 29m"
     },
     {
       "name": "US ISM Manufacturing Prices (Jun)",
       "datetime_raw": "7/1/2026, 2:00:00 PM",
       "datetime_eu": "01/07/2026 16:00",
       "impact": "high",
-      "time_to": "in 14h 33m"
+      "time_to": "in 14h 29m"
     },
     {
       "name": "US Nonfarm Payrolls (Jun)",
       "datetime_raw": "7/2/2026, 12:30:00 PM",
       "datetime_eu": "02/07/2026 14:30",
       "impact": "high",
-      "time_to": "in 1d 13h"
+      "time_to": "in 1d 12h"
     },
     {
       "name": "US Unemployment Rate (Jun)",
       "datetime_raw": "7/2/2026, 12:30:00 PM",
       "datetime_eu": "02/07/2026 14:30",
       "impact": "high",
-      "time_to": "in 1d 13h"
+      "time_to": "in 1d 12h"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Jun)",
       "datetime_raw": "7/2/2026, 12:30:00 PM",
       "datetime_eu": "02/07/2026 14:30",
       "impact": "high",
-      "time_to": "in 1d 13h"
+      "time_to": "in 1d 12h"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "7/2/2026, 12:30:00 PM",
       "datetime_eu": "02/07/2026 14:30",
       "impact": "high",
-      "time_to": "in 1d 13h"
+      "time_to": "in 1d 12h"
     },
     {
       "name": "US S&P Global Services PMI (Jun)",
