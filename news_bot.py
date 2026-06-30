@@ -29,7 +29,7 @@ HEADERS = {
 }
 
 SOURCE_TZ = pytz.utc
-TARGET_TZ = pytz.timezone("Europe/Madrid")
+TARGET_TZ = pytz.timezone("Europe/Madrid")  # CEST ahora mismo [web:395][web:407]
 
 CACHE_FILE = "news_cache.json"
 
@@ -51,6 +51,17 @@ def parse_datetime_to_europe(date_str: str) -> str:
     dt_source = SOURCE_TZ.localize(dt_naive)
     dt_target = dt_source.astimezone(TARGET_TZ)
     return dt_target.strftime("%d/%m/%Y %H:%M")
+
+
+def minutes_until_event(datetime_raw: str) -> float:
+    """Minutos desde ahora (Madrid) hasta la hora del evento."""
+    dt_naive = datetime.strptime(datetime_raw, "%m/%d/%Y, %I:%M:%S %p")
+    dt_source = SOURCE_TZ.localize(dt_naive)
+    dt_target = dt_source.astimezone(TARGET_TZ)
+
+    now_local = datetime.now(TARGET_TZ)
+    delta = dt_target - now_local
+    return delta.total_seconds() / 60.0  # puede ser negativo [web:392][web:405][web:391]
 
 
 # ========= DRIFT: PARSEO =========
@@ -101,26 +112,36 @@ def parse_events(html: str):
 
 # ========= CACHE =========
 
-def load_cached_events():
+def load_cache():
+    """Devuelve dict con last_news_sent_at (ISO o None) y lista events."""
     if not os.path.exists(CACHE_FILE):
-        return None
+        print("Cache no existe, inicializando.")
+        return {"last_news_sent_at": None, "events": []}
 
     try:
         with open(CACHE_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-        if isinstance(data, list):
-            print(f"Cache cargada desde {CACHE_FILE} con {len(data)} eventos.")
-            return data
-        return None
+        if "events" in data and isinstance(data["events"], list):
+            print(f"Cache cargada desde {CACHE_FILE} con {len(data['events'])} eventos.")
+            return {
+                "last_news_sent_at": data.get("last_news_sent_at"),
+                "events": data["events"],
+            }
+        print("Cache sin formato esperado, reiniciando.")
+        return {"last_news_sent_at": None, "events": []}
     except Exception as e:
         print("Error leyendo cache:", e)
-        return None
+        return {"last_news_sent_at": None, "events": []}
 
 
-def save_cached_events(events):
+def save_cache(last_news_sent_at, events):
     try:
+        payload = {
+            "last_news_sent_at": last_news_sent_at,
+            "events": events,
+        }
         with open(CACHE_FILE, "w", encoding="utf-8") as f:
-            json.dump(events, f, ensure_ascii=False, indent=2)
+            json.dump(payload, f, ensure_ascii=False, indent=2)
         print(f"Cache guardada en {CACHE_FILE} con {len(events)} eventos.")
     except Exception as e:
         print("Error guardando cache:", e)
@@ -143,49 +164,103 @@ def send_telegram_message(text: str):
     r.raise_for_status()
 
 
-# ========= MAIN =========
+# ========= ALERTAS < 1 HORA =========
 
-def main():
-    # 1. Intentar usar cache del repo
-    events = load_cached_events()
+def send_alerts_for_upcoming_events(events):
+    """Envía alertas para eventos high que empiezan en <= 60 minutos."""
+    alerts_sent = 0
 
-    use_cache = False
-    if events:
-        # Miramos si hay al menos un evento high pendiente en la cache
-        for e in events:
-            if e["impact"].lower() == "high" and "passed" not in e["time_to"].lower():
-                use_cache = True
-                break
-
-    if use_cache:
-        print("Usando cache existente, sin hacer GET /news.")
-    else:
-        print("Cache vacía o sin eventos high pendientes; haciendo GET /news.")
-        html = fetch_html()
-        events = parse_events(html)
-        save_cached_events(events)
-
-    print(f"Eventos disponibles: {len(events)}")
-
-    # 2. Filtrar eventos high pendientes para enviar
-    lines = []
     for e in events:
         if e["impact"].lower() != "high":
             continue
-        if "passed" in e["time_to"].lower():
+
+        try:
+            minutes = minutes_until_event(e["datetime_raw"])
+        except Exception as ex:
+            print(f"No se pudo calcular minutos para {e['name']}: {ex}")
             continue
 
-        line = f"*{e['datetime_eu']}* - {e['name']} ({e['time_to']})"
-        lines.append(line)
+        if minutes <= 0:
+            continue  # ya han pasado o están empezando
+        if minutes > 60:
+            continue  # falta más de una hora
 
-    if not lines:
-        print("No hay eventos high pendientes.")
-        return
+        mins_int = int(round(minutes))
+        alert_text = f"NEWS ALERT 🚨🚨 in {mins_int} minutes"
+        print(f"Alerta para {e['name']}: {alert_text}")
+        send_telegram_message(alert_text)
+        alerts_sent += 1
 
-    # 3. Construir mensaje y enviar
-    message = "DRIFT NEWS:\n\n" + "\n".join(lines)
-    print(message)
-    send_telegram_message(message)
+    if alerts_sent == 0:
+        print("No hay eventos high con menos de 1h para alerta.")
+
+
+# ========= MAIN =========
+
+def main():
+    # 1. Cargar cache
+    cache = load_cache()
+    events = cache["events"]
+    last_news_sent_at = cache["last_news_sent_at"]
+
+    # 2. Si cache vacía, hacer GET y rellenar
+    if not events:
+        print("Cache vacía, haciendo GET /news.")
+        html = fetch_html()
+        events = parse_events(html)
+        print(f"Eventos descargados: {len(events)}")
+        save_cache(last_news_sent_at, events)
+    else:
+        print(f"Usando eventos de cache: {len(events)}")
+
+    # 3. Enviar alertas para eventos high con menos de 1h
+    send_alerts_for_upcoming_events(events)
+
+    # 4. Decidir si toca enviar resumen de noticias (cada 6 horas)
+    now_local = datetime.now(TARGET_TZ)
+    should_send_news = False
+
+    if last_news_sent_at is None:
+        # Nunca se ha enviado resumen; enviamos el primero.
+        print("Nunca se ha enviado resumen, enviando ahora.")
+        should_send_news = True
+    else:
+        try:
+            last_dt = datetime.fromisoformat(last_news_sent_at)  # ISO -> datetime [web:399][web:404]
+            delta = now_local - last_dt
+            hours = delta.total_seconds() / 3600.0
+            print(f"Han pasado {hours:.2f} horas desde el último resumen.")
+            if hours >= 6.0:
+                should_send_news = True
+            else:
+                print("Aún no han pasado 6 horas; no enviamos resumen.")
+        except Exception as e:
+            print("Error parseando last_news_sent_at, enviamos resumen por seguridad:", e)
+            should_send_news = True
+
+    # 5. Enviar resumen si toca
+    if should_send_news:
+        lines = []
+        for e in events:
+            if e["impact"].lower() != "high":
+                continue
+            if "passed" in e["time_to"].lower():
+                continue
+
+            line = f"*{e['datetime_eu']}* - {e['name']} ({e['time_to']})"
+            lines.append(line)
+
+        if not lines:
+            print("No hay eventos high pendientes para resumen.")
+        else:
+            message = "DRIFT NEWS:\n\n" + "\n".join(lines)
+            print("Mandando resumen de noticias:\n", message)
+            send_telegram_message(message)
+            # Actualizar timestamp en cache
+            last_news_sent_at = now_local.isoformat()
+            save_cache(last_news_sent_at, events)
+    else:
+        print("No toca enviar resumen de noticias (menos de 6h).")
 
 
 if __name__ == "__main__":
