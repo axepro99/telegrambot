@@ -79,7 +79,7 @@ def minutes_until_event(datetime_raw: str) -> float:
 
     now_local = datetime.now(TARGET_TZ)
     delta = dt_target - now_local
-    return delta.total_seconds() / 60.0  # [web:391][web:405][web:396][web:527]
+    return delta.total_seconds() / 60.0  # [web:573][web:576]
 
 
 # ========= PARSEO =========
@@ -132,37 +132,56 @@ def parse_events(html: str):
 # ========= CACHE =========
 
 def load_cache():
-    """Devuelve dict con last_news_sent_at (ISO o None) y lista events."""
+    """Devuelve dict con last_news_sent_at, cache_created_at y lista events."""
     if not os.path.exists(CACHE_FILE):
         print("[CACHE] Cache no existe, inicializando.")
-        return {"last_news_sent_at": None, "events": []}
+        return {
+            "last_news_sent_at": None,
+            "cache_created_at": None,
+            "events": [],
+        }
 
     try:
         with open(CACHE_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
-        if "events" in data and isinstance(data["events"], list):
-            print(f"[CACHE] Cache cargada desde {CACHE_FILE} con {len(data['events'])} eventos.")
-            return {
-                "last_news_sent_at": data.get("last_news_sent_at"),
-                "events": data["events"],
-            }
-        print("[CACHE] Cache sin formato esperado, reiniciando.")
-        return {"last_news_sent_at": None, "events": []}
+        events = data.get("events", [])
+        last_news_sent_at = data.get("last_news_sent_at")
+        cache_created_at = data.get("cache_created_at")
+        print(
+            f"[CACHE] Cache cargada desde {CACHE_FILE} "
+            f"con {len(events)} eventos, last_news_sent_at={last_news_sent_at}, "
+            f"cache_created_at={cache_created_at}"
+        )
+        return {
+            "last_news_sent_at": last_news_sent_at,
+            "cache_created_at": cache_created_at,
+            "events": events,
+        }
     except Exception as e:
         print("[CACHE] Error leyendo cache:", e)
-        return {"last_news_sent_at": None, "events": []}
+        return {
+            "last_news_sent_at": None,
+            "cache_created_at": None,
+            "events": [],
+        }
 
 
-def save_cache(last_news_sent_at, events):
-    """Chafa siempre la lista de eventos con los nuevos."""
+def save_cache(last_news_sent_at, events, cache_created_at=None):
+    """Guarda cache con timestamp de creación."""
+    if cache_created_at is None:
+        cache_created_at = datetime.now(TARGET_TZ).isoformat()
     try:
         payload = {
             "last_news_sent_at": last_news_sent_at,
+            "cache_created_at": cache_created_at,
             "events": events,
         }
         with open(CACHE_FILE, "w", encoding="utf-8") as f:
             json.dump(payload, f, ensure_ascii=False, indent=2)
-        print(f"[CACHE] Cache guardada en {CACHE_FILE} con {len(events)} eventos.")
+        print(
+            f"[CACHE] Cache guardada en {CACHE_FILE} con {len(events)} eventos, "
+            f"cache_created_at={cache_created_at}"
+        )
     except Exception as e:
         print("[CACHE] Error guardando cache:", e)
 
@@ -246,17 +265,31 @@ def main():
     cache = load_cache()
     events = cache["events"]
     last_news_sent_at = cache["last_news_sent_at"]
+    cache_created_at = cache["cache_created_at"]
 
     print(f"[MAIN] last_news_sent_at en cache: {last_news_sent_at}")
+    print(f"[MAIN] cache_created_at en cache: {cache_created_at}")
 
     # 2. Intentar refrescar eventos desde /news (solo si 200)
     html = fetch_html_safe()
     if html is not None:
-        print("[MAIN] Respuesta 200 OK, actualizando eventos desde /news.")
+        print("[MAIN] Respuesta 200 OK, intentando actualizar eventos desde /news.")
         new_events = parse_events(html)
-        print(f"[MAIN] Nuevos eventos descargados: {len(new_events)}")
-        events = new_events
-        save_cache(last_news_sent_at, events)
+        print(f"[MAIN] Nuevos eventos parseados: {len(new_events)}")
+
+        if new_events:
+            # Solo si hay eventos, chafamos la cache
+            events = new_events
+            save_cache(last_news_sent_at, events, cache_created_at)
+            print("[MAIN] Cache actualizada con eventos nuevos.")
+        else:
+            # Si no hay eventos, mantenemos cache anterior
+            warning = (
+                "DRIFT WARNING: /news devolvió 0 eventos, se mantiene la cache anterior. "
+                "Posible cookie caducada o cambios en la página."
+            )
+            print("[MAIN]", warning)
+            send_telegram_message(warning)
     else:
         print("[MAIN] No se actualiza cache; se mantienen eventos anteriores.")
 
@@ -347,7 +380,7 @@ def main():
             print(message)
             send_telegram_message(message)
             last_news_sent_at = now_local.isoformat()
-            save_cache(last_news_sent_at, events)
+            save_cache(last_news_sent_at, events, cache_created_at)
     else:
         print("[MAIN] No toca enviar resumen de noticias (menos de 30 min o sin eventos).")
 
