@@ -47,17 +47,17 @@ def fetch_html_safe() -> str | None:
         session = requests.Session()
         r = session.get(URL, headers=HEADERS, cookies=COOKIES, timeout=30)
         status = r.status_code
-        print(f"GET {URL} status: {status}")
+        print(f"[HTTP] GET {URL} status: {status}")
         if status == 200:
             return r.text
         else:
             msg = f"DRIFT ERROR: /news status {status}, no se actualiza cache."
-            print(msg)
+            print("[HTTP]", msg)
             send_telegram_message(msg)
             return None
     except Exception as e:
         msg = f"DRIFT ERROR: /news exception: {e}, no se actualiza cache."
-        print(msg)
+        print("[HTTP]", msg)
         send_telegram_message(msg)
         return None
 
@@ -125,6 +125,7 @@ def parse_events(html: str):
             "time_to": time_to,
         })
 
+    print(f"[PARSE] Eventos parseados: {len(events)}")
     return events
 
 
@@ -133,22 +134,22 @@ def parse_events(html: str):
 def load_cache():
     """Devuelve dict con last_news_sent_at (ISO o None) y lista events."""
     if not os.path.exists(CACHE_FILE):
-        print("Cache no existe, inicializando.")
+        print("[CACHE] Cache no existe, inicializando.")
         return {"last_news_sent_at": None, "events": []}
 
     try:
         with open(CACHE_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
         if "events" in data and isinstance(data["events"], list):
-            print(f"Cache cargada desde {CACHE_FILE} con {len(data['events'])} eventos.")
+            print(f"[CACHE] Cache cargada desde {CACHE_FILE} con {len(data['events'])} eventos.")
             return {
                 "last_news_sent_at": data.get("last_news_sent_at"),
                 "events": data["events"],
             }
-        print("Cache sin formato esperado, reiniciando.")
+        print("[CACHE] Cache sin formato esperado, reiniciando.")
         return {"last_news_sent_at": None, "events": []}
     except Exception as e:
-        print("Error leyendo cache:", e)
+        print("[CACHE] Error leyendo cache:", e)
         return {"last_news_sent_at": None, "events": []}
 
 
@@ -161,16 +162,17 @@ def save_cache(last_news_sent_at, events):
         }
         with open(CACHE_FILE, "w", encoding="utf-8") as f:
             json.dump(payload, f, ensure_ascii=False, indent=2)
-        print(f"Cache guardada en {CACHE_FILE} con {len(events)} eventos.")
+        print(f"[CACHE] Cache guardada en {CACHE_FILE} con {len(events)} eventos.")
     except Exception as e:
-        print("Error guardando cache:", e)
+        print("[CACHE] Error guardando cache:", e)
 
 
 # ========= TELEGRAM =========
 
 def send_telegram_message(text: str):
     if not TELEGRAM_TOKEN or not CHAT_ID:
-        raise ValueError("Faltan TELEGRAM_TOKEN o CHAT_ID en los secrets.")
+        print("[TELEGRAM] Faltan TELEGRAM_TOKEN o CHAT_ID, no se manda mensaje.")
+        return
 
     base_url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     payload = {
@@ -179,8 +181,12 @@ def send_telegram_message(text: str):
         "parse_mode": "Markdown",
     }
 
-    r = requests.post(base_url, data=payload, timeout=10)
-    r.raise_for_status()
+    try:
+        r = requests.post(base_url, data=payload, timeout=10)
+        print(f"[TELEGRAM] Status: {r.status_code}")
+        r.raise_for_status()
+    except Exception as e:
+        print("[TELEGRAM] Error enviando mensaje:", e)
 
 
 def build_mentions_line() -> str:
@@ -211,8 +217,10 @@ def send_alerts_for_upcoming_events(events):
         try:
             minutes = minutes_until_event(e["datetime_raw"])
         except Exception as ex:
-            print(f"No se pudo calcular minutos para {e['name']}: {ex}")
+            print(f"[ALERT] No se pudo calcular minutos para {e['name']}: {ex}")
             continue
+
+        print(f"[ALERT] {e['name']} empieza en {minutes:.1f} minutos.")
 
         if minutes <= 0:
             continue  # ya han pasado o están empezando
@@ -221,62 +229,70 @@ def send_alerts_for_upcoming_events(events):
 
         mins_int = int(round(minutes))
         alert_text = build_alert_text(mins_int, e["name"])
-        print(f"Alerta para {e['name']}: {alert_text}")
+        print(f"[ALERT] Enviando alerta para {e['name']}: {alert_text}")
         send_telegram_message(alert_text)
         alerts_sent += 1
 
     if alerts_sent == 0:
-        print("No hay eventos high con menos de 1h para alerta.")
+        print("[ALERT] No hay eventos high con menos de 1h para alerta.")
 
 
 # ========= MAIN =========
 
 def main():
+    print("========== NEWS BOT START ==========")
+
     # 1. Cargar cache actual
     cache = load_cache()
     events = cache["events"]
     last_news_sent_at = cache["last_news_sent_at"]
 
+    print(f"[MAIN] last_news_sent_at en cache: {last_news_sent_at}")
+
     # 2. Intentar refrescar eventos desde /news (solo si 200)
     html = fetch_html_safe()
     if html is not None:
-        print("Respuesta 200 OK, actualizando eventos desde /news.")
+        print("[MAIN] Respuesta 200 OK, actualizando eventos desde /news.")
         new_events = parse_events(html)
-        print(f"Nuevos eventos descargados: {len(new_events)}")
+        print(f"[MAIN] Nuevos eventos descargados: {len(new_events)}")
         events = new_events
         save_cache(last_news_sent_at, events)
     else:
-        print("No se actualiza cache; se mantienen eventos anteriores.")
+        print("[MAIN] No se actualiza cache; se mantienen eventos anteriores.")
 
     # 3. Decidir si toca enviar resumen de noticias (cada 30 minutos)
     now_local = datetime.now(TARGET_TZ)
+    print(f"[MAIN] Ahora (TARGET_TZ): {now_local.isoformat()}")
+
     should_send_news = False
 
     if not events:
-        print("No hay eventos en cache, no hay resumen que enviar.")
+        print("[MAIN] No hay eventos en cache, no hay resumen que enviar.")
     else:
         if last_news_sent_at is None:
-            print("Nunca se ha enviado resumen, enviando ahora.")
+            print("[MAIN] Nunca se ha enviado resumen, enviando ahora.")
             should_send_news = True
         else:
             try:
                 last_dt = datetime.fromisoformat(last_news_sent_at)
                 delta = now_local - last_dt
                 minutes_since = delta.total_seconds() / 60.0
-                print(f"Han pasado {minutes_since:.1f} minutos desde el último resumen.")
+                print(f"[MAIN] Han pasado {minutes_since:.1f} minutos desde el último resumen.")
                 if minutes_since >= 30.0:
                     should_send_news = True
                 else:
-                    print("Aún no han pasado 30 minutos; no enviamos resumen.")
+                    print("[MAIN] Aún no han pasado 30 minutos; no enviamos resumen.")
             except Exception as e:
-                print("Error parseando last_news_sent_at, enviamos resumen por seguridad:", e)
+                print("[MAIN] Error parseando last_news_sent_at, enviamos resumen por seguridad:", e)
                 should_send_news = True
 
     # 4. Enviar resumen si toca (primero resumen, luego alertas)
     if should_send_news and events:
+        print("[MAIN] Toca enviar resumen de noticias.")
         # Encontrar el evento high no passed más cercano
         nearest_event = None
         nearest_minutes = None
+        high_pending = 0
 
         for e in events:
             if e["impact"].lower() != "high":
@@ -284,10 +300,15 @@ def main():
             if "passed" in e["time_to"].lower():
                 continue
 
+            high_pending += 1
+
             try:
                 m = minutes_until_event(e["datetime_raw"])
-            except Exception:
+            except Exception as ex:
+                print(f"[MAIN] Error calculando minutos para {e['name']}: {ex}")
                 continue
+
+            print(f"[MAIN] {e['name']} pendiente, empieza en {m:.1f} minutos.")
 
             if m <= 0:
                 continue
@@ -295,6 +316,10 @@ def main():
             if nearest_minutes is None or m < nearest_minutes:
                 nearest_minutes = m
                 nearest_event = e
+
+        print(f"[MAIN] Eventos high pendientes: {high_pending}")
+        if nearest_event:
+            print(f"[MAIN] Evento más cercano: {nearest_event['name']} en {nearest_minutes:.1f} minutos.")
 
         lines = []
         for e in events:
@@ -311,25 +336,28 @@ def main():
             lines.append(line)
 
         if not lines:
-            print("No hay eventos high pendientes para resumen.")
+            print("[MAIN] No hay eventos high pendientes para resumen.")
         else:
             header = f"DRIFT NEWS ({len(lines)} eventos high):\n\n"
             message = header + "\n".join(lines)
             mentions_line = build_mentions_line()
             if mentions_line:
                 message += "\n\n" + mentions_line
-            print("Mandando resumen de noticias:\n", message)
+            print("[MAIN] Mandando resumen de noticias:")
+            print(message)
             send_telegram_message(message)
             last_news_sent_at = now_local.isoformat()
             save_cache(last_news_sent_at, events)
     else:
-        print("No toca enviar resumen de noticias (menos de 30 min o sin eventos).")
+        print("[MAIN] No toca enviar resumen de noticias (menos de 30 min o sin eventos).")
 
     # 5. Enviar alertas para eventos high con menos de 1h (cada run)
     if events:
         send_alerts_for_upcoming_events(events)
     else:
-        print("Sin eventos, no hay alertas que enviar.")
+        print("[MAIN] Sin eventos, no hay alertas que enviar.")
+
+    print("========== NEWS BOT END ==========")
 
 
 if __name__ == "__main__":
