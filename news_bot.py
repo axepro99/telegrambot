@@ -4,21 +4,16 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import pytz
 
-# ========= CONFIG =========
-
 URL = "https://www.driftfund.io/news"
 
-
-    
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
-
 COOKIE_NAME = os.getenv("COOKIE_NAME")
 COOKIE_VALUE = os.getenv("COOKIE_VALUE")
 
-COOKIES = {
-    COOKIE_NAME: COOKIE_VALUE,
-}
+COOKIES = {}
+if COOKIE_NAME and COOKIE_VALUE:
+    COOKIES[COOKIE_NAME] = COOKIE_VALUE
 
 HEADERS = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -32,9 +27,6 @@ SOURCE_TZ = pytz.utc
 TARGET_TZ = pytz.timezone("Europe/Madrid")
 
 
-
-# ========= DRIFT: HTTP =========
-
 def fetch_html() -> str:
     session = requests.Session()
     r = session.get(URL, headers=HEADERS, cookies=COOKIES, timeout=30)
@@ -42,21 +34,15 @@ def fetch_html() -> str:
     return r.text
 
 
-# ========= DRIFT: TIEMPO =========
-
 def parse_datetime_to_europe(date_str: str) -> str:
-    # Ej: '6/30/2026, 1:30:00 AM'
     dt_naive = datetime.strptime(date_str, "%m/%d/%Y, %I:%M:%S %p")
     dt_source = SOURCE_TZ.localize(dt_naive)
     dt_target = dt_source.astimezone(TARGET_TZ)
     return dt_target.strftime("%d/%m/%Y %H:%M")
 
 
-# ========= DRIFT: PARSEO =========
-
 def parse_events(html: str):
     soup = BeautifulSoup(html, "lxml")
-
     events = []
 
     for block in soup.find_all("div"):
@@ -65,7 +51,6 @@ def parse_events(html: str):
             continue
 
         left, right = children
-
         name_divs = left.find_all("div", recursive=False)
         if len(name_divs) != 2:
             continue
@@ -99,24 +84,20 @@ def parse_events(html: str):
     return events
 
 
-# ========= TELEGRAM =========
-
 def send_telegram_message(text: str):
+    if not TELEGRAM_TOKEN or not CHAT_ID:
+        raise ValueError("Faltan TELEGRAM_TOKEN o CHAT_ID en los secrets.")
+
     base_url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    for chat_id in CHAT_IDS:
-        payload = {
-            "chat_id": chat_id,
-            "text": text,
-            "parse_mode": "Markdown",
-        }
-        try:
-            r = requests.post(base_url, data=payload, timeout=10)
-            r.raise_for_status()
-        except Exception as e:
-            print(f"Error enviando a {chat_id}: {e}")
+    payload = {
+        "chat_id": CHAT_ID,
+        "text": text,
+        "parse_mode": "Markdown",
+    }
 
+    r = requests.post(base_url, data=payload, timeout=10)
+    r.raise_for_status()
 
-# ========= MAIN =========
 
 def main():
     html = fetch_html()
@@ -131,16 +112,15 @@ def main():
         if "passed" in e["time_to"].lower():
             continue
 
-        line = f"*{e['datetime_eu']}* – {e['name']} ({e['time_to']})"
+        line = f"*{e['datetime_eu']}* - {e['name']} ({e['time_to']})"
         lines.append(line)
 
     if not lines:
         print("No hay eventos high pendientes.")
         return
 
-    message = "DRIFT NEWS :\n\n" + "\n".join(lines)
-
-    print("Enviando mensaje:\n", message)
+    message = "DRIFT NEWS:\n\n" + "\n".join(lines)
+    print(message)
     send_telegram_message(message)
 
 
