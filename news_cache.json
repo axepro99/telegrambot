@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-06-30T20:38:33.837542+02:00",
+  "last_news_sent_at": "2026-06-29T20:38:33.837542+02:00",
   "events": [
     {
       "name": "CN Manufacturing PMI (Jun)",
@@ -52,10 +52,10 @@
     },
     {
       "name": "EU CPI (YoY) (Jun)",
-      "datetime_raw": "7/1/2026, 9:00:00 AM",
-      "datetime_eu": "01/07/2026 11:00",
+      "datetime_raw": "6/30/2026, 7:00:00 PM",
+      "datetime_eu": "30/06/2026 21:00",
       "impact": "high",
-      "time_to": "in 14h 21m"
+      "time_to": "in 0h 18m"
     },
     {
       "name": "US ADP Nonfarm Employment Change (Jun)",
