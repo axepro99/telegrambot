@@ -5,6 +5,8 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import pytz
 
+# ========= CONFIG =========
+
 URL = "https://www.driftfund.io/news"
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
@@ -17,9 +19,11 @@ if COOKIE_NAME and COOKIE_VALUE:
     COOKIES[COOKIE_NAME] = COOKIE_VALUE
 
 HEADERS = {
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                  "AppleWebKit/537.36 (KHTML, like Gecko) "
-                  "Chrome/149.0.0.0 Safari/537.36",
+    "user-agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/149.0.0.0 Safari/537.36"
+    ),
     "referer": "https://www.driftfund.io/rules",
     "accept-language": "es-ES,es;q=0.9,en;q=0.8,ar;q=0.7",
 }
@@ -30,6 +34,8 @@ TARGET_TZ = pytz.timezone("Europe/Madrid")
 CACHE_FILE = "news_cache.json"
 
 
+# ========= DRIFT: HTTP =========
+
 def fetch_html() -> str:
     session = requests.Session()
     r = session.get(URL, headers=HEADERS, cookies=COOKIES, timeout=30)
@@ -37,12 +43,17 @@ def fetch_html() -> str:
     return r.text
 
 
+# ========= DRIFT: TIEMPO =========
+
 def parse_datetime_to_europe(date_str: str) -> str:
+    # Ej: '6/30/2026, 1:30:00 AM'
     dt_naive = datetime.strptime(date_str, "%m/%d/%Y, %I:%M:%S %p")
     dt_source = SOURCE_TZ.localize(dt_naive)
     dt_target = dt_source.astimezone(TARGET_TZ)
     return dt_target.strftime("%d/%m/%Y %H:%M")
 
+
+# ========= DRIFT: PARSEO =========
 
 def parse_events(html: str):
     soup = BeautifulSoup(html, "lxml")
@@ -54,6 +65,7 @@ def parse_events(html: str):
             continue
 
         left, right = children
+
         name_divs = left.find_all("div", recursive=False)
         if len(name_divs) != 2:
             continue
@@ -87,6 +99,8 @@ def parse_events(html: str):
     return events
 
 
+# ========= CACHE =========
+
 def save_cached_events(events):
     try:
         with open(CACHE_FILE, "w", encoding="utf-8") as f:
@@ -95,6 +109,8 @@ def save_cached_events(events):
     except Exception as e:
         print("Error guardando cache:", e)
 
+
+# ========= TELEGRAM =========
 
 def send_telegram_message(text: str):
     if not TELEGRAM_TOKEN or not CHAT_ID:
@@ -110,6 +126,8 @@ def send_telegram_message(text: str):
     r = requests.post(base_url, data=payload, timeout=10)
     r.raise_for_status()
 
+
+# ========= MAIN =========
 
 def main():
     html = fetch_html()
