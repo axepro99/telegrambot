@@ -55,35 +55,35 @@
       "datetime_raw": "7/1/2026, 9:00:00 AM",
       "datetime_eu": "01/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 10h 36m"
+      "time_to": "in 10h 34m"
     },
     {
       "name": "US ADP Nonfarm Employment Change (Jun)",
       "datetime_raw": "7/1/2026, 12:15:00 PM",
       "datetime_eu": "01/07/2026 14:15",
       "impact": "high",
-      "time_to": "in 13h 51m"
+      "time_to": "in 13h 49m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Jun)",
       "datetime_raw": "7/1/2026, 1:45:00 PM",
       "datetime_eu": "01/07/2026 15:45",
       "impact": "high",
-      "time_to": "in 15h 21m"
+      "time_to": "in 15h 19m"
     },
     {
       "name": "US ISM Manufacturing PMI (Jun)",
       "datetime_raw": "7/1/2026, 2:00:00 PM",
       "datetime_eu": "01/07/2026 16:00",
       "impact": "high",
-      "time_to": "in 15h 36m"
+      "time_to": "in 15h 34m"
     },
     {
       "name": "US ISM Manufacturing Prices (Jun)",
       "datetime_raw": "7/1/2026, 2:00:00 PM",
       "datetime_eu": "01/07/2026 16:00",
       "impact": "high",
-      "time_to": "in 15h 36m"
+      "time_to": "in 15h 34m"
     },
     {
       "name": "US Nonfarm Payrolls (Jun)",
