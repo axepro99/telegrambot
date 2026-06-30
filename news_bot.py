@@ -235,7 +235,6 @@ def send_alerts_for_upcoming_events(events):
 
 
 # ========= MAIN =========
-
 def main():
     # 1. Cargar cache actual
     cache = load_cache()
@@ -268,7 +267,7 @@ def main():
             try:
                 last_dt = datetime.fromisoformat(last_news_sent_at)
                 delta = now_local - last_dt
-                minutes_since = delta.total_seconds() / 60.0  # diferencia en minutos [web:392][web:405]
+                minutes_since = delta.total_seconds() / 60.0
                 print(f"Han pasado {minutes_since:.1f} minutos desde el último resumen.")
                 if minutes_since >= 30.0:
                     should_send_news = True
@@ -280,6 +279,28 @@ def main():
 
     # 4. Enviar resumen si toca (primero resumen, luego alertas)
     if should_send_news and events:
+        # Encontrar el evento high no passed más cercano
+        nearest_event = None
+        nearest_minutes = None
+
+        for e in events:
+            if e["impact"].lower() != "high":
+                continue
+            if "passed" in e["time_to"].lower():
+                continue
+
+            try:
+                m = minutes_until_event(e["datetime_raw"])
+            except Exception:
+                continue
+
+            if m <= 0:
+                continue
+
+            if nearest_minutes is None or m < nearest_minutes:
+                nearest_minutes = m
+                nearest_event = e
+
         lines = []
         for e in events:
             if e["impact"].lower() != "high":
@@ -287,7 +308,14 @@ def main():
             if "passed" in e["time_to"].lower():
                 continue
 
-            line = f"*{e['datetime_eu']}* - {e['name']} ({e['time_to']})"
+            # Destacar el evento más cercano
+            if nearest_event is not None and e is nearest_event:
+                line = (
+                    f"🔥 *{e['datetime_eu']}* - *{e['name']}* ({e['time_to']})"
+                )
+            else:
+                line = f"*{e['datetime_eu']}* - {e['name']} ({e['time_to']})"
+
             lines.append(line)
 
         if not lines:
@@ -310,7 +338,3 @@ def main():
         send_alerts_for_upcoming_events(events)
     else:
         print("Sin eventos, no hay alertas que enviar.")
-
-
-if __name__ == "__main__":
-    main()
