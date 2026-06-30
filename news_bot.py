@@ -33,6 +33,13 @@ TARGET_TZ = pytz.timezone("Europe/Madrid")
 
 CACHE_FILE = "news_cache.json"
 
+# Pon aquí vuestros @username
+MENTIONS = [
+    "@usuario1",
+    "@usuario2",
+    "@usuario3",
+]  # cámbialos por los reales [web:428][web:436]
+
 
 # ========= DRIFT: HTTP =========
 
@@ -135,7 +142,7 @@ def load_cache():
 
 
 def save_cache(last_news_sent_at, events):
-    """Guarda timestamp y lista de eventos sin machacar salvo cuando tú lo cambies."""
+    """Guarda timestamp y lista de eventos."""
     try:
         payload = {
             "last_news_sent_at": last_news_sent_at,
@@ -165,15 +172,17 @@ def send_telegram_message(text: str):
     r.raise_for_status()
 
 
+def build_mentions_line() -> str:
+    if not MENTIONS:
+        return ""
+    return " ".join(MENTIONS)
+
+
 # ========= ALERTAS < 1 HORA =========
 
-# Pon aquí vuestros @username
-MENTIONS = ["@almtaiwea76", "@xaxepro99"]  # cámbialos por los reales
-
-
 def build_alert_text(minutes: int, event_name: str) -> str:
-    """Construye el texto de alerta con sirenas, minutos y menciones."""
-    mention_line = " ".join(MENTIONS)
+    """Construye el texto de alerta con sirenas, minutos, nombre y menciones."""
+    mention_line = build_mentions_line()
     base = f"NEWS ALERT 🚨🚨 in {minutes} minutes — {event_name}"
     if mention_line:
         return base + "\n" + mention_line
@@ -207,6 +216,8 @@ def send_alerts_for_upcoming_events(events):
 
     if alerts_sent == 0:
         print("No hay eventos high con menos de 1h para alerta.")
+
+
 # ========= MAIN =========
 
 def main():
@@ -262,6 +273,9 @@ def main():
             print("No hay eventos high pendientes para resumen.")
         else:
             message = "DRIFT NEWS:\n\n" + "\n".join(lines)
+            mentions_line = build_mentions_line()
+            if mentions_line:
+                message += "\n\n" + mentions_line
             print("Mandando resumen de noticias:\n", message)
             send_telegram_message(message)
             # Actualizar timestamp en cache
