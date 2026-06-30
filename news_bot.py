@@ -35,9 +35,8 @@ CACHE_FILE = "news_cache.json"
 
 # Pon aquí vuestros @username
 MENTIONS = [
-    "@usuario1",
-    "@usuario2",
-    "@usuario3",
+    "@almtaiwea76",
+    "@xaxepro99",
 ]  # cámbialos por los reales [web:428][web:436]
 
 
