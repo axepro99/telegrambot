@@ -3,7 +3,10 @@ name: Drift News Bot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7 * * * *"
+    - cron: '5 * * * *'  # aprox cada hora, minuto 5 [web:361][web:365][web:367]
+
+permissions:
+  contents: write  # necesario para hacer push con GITHUB_TOKEN [web:353]
 
 jobs:
   run-bot:
@@ -11,15 +14,17 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4  # [web:349]
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests beautifulsoup4 lxml pytz
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml pytz
 
       - name: Run bot
         env:
@@ -27,4 +32,29 @@ jobs:
           CHAT_ID: ${{ secrets.CHAT_ID }}
           COOKIE_NAME: ${{ secrets.COOKIE_NAME }}
           COOKIE_VALUE: ${{ secrets.COOKIE_VALUE }}
-        run: python news_bot.py
+        run: |
+          python news_bot.py
+
+      - name: Configurar git
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+        # [web:349][web:354][web:355]
+
+      - name: Comprobar si hay cambios
+        id: diff
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+        # [web:349]
+
+      - name: Commit y push de news_cache.json
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git add news_cache.json
+          git commit -m "Update news cache"
+          git push
+        # [web:349][web:354][web:355]
