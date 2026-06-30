@@ -39,7 +39,7 @@ MENTIONS = [
     "@xaxepro99",
 ]
 
-# Mención solo para avisos de error/0 eventos
+# Mención solo para avisos de cookie/estado raro
 ERROR_MENTION = "@xaxepro99"
 
 
@@ -83,7 +83,7 @@ def minutes_until_event(datetime_raw: str) -> float:
 
     now_local = datetime.now(TARGET_TZ)
     delta = dt_target - now_local
-    return delta.total_seconds() / 60.0  # [web:573][web:576]
+    return delta.total_seconds() / 60.0  # [web:647][web:651][web:652]
 
 
 # ========= PARSEO =========
@@ -287,16 +287,29 @@ def main():
             save_cache(last_news_sent_at, events, cache_created_at)
             print("[MAIN] Cache actualizada con eventos nuevos.")
         else:
-            # Si no hay eventos, mantenemos cache anterior y avisamos solo a @xaxepro99
-            warning = (
-                "DRIFT WARNING: /news devolvió 0 eventos, se mantiene la cache anterior. "
-                "Posible cookie caducada o cambios en la página.\n"
-                f"{ERROR_MENTION}"
-            )
-            print("[MAIN]", warning)
-            send_telegram_message(warning)
+            # Si no hay eventos nuevos, mantenemos cache anterior sin avisar
+            print("[MAIN] /news devolvió 0 eventos, se mantiene la cache anterior.")
     else:
         print("[MAIN] No se actualiza cache; se mantienen eventos anteriores.")
+
+    # 2.b. Contar eventos high no passed pendientes
+    high_pending = [
+        e for e in events
+        if e.get("impact", "").lower() == "high"
+        and "passed" not in e.get("time_to", "").lower()
+    ]
+    num_high_pending = len(high_pending)
+    print(f"[MAIN] Eventos high no passed pendientes: {num_high_pending}")
+
+    # Solo si quedan 3 o menos eventos high no passed, mandamos aviso solo a @xaxepro99
+    if 0 < num_high_pending <= 3:
+        warning = (
+            "DRIFT WARNING: quedan 3 o menos eventos high pendientes. "
+            "Si ves más en la web, posible problema de cookies.\n"
+            f"{ERROR_MENTION}"
+        )
+        print("[MAIN]", warning)
+        send_telegram_message(warning)
 
     # 3. Decidir si toca enviar resumen de noticias (cada 30 minutos)
     now_local = datetime.now(TARGET_TZ)
@@ -330,7 +343,7 @@ def main():
         # Encontrar el evento high no passed más cercano
         nearest_event = None
         nearest_minutes = None
-        high_pending = 0
+        high_pending_count = 0
 
         for e in events:
             if e["impact"].lower() != "high":
@@ -338,7 +351,7 @@ def main():
             if "passed" in e["time_to"].lower():
                 continue
 
-            high_pending += 1
+            high_pending_count += 1
 
             try:
                 m = minutes_until_event(e["datetime_raw"])
@@ -355,7 +368,7 @@ def main():
                 nearest_minutes = m
                 nearest_event = e
 
-        print(f"[MAIN] Eventos high pendientes: {high_pending}")
+        print(f"[MAIN] Eventos high pendientes (resumen): {high_pending_count}")
         if nearest_event:
             print(f"[MAIN] Evento más cercano: {nearest_event['name']} en {nearest_minutes:.1f} minutos.")
 
