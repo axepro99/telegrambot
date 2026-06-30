@@ -167,6 +167,19 @@ def send_telegram_message(text: str):
 
 # ========= ALERTAS < 1 HORA =========
 
+# Pon aquí vuestros @username
+MENTIONS = ["@almtaiwea76", "@xaxepro99"]  # cámbialos por los reales
+
+
+def build_alert_text(minutes: int, event_name: str) -> str:
+    """Construye el texto de alerta con sirenas, minutos y menciones."""
+    mention_line = " ".join(MENTIONS)
+    base = f"NEWS ALERT 🚨🚨 in {minutes} minutes — {event_name}"
+    if mention_line:
+        return base + "\n" + mention_line
+    return base
+
+
 def send_alerts_for_upcoming_events(events):
     """Envía alertas para eventos high que empiezan en <= 60 minutos."""
     alerts_sent = 0
@@ -187,15 +200,13 @@ def send_alerts_for_upcoming_events(events):
             continue  # falta más de una hora
 
         mins_int = int(round(minutes))
-        alert_text = f"NEWS ALERT 🚨🚨 in {mins_int} minutes"
+        alert_text = build_alert_text(mins_int, e["name"])
         print(f"Alerta para {e['name']}: {alert_text}")
         send_telegram_message(alert_text)
         alerts_sent += 1
 
     if alerts_sent == 0:
         print("No hay eventos high con menos de 1h para alerta.")
-
-
 # ========= MAIN =========
 
 def main():
