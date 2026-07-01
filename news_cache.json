@@ -7,35 +7,35 @@
       "datetime_raw": "7/1/2026, 9:00:00 AM",
       "datetime_local": "01/07/2026 06:00",
       "impact": "high",
-      "time_to": "in 5h 9m"
+      "time_to": "in 4h 59m"
     },
     {
       "name": "US ADP Nonfarm Employment Change (Jun)",
       "datetime_raw": "7/1/2026, 12:15:00 PM",
       "datetime_local": "01/07/2026 09:15",
       "impact": "high",
-      "time_to": "in 8h 24m"
+      "time_to": "in 8h 14m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Jun)",
       "datetime_raw": "7/1/2026, 1:45:00 PM",
       "datetime_local": "01/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 9h 54m"
+      "time_to": "in 9h 44m"
     },
     {
       "name": "US ISM Manufacturing PMI (Jun)",
       "datetime_raw": "7/1/2026, 2:00:00 PM",
       "datetime_local": "01/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 10h 9m"
+      "time_to": "in 9h 59m"
     },
     {
       "name": "US ISM Manufacturing Prices (Jun)",
       "datetime_raw": "7/1/2026, 2:00:00 PM",
       "datetime_local": "01/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 10h 9m"
+      "time_to": "in 9h 59m"
     },
     {
       "name": "US Nonfarm Payrolls (Jun)",
@@ -77,35 +77,35 @@
       "datetime_raw": "7/6/2026, 2:00:00 PM",
       "datetime_local": "06/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 5d 10h"
+      "time_to": "in 5d 9h"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Jun)",
       "datetime_raw": "7/6/2026, 2:00:00 PM",
       "datetime_local": "06/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 5d 10h"
+      "time_to": "in 5d 9h"
     },
     {
       "name": "NZ RBNZ Interest Rate Decision",
       "datetime_raw": "7/8/2026, 2:00:00 AM",
       "datetime_local": "07/07/2026 23:00",
       "impact": "high",
-      "time_to": "in 6d 22h"
+      "time_to": "in 6d 21h"
     },
     {
       "name": "US Existing Home Sales (Jun)",
       "datetime_raw": "7/9/2026, 2:00:00 PM",
       "datetime_local": "09/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 8d 10h"
+      "time_to": "in 8d 9h"
     },
     {
       "name": "DE German CPI (MoM) (Jun)",
       "datetime_raw": "7/10/2026, 6:00:00 AM",
       "datetime_local": "10/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 9d 2h"
+      "time_to": "in 9d 1h"
     }
   ]
 }
