@@ -3,158 +3,109 @@
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
-      "name": "CN Manufacturing PMI (Jun)",
-      "datetime_raw": "6/30/2026, 1:30:00 AM",
-      "datetime_eu": "30/06/2026 03:30",
-      "impact": "high",
-      "time_to": "passed"
-    },
-    {
-      "name": "UK GDP (QoQ) (Q1)",
-      "datetime_raw": "6/30/2026, 6:00:00 AM",
-      "datetime_eu": "30/06/2026 08:00",
-      "impact": "high",
-      "time_to": "passed"
-    },
-    {
-      "name": "UK GDP (YoY) (Q1)",
-      "datetime_raw": "6/30/2026, 6:00:00 AM",
-      "datetime_eu": "30/06/2026 08:00",
-      "impact": "high",
-      "time_to": "passed"
-    },
-    {
-      "name": "DE German CPI (MoM) (Jun)",
-      "datetime_raw": "6/30/2026, 12:00:00 PM",
-      "datetime_eu": "30/06/2026 14:00",
-      "impact": "high",
-      "time_to": "passed"
-    },
-    {
-      "name": "US Chicago PMI (Jun)",
-      "datetime_raw": "6/30/2026, 1:45:00 PM",
-      "datetime_eu": "30/06/2026 15:45",
-      "impact": "high",
-      "time_to": "passed"
-    },
-    {
-      "name": "US JOLTS Job Openings (May)",
-      "datetime_raw": "6/30/2026, 2:00:00 PM",
-      "datetime_eu": "30/06/2026 16:00",
-      "impact": "high",
-      "time_to": "passed"
-    },
-    {
-      "name": "US CB Consumer Confidence (Jun)",
-      "datetime_raw": "6/30/2026, 2:00:00 PM",
-      "datetime_eu": "30/06/2026 16:00",
-      "impact": "high",
-      "time_to": "passed"
-    },
-    {
       "name": "EU CPI (YoY) (Jun)",
       "datetime_raw": "7/1/2026, 9:00:00 AM",
-      "datetime_eu": "01/07/2026 11:00",
+      "datetime_local": "01/07/2026 06:00",
       "impact": "high",
-      "time_to": "in 9h 28m"
+      "time_to": "in 8h 59m"
     },
     {
       "name": "US ADP Nonfarm Employment Change (Jun)",
       "datetime_raw": "7/1/2026, 12:15:00 PM",
-      "datetime_eu": "01/07/2026 14:15",
+      "datetime_local": "01/07/2026 09:15",
       "impact": "high",
-      "time_to": "in 12h 43m"
+      "time_to": "in 12h 14m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Jun)",
       "datetime_raw": "7/1/2026, 1:45:00 PM",
-      "datetime_eu": "01/07/2026 15:45",
+      "datetime_local": "01/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 14h 13m"
+      "time_to": "in 13h 44m"
     },
     {
       "name": "US ISM Manufacturing PMI (Jun)",
       "datetime_raw": "7/1/2026, 2:00:00 PM",
-      "datetime_eu": "01/07/2026 16:00",
+      "datetime_local": "01/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 14h 28m"
+      "time_to": "in 13h 59m"
     },
     {
       "name": "US ISM Manufacturing Prices (Jun)",
       "datetime_raw": "7/1/2026, 2:00:00 PM",
-      "datetime_eu": "01/07/2026 16:00",
+      "datetime_local": "01/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 14h 28m"
+      "time_to": "in 13h 59m"
     },
     {
       "name": "US Nonfarm Payrolls (Jun)",
       "datetime_raw": "7/2/2026, 12:30:00 PM",
-      "datetime_eu": "02/07/2026 14:30",
+      "datetime_local": "02/07/2026 09:30",
       "impact": "high",
       "time_to": "in 1d 12h"
     },
     {
       "name": "US Unemployment Rate (Jun)",
       "datetime_raw": "7/2/2026, 12:30:00 PM",
-      "datetime_eu": "02/07/2026 14:30",
+      "datetime_local": "02/07/2026 09:30",
       "impact": "high",
       "time_to": "in 1d 12h"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Jun)",
       "datetime_raw": "7/2/2026, 12:30:00 PM",
-      "datetime_eu": "02/07/2026 14:30",
+      "datetime_local": "02/07/2026 09:30",
       "impact": "high",
       "time_to": "in 1d 12h"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "7/2/2026, 12:30:00 PM",
-      "datetime_eu": "02/07/2026 14:30",
+      "datetime_local": "02/07/2026 09:30",
       "impact": "high",
       "time_to": "in 1d 12h"
     },
     {
       "name": "US S&P Global Services PMI (Jun)",
       "datetime_raw": "7/6/2026, 1:45:00 PM",
-      "datetime_eu": "06/07/2026 15:45",
+      "datetime_local": "06/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 5d 14h"
+      "time_to": "in 5d 13h"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Jun)",
       "datetime_raw": "7/6/2026, 2:00:00 PM",
-      "datetime_eu": "06/07/2026 16:00",
+      "datetime_local": "06/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 5d 14h"
+      "time_to": "in 5d 13h"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Jun)",
       "datetime_raw": "7/6/2026, 2:00:00 PM",
-      "datetime_eu": "06/07/2026 16:00",
+      "datetime_local": "06/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 5d 14h"
+      "time_to": "in 5d 13h"
     },
     {
       "name": "NZ RBNZ Interest Rate Decision",
       "datetime_raw": "7/8/2026, 2:00:00 AM",
-      "datetime_eu": "08/07/2026 04:00",
+      "datetime_local": "07/07/2026 23:00",
       "impact": "high",
-      "time_to": "in 7d 2h"
+      "time_to": "in 7d 1h"
     },
     {
       "name": "US Existing Home Sales (Jun)",
       "datetime_raw": "7/9/2026, 2:00:00 PM",
-      "datetime_eu": "09/07/2026 16:00",
+      "datetime_local": "09/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 8d 14h"
+      "time_to": "in 8d 13h"
     },
     {
       "name": "DE German CPI (MoM) (Jun)",
       "datetime_raw": "7/10/2026, 6:00:00 AM",
-      "datetime_eu": "10/07/2026 08:00",
+      "datetime_local": "10/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 9d 6h"
+      "time_to": "in 9d 5h"
     }
   ]
 }
