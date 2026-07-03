@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-03T17:31:31.997156-03:00",
+  "last_news_sent_at": "2026-07-03T18:10:48.685173-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,42 +7,42 @@
       "datetime_raw": "7/6/2026, 1:45:00 PM",
       "datetime_local": "06/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 2d 17h"
+      "time_to": "in 2d 16h"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Jun)",
       "datetime_raw": "7/6/2026, 2:00:00 PM",
       "datetime_local": "06/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 2d 17h"
+      "time_to": "in 2d 16h"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Jun)",
       "datetime_raw": "7/6/2026, 2:00:00 PM",
       "datetime_local": "06/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 2d 17h"
+      "time_to": "in 2d 16h"
     },
     {
       "name": "NZ RBNZ Interest Rate Decision",
       "datetime_raw": "7/8/2026, 2:00:00 AM",
       "datetime_local": "07/07/2026 23:00",
       "impact": "high",
-      "time_to": "in 4d 5h"
+      "time_to": "in 4d 4h"
     },
     {
       "name": "US Existing Home Sales (Jun)",
       "datetime_raw": "7/9/2026, 2:00:00 PM",
       "datetime_local": "09/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 5d 17h"
+      "time_to": "in 5d 16h"
     },
     {
       "name": "DE German CPI (MoM) (Jun)",
       "datetime_raw": "7/10/2026, 6:00:00 AM",
       "datetime_local": "10/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 6d 9h"
+      "time_to": "in 6d 8h"
     }
   ]
 }
