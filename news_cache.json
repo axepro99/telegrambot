@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-03T22:13:01.190513-03:00",
+  "last_news_sent_at": "2026-07-03T22:50:42.450252-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "7/6/2026, 1:45:00 PM",
       "datetime_local": "06/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 2d 12h"
+      "time_to": "in 2d 11h"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Jun)",
