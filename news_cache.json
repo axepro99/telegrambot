@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-06T01:20:57.048722-03:00",
+  "last_news_sent_at": "2026-07-06T01:50:57.208484-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,21 +7,21 @@
       "datetime_raw": "7/6/2026, 1:45:00 PM",
       "datetime_local": "06/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 9h 1m"
+      "time_to": "in 8h 54m"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Jun)",
       "datetime_raw": "7/6/2026, 2:00:00 PM",
       "datetime_local": "06/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 9h 16m"
+      "time_to": "in 9h 9m"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Jun)",
       "datetime_raw": "7/6/2026, 2:00:00 PM",
       "datetime_local": "06/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 9h 16m"
+      "time_to": "in 9h 9m"
     },
     {
       "name": "NZ RBNZ Interest Rate Decision",
@@ -84,7 +84,7 @@
       "datetime_raw": "7/15/2026, 1:45:00 PM",
       "datetime_local": "15/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 9d 9h"
+      "time_to": "in 9d 8h"
     },
     {
       "name": "UK GDP (MoM) (May)",
