@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-06T03:01:21.901555-03:00",
+  "last_news_sent_at": "2026-07-06T03:40:58.975590-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,21 +7,21 @@
       "datetime_raw": "7/6/2026, 1:45:00 PM",
       "datetime_local": "06/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 7h 13m"
+      "time_to": "in 7h 4m"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Jun)",
       "datetime_raw": "7/6/2026, 2:00:00 PM",
       "datetime_local": "06/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 7h 28m"
+      "time_to": "in 7h 19m"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Jun)",
       "datetime_raw": "7/6/2026, 2:00:00 PM",
       "datetime_local": "06/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 7h 28m"
+      "time_to": "in 7h 19m"
     },
     {
       "name": "NZ RBNZ Interest Rate Decision",
