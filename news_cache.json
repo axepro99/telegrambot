@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-07T05:51:01.033749-03:00",
+  "last_news_sent_at": "2026-07-07T06:31:10.482061-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "7/8/2026, 2:00:00 AM",
       "datetime_local": "07/07/2026 23:00",
       "impact": "high",
-      "time_to": "in 16h 39m"
+      "time_to": "in 16h 28m"
     },
     {
       "name": "US Existing Home Sales (Jun)",
@@ -28,21 +28,21 @@
       "datetime_raw": "7/14/2026, 12:30:00 PM",
       "datetime_local": "14/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 7d 3h"
+      "time_to": "in 7d 2h"
     },
     {
       "name": "US Core CPI (MoM) (Jun)",
       "datetime_raw": "7/14/2026, 12:30:00 PM",
       "datetime_local": "14/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 7d 3h"
+      "time_to": "in 7d 2h"
     },
     {
       "name": "US CPI (YoY) (Jun)",
       "datetime_raw": "7/14/2026, 12:30:00 PM",
       "datetime_local": "14/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 7d 3h"
+      "time_to": "in 7d 2h"
     },
     {
       "name": "CN GDP (YoY) (Q2)",
@@ -56,7 +56,7 @@
       "datetime_raw": "7/15/2026, 12:30:00 PM",
       "datetime_local": "15/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 8d 3h"
+      "time_to": "in 8d 2h"
     },
     {
       "name": "CA BoC Interest Rate Decision",
@@ -77,21 +77,21 @@
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 9d 3h"
+      "time_to": "in 9d 2h"
     },
     {
       "name": "US Core Retail Sales (MoM) (Jun)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 9d 3h"
+      "time_to": "in 9d 2h"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Jul)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 9d 3h"
+      "time_to": "in 9d 2h"
     },
     {
       "name": "EU CPI (YoY) (Jun)",
