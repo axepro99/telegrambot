@@ -7,7 +7,7 @@
       "datetime_raw": "7/8/2026, 2:00:00 AM",
       "datetime_local": "07/07/2026 23:00",
       "impact": "high",
-      "time_to": "in 10h 19m"
+      "time_to": "in 10h 9m"
     },
     {
       "name": "US Existing Home Sales (Jun)",
@@ -63,7 +63,7 @@
       "datetime_raw": "7/15/2026, 1:45:00 PM",
       "datetime_local": "15/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 7d 22h"
+      "time_to": "in 7d 21h"
     },
     {
       "name": "UK GDP (MoM) (May)",
