@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-06T23:20:51.707659-03:00",
+  "last_news_sent_at": "2026-07-06T23:50:52.433323-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "7/8/2026, 2:00:00 AM",
       "datetime_local": "07/07/2026 23:00",
       "impact": "high",
-      "time_to": "in 23h 19m"
+      "time_to": "in 23h 9m"
     },
     {
       "name": "US Existing Home Sales (Jun)",
@@ -63,7 +63,7 @@
       "datetime_raw": "7/15/2026, 1:45:00 PM",
       "datetime_local": "15/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 8d 11h"
+      "time_to": "in 8d 10h"
     },
     {
       "name": "UK GDP (MoM) (May)",
