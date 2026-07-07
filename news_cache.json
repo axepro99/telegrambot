@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-07T12:30:44.887160-03:00",
+  "last_news_sent_at": "2026-07-07T13:01:13.933941-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,21 +7,21 @@
       "datetime_raw": "7/8/2026, 2:00:00 AM",
       "datetime_local": "07/07/2026 23:00",
       "impact": "high",
-      "time_to": "in 10h 9m"
+      "time_to": "in 9h 58m"
     },
     {
       "name": "US Existing Home Sales (Jun)",
       "datetime_raw": "7/9/2026, 2:00:00 PM",
       "datetime_local": "09/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 1d 22h"
+      "time_to": "in 1d 21h"
     },
     {
       "name": "DE German CPI (MoM) (Jun)",
       "datetime_raw": "7/10/2026, 6:00:00 AM",
       "datetime_local": "10/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 2d 14h"
+      "time_to": "in 2d 13h"
     },
     {
       "name": "US CPI (MoM) (Jun)",
@@ -49,7 +49,7 @@
       "datetime_raw": "7/15/2026, 2:00:00 AM",
       "datetime_local": "14/07/2026 23:00",
       "impact": "high",
-      "time_to": "in 7d 10h"
+      "time_to": "in 7d 9h"
     },
     {
       "name": "US PPI (MoM) (Jun)",
@@ -70,7 +70,7 @@
       "datetime_raw": "7/16/2026, 6:00:00 AM",
       "datetime_local": "16/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 8d 14h"
+      "time_to": "in 8d 13h"
     },
     {
       "name": "US Retail Sales (MoM) (Jun)",
@@ -98,7 +98,7 @@
       "datetime_raw": "7/17/2026, 9:00:00 AM",
       "datetime_local": "17/07/2026 06:00",
       "impact": "high",
-      "time_to": "in 9d 17h"
+      "time_to": "in 9d 16h"
     }
   ]
 }
