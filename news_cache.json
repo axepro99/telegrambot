@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-08T22:20:56.749061-03:00",
+  "last_news_sent_at": "2026-07-08T22:50:58.579519-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "7/9/2026, 2:00:00 PM",
       "datetime_local": "09/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 12h 19m"
+      "time_to": "in 12h 9m"
     },
     {
       "name": "DE German CPI (MoM) (Jun)",
@@ -56,7 +56,7 @@
       "datetime_raw": "7/15/2026, 1:45:00 PM",
       "datetime_local": "15/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 6d 12h"
+      "time_to": "in 6d 11h"
     },
     {
       "name": "UK GDP (MoM) (May)",
