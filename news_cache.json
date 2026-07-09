@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-09T04:51:03.953249-03:00",
+  "last_news_sent_at": "2026-07-09T05:21:08.441870-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,14 +7,14 @@
       "datetime_raw": "7/9/2026, 2:00:00 PM",
       "datetime_local": "09/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 5h 43m"
+      "time_to": "in 5h 38m"
     },
     {
       "name": "DE German CPI (MoM) (Jun)",
       "datetime_raw": "7/10/2026, 6:00:00 AM",
       "datetime_local": "10/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 21h 43m"
+      "time_to": "in 21h 38m"
     },
     {
       "name": "US CPI (MoM) (Jun)",
