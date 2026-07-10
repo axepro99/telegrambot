@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-10T04:51:02.141624-03:00",
+  "last_news_sent_at": "2026-07-10T05:31:06.608212-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -14,21 +14,21 @@
       "datetime_raw": "7/14/2026, 12:30:00 PM",
       "datetime_local": "14/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 4d 4h"
+      "time_to": "in 4d 3h"
     },
     {
       "name": "US Core CPI (MoM) (Jun)",
       "datetime_raw": "7/14/2026, 12:30:00 PM",
       "datetime_local": "14/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 4d 4h"
+      "time_to": "in 4d 3h"
     },
     {
       "name": "US CPI (YoY) (Jun)",
       "datetime_raw": "7/14/2026, 12:30:00 PM",
       "datetime_local": "14/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 4d 4h"
+      "time_to": "in 4d 3h"
     },
     {
       "name": "CN GDP (YoY) (Q2)",
@@ -42,7 +42,7 @@
       "datetime_raw": "7/15/2026, 12:30:00 PM",
       "datetime_local": "15/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 5d 4h"
+      "time_to": "in 5d 3h"
     },
     {
       "name": "CA BoC Interest Rate Decision",
@@ -63,21 +63,21 @@
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "US Core Retail Sales (MoM) (Jun)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Jul)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "EU CPI (YoY) (Jun)",
