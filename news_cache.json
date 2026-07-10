@@ -35,7 +35,7 @@
       "datetime_raw": "7/15/2026, 2:00:00 AM",
       "datetime_local": "14/07/2026 23:00",
       "impact": "high",
-      "time_to": "in 4d 4h"
+      "time_to": "in 4d 3h"
     },
     {
       "name": "US PPI (MoM) (Jun)",
@@ -56,7 +56,7 @@
       "datetime_raw": "7/16/2026, 6:00:00 AM",
       "datetime_local": "16/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 5d 8h"
+      "time_to": "in 5d 7h"
     },
     {
       "name": "US Retail Sales (MoM) (Jun)",
@@ -84,7 +84,7 @@
       "datetime_raw": "7/17/2026, 9:00:00 AM",
       "datetime_local": "17/07/2026 06:00",
       "impact": "high",
-      "time_to": "in 6d 11h"
+      "time_to": "in 6d 10h"
     }
   ]
 }
