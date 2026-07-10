@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-10T01:40:56.880839-03:00",
+  "last_news_sent_at": "2026-07-10T02:20:53.722889-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "7/10/2026, 6:00:00 AM",
       "datetime_local": "10/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 49m 4s"
+      "time_to": "in 39m 6s"
     },
     {
       "name": "US CPI (MoM) (Jun)",
