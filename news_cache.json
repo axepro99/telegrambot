@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-12T11:11:06.024767-03:00",
+  "last_news_sent_at": "2026-07-12T11:50:53.529246-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -42,7 +42,7 @@
       "datetime_raw": "7/15/2026, 1:45:00 PM",
       "datetime_local": "15/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 2d 23h"
+      "time_to": "in 2d 22h"
     },
     {
       "name": "UK GDP (MoM) (May)",
