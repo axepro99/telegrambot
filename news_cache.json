@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-12T15:21:02.727634-03:00",
+  "last_news_sent_at": "2026-07-12T15:51:02.985599-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -42,7 +42,7 @@
       "datetime_raw": "7/15/2026, 1:45:00 PM",
       "datetime_local": "15/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 2d 19h"
+      "time_to": "in 2d 18h"
     },
     {
       "name": "UK GDP (MoM) (May)",
@@ -105,14 +105,14 @@
       "datetime_raw": "7/24/2026, 1:45:00 PM",
       "datetime_local": "24/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 11d 19h"
+      "time_to": "in 11d 18h"
     },
     {
       "name": "US S&P Global Services PMI (Jul)",
       "datetime_raw": "7/24/2026, 1:45:00 PM",
       "datetime_local": "24/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 11d 19h"
+      "time_to": "in 11d 18h"
     },
     {
       "name": "US New Home Sales (Jun)",
