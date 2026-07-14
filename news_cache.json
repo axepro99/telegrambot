@@ -28,21 +28,21 @@
       "datetime_raw": "7/15/2026, 2:00:00 AM",
       "datetime_local": "14/07/2026 23:00",
       "impact": "high",
-      "time_to": "in 11h 40m"
+      "time_to": "in 11h 39m"
     },
     {
       "name": "US PPI (MoM) (Jun)",
       "datetime_raw": "7/15/2026, 12:30:00 PM",
       "datetime_local": "15/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 22h 10m"
+      "time_to": "in 22h 9m"
     },
     {
       "name": "CA BoC Interest Rate Decision",
       "datetime_raw": "7/15/2026, 1:45:00 PM",
       "datetime_local": "15/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 23h 25m"
+      "time_to": "in 23h 24m"
     },
     {
       "name": "UK GDP (MoM) (May)",
