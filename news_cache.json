@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-14T10:41:02.437498-03:00",
+  "last_news_sent_at": "2026-07-14T11:19:48.269160-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -28,21 +28,21 @@
       "datetime_raw": "7/15/2026, 2:00:00 AM",
       "datetime_local": "14/07/2026 23:00",
       "impact": "high",
-      "time_to": "in 11h 49m"
+      "time_to": "in 11h 40m"
     },
     {
       "name": "US PPI (MoM) (Jun)",
       "datetime_raw": "7/15/2026, 12:30:00 PM",
       "datetime_local": "15/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 22h 19m"
+      "time_to": "in 22h 10m"
     },
     {
       "name": "CA BoC Interest Rate Decision",
       "datetime_raw": "7/15/2026, 1:45:00 PM",
       "datetime_local": "15/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 23h 34m"
+      "time_to": "in 23h 25m"
     },
     {
       "name": "UK GDP (MoM) (May)",
@@ -91,14 +91,14 @@
       "datetime_raw": "7/23/2026, 12:15:00 PM",
       "datetime_local": "23/07/2026 09:15",
       "impact": "high",
-      "time_to": "in 8d 22h"
+      "time_to": "in 8d 21h"
     },
     {
       "name": "EU Deposit Facility Rate (Jul)",
       "datetime_raw": "7/23/2026, 12:15:00 PM",
       "datetime_local": "23/07/2026 09:15",
       "impact": "high",
-      "time_to": "in 8d 22h"
+      "time_to": "in 8d 21h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Jul)",
