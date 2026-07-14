@@ -7,28 +7,28 @@
       "datetime_raw": "7/14/2026, 12:30:00 PM",
       "datetime_local": "14/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 3h 19m"
+      "time_to": "in 3h 9m"
     },
     {
       "name": "US Core CPI (MoM) (Jun)",
       "datetime_raw": "7/14/2026, 12:30:00 PM",
       "datetime_local": "14/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 3h 19m"
+      "time_to": "in 3h 9m"
     },
     {
       "name": "US CPI (YoY) (Jun)",
       "datetime_raw": "7/14/2026, 12:30:00 PM",
       "datetime_local": "14/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 3h 19m"
+      "time_to": "in 3h 9m"
     },
     {
       "name": "CN GDP (YoY) (Q2)",
       "datetime_raw": "7/15/2026, 2:00:00 AM",
       "datetime_local": "14/07/2026 23:00",
       "impact": "high",
-      "time_to": "in 16h 49m"
+      "time_to": "in 16h 39m"
     },
     {
       "name": "US PPI (MoM) (Jun)",
@@ -91,14 +91,14 @@
       "datetime_raw": "7/23/2026, 12:15:00 PM",
       "datetime_local": "23/07/2026 09:15",
       "impact": "high",
-      "time_to": "in 9d 3h"
+      "time_to": "in 9d 2h"
     },
     {
       "name": "EU Deposit Facility Rate (Jul)",
       "datetime_raw": "7/23/2026, 12:15:00 PM",
       "datetime_local": "23/07/2026 09:15",
       "impact": "high",
-      "time_to": "in 9d 3h"
+      "time_to": "in 9d 2h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Jul)",
