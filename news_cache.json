@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-15T02:01:13.613446-03:00",
+  "last_news_sent_at": "2026-07-15T02:40:57.727632-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -14,14 +14,14 @@
       "datetime_raw": "7/15/2026, 12:30:00 PM",
       "datetime_local": "15/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 6h 58m"
+      "time_to": "in 6h 49m"
     },
     {
       "name": "CA BoC Interest Rate Decision",
       "datetime_raw": "7/15/2026, 1:45:00 PM",
       "datetime_local": "15/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 8h 13m"
+      "time_to": "in 8h 4m"
     },
     {
       "name": "UK GDP (MoM) (May)",
