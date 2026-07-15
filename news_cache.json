@@ -14,14 +14,14 @@
       "datetime_raw": "7/15/2026, 12:30:00 PM",
       "datetime_local": "15/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 8h 19m"
+      "time_to": "in 8h 9m"
     },
     {
       "name": "CA BoC Interest Rate Decision",
       "datetime_raw": "7/15/2026, 1:45:00 PM",
       "datetime_local": "15/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 9h 34m"
+      "time_to": "in 9h 24m"
     },
     {
       "name": "UK GDP (MoM) (May)",
@@ -70,14 +70,14 @@
       "datetime_raw": "7/23/2026, 12:15:00 PM",
       "datetime_local": "23/07/2026 09:15",
       "impact": "high",
-      "time_to": "in 8d 8h"
+      "time_to": "in 8d 7h"
     },
     {
       "name": "EU Deposit Facility Rate (Jul)",
       "datetime_raw": "7/23/2026, 12:15:00 PM",
       "datetime_local": "23/07/2026 09:15",
       "impact": "high",
-      "time_to": "in 8d 8h"
+      "time_to": "in 8d 7h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Jul)",
