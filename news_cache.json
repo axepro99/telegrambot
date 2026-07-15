@@ -28,28 +28,28 @@
       "datetime_raw": "7/16/2026, 6:00:00 AM",
       "datetime_local": "16/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 10h 19m"
+      "time_to": "in 10h 9m"
     },
     {
       "name": "US Retail Sales (MoM) (Jun)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 16h 49m"
+      "time_to": "in 16h 39m"
     },
     {
       "name": "US Core Retail Sales (MoM) (Jun)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 16h 49m"
+      "time_to": "in 16h 39m"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Jul)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 16h 49m"
+      "time_to": "in 16h 39m"
     },
     {
       "name": "EU CPI (YoY) (Jun)",
@@ -84,14 +84,14 @@
       "datetime_raw": "7/24/2026, 1:45:00 PM",
       "datetime_local": "24/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 8d 18h"
+      "time_to": "in 8d 17h"
     },
     {
       "name": "US S&P Global Services PMI (Jul)",
       "datetime_raw": "7/24/2026, 1:45:00 PM",
       "datetime_local": "24/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 8d 18h"
+      "time_to": "in 8d 17h"
     },
     {
       "name": "US New Home Sales (Jun)",
