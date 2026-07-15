@@ -14,21 +14,21 @@
       "datetime_raw": "7/15/2026, 12:30:00 PM",
       "datetime_local": "15/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 4h 58m"
+      "time_to": "in 4h 49m"
     },
     {
       "name": "CA BoC Interest Rate Decision",
       "datetime_raw": "7/15/2026, 1:45:00 PM",
       "datetime_local": "15/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 6h 13m"
+      "time_to": "in 6h 4m"
     },
     {
       "name": "UK GDP (MoM) (May)",
       "datetime_raw": "7/16/2026, 6:00:00 AM",
       "datetime_local": "16/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 22h 28m"
+      "time_to": "in 22h 19m"
     },
     {
       "name": "US Retail Sales (MoM) (Jun)",
