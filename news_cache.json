@@ -14,14 +14,14 @@
       "datetime_raw": "7/15/2026, 12:30:00 PM",
       "datetime_local": "15/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 10h 9m"
+      "time_to": "in 9h 58m"
     },
     {
       "name": "CA BoC Interest Rate Decision",
       "datetime_raw": "7/15/2026, 1:45:00 PM",
       "datetime_local": "15/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 11h 24m"
+      "time_to": "in 11h 13m"
     },
     {
       "name": "UK GDP (MoM) (May)",
@@ -35,21 +35,21 @@
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 10h"
+      "time_to": "in 1d 9h"
     },
     {
       "name": "US Core Retail Sales (MoM) (Jun)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 10h"
+      "time_to": "in 1d 9h"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Jul)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 10h"
+      "time_to": "in 1d 9h"
     },
     {
       "name": "EU CPI (YoY) (Jun)",
