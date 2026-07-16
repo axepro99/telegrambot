@@ -14,35 +14,35 @@
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 2h 38m"
+      "time_to": "in 2h 28m"
     },
     {
       "name": "US Core Retail Sales (MoM) (Jun)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 2h 38m"
+      "time_to": "in 2h 28m"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Jul)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 2h 38m"
+      "time_to": "in 2h 28m"
     },
     {
       "name": "EU CPI (YoY) (Jun)",
       "datetime_raw": "7/17/2026, 9:00:00 AM",
       "datetime_local": "17/07/2026 06:00",
       "impact": "high",
-      "time_to": "in 23h 8m"
+      "time_to": "in 22h 58m"
     },
     {
       "name": "UK CPI (YoY) (Jun)",
       "datetime_raw": "7/22/2026, 6:00:00 AM",
       "datetime_local": "22/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 5d 20h"
+      "time_to": "in 5d 19h"
     },
     {
       "name": "EU ECB Interest Rate Decision (Jul)",
@@ -77,7 +77,7 @@
       "datetime_raw": "7/24/2026, 2:00:00 PM",
       "datetime_local": "24/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 8d 4h"
+      "time_to": "in 8d 3h"
     }
   ]
 }
