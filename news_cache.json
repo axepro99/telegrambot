@@ -1,69 +1,48 @@
 {
-  "last_news_sent_at": "2026-07-15T20:20:59.620351-03:00",
+  "last_news_sent_at": "2026-07-15T21:01:14.645380-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
-    {
-      "name": "CN GDP (YoY) (Q2)",
-      "datetime_raw": "7/15/2026, 2:00:00 AM",
-      "datetime_local": "14/07/2026 23:00",
-      "impact": "high",
-      "time_to": "passed"
-    },
-    {
-      "name": "US PPI (MoM) (Jun)",
-      "datetime_raw": "7/15/2026, 12:30:00 PM",
-      "datetime_local": "15/07/2026 09:30",
-      "impact": "high",
-      "time_to": "passed"
-    },
-    {
-      "name": "CA BoC Interest Rate Decision",
-      "datetime_raw": "7/15/2026, 1:45:00 PM",
-      "datetime_local": "15/07/2026 10:45",
-      "impact": "high",
-      "time_to": "passed"
-    },
     {
       "name": "UK GDP (MoM) (May)",
       "datetime_raw": "7/16/2026, 6:00:00 AM",
       "datetime_local": "16/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 6h 9m"
+      "time_to": "in 5h 58m"
     },
     {
       "name": "US Retail Sales (MoM) (Jun)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 12h 39m"
+      "time_to": "in 12h 28m"
     },
     {
       "name": "US Core Retail Sales (MoM) (Jun)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 12h 39m"
+      "time_to": "in 12h 28m"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Jul)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 12h 39m"
+      "time_to": "in 12h 28m"
     },
     {
       "name": "EU CPI (YoY) (Jun)",
       "datetime_raw": "7/17/2026, 9:00:00 AM",
       "datetime_local": "17/07/2026 06:00",
       "impact": "high",
-      "time_to": "in 1d 9h"
+      "time_to": "in 1d 8h"
     },
     {
       "name": "UK CPI (YoY) (Jun)",
       "datetime_raw": "7/22/2026, 6:00:00 AM",
       "datetime_local": "22/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 6d 6h"
+      "time_to": "in 6d 5h"
     },
     {
       "name": "EU ECB Interest Rate Decision (Jul)",
@@ -98,7 +77,7 @@
       "datetime_raw": "7/24/2026, 2:00:00 PM",
       "datetime_local": "24/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 8d 14h"
+      "time_to": "in 8d 13h"
     }
   ]
 }
