@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-16T09:11:01.744604-03:00",
+  "last_news_sent_at": "2026-07-16T09:41:02.961593-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -14,28 +14,28 @@
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "LOCKED"
+      "time_to": "passed"
     },
     {
       "name": "US Core Retail Sales (MoM) (Jun)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "LOCKED"
+      "time_to": "passed"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Jul)",
       "datetime_raw": "7/16/2026, 12:30:00 PM",
       "datetime_local": "16/07/2026 09:30",
       "impact": "high",
-      "time_to": "LOCKED"
+      "time_to": "passed"
     },
     {
       "name": "EU CPI (YoY) (Jun)",
       "datetime_raw": "7/17/2026, 9:00:00 AM",
       "datetime_local": "17/07/2026 06:00",
       "impact": "high",
-      "time_to": "in 20h 28m"
+      "time_to": "in 20h 18m"
     },
     {
       "name": "UK CPI (YoY) (Jun)",
