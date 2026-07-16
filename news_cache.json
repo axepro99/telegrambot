@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-16T11:21:04.549501-03:00",
+  "last_news_sent_at": "2026-07-16T12:01:05.606498-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -35,14 +35,14 @@
       "datetime_raw": "7/17/2026, 9:00:00 AM",
       "datetime_local": "17/07/2026 06:00",
       "impact": "high",
-      "time_to": "in 18h 8m"
+      "time_to": "in 17h 58m"
     },
     {
       "name": "UK CPI (YoY) (Jun)",
       "datetime_raw": "7/22/2026, 6:00:00 AM",
       "datetime_local": "22/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 5d 15h"
+      "time_to": "in 5d 14h"
     },
     {
       "name": "EU ECB Interest Rate Decision (Jul)",
@@ -77,7 +77,7 @@
       "datetime_raw": "7/24/2026, 2:00:00 PM",
       "datetime_local": "24/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 7d 23h"
+      "time_to": "in 7d 22h"
     }
   ]
 }
