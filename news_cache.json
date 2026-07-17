@@ -7,7 +7,7 @@
       "datetime_raw": "7/17/2026, 9:00:00 AM",
       "datetime_local": "17/07/2026 06:00",
       "impact": "high",
-      "time_to": "in 3h 49m"
+      "time_to": "in 3h 39m"
     },
     {
       "name": "UK CPI (YoY) (Jun)",
@@ -21,14 +21,14 @@
       "datetime_raw": "7/23/2026, 12:15:00 PM",
       "datetime_local": "23/07/2026 09:15",
       "impact": "high",
-      "time_to": "in 6d 7h"
+      "time_to": "in 6d 6h"
     },
     {
       "name": "EU Deposit Facility Rate (Jul)",
       "datetime_raw": "7/23/2026, 12:15:00 PM",
       "datetime_local": "23/07/2026 09:15",
       "impact": "high",
-      "time_to": "in 6d 7h"
+      "time_to": "in 6d 6h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Jul)",
