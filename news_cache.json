@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-17T02:40:41.097556-03:00",
+  "last_news_sent_at": "2026-07-17T03:10:49.753916-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "7/17/2026, 9:00:00 AM",
       "datetime_local": "17/07/2026 06:00",
       "impact": "high",
-      "time_to": "in 2h 57m"
+      "time_to": "in 2h 49m"
     },
     {
       "name": "UK CPI (YoY) (Jun)",
