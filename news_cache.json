@@ -3,18 +3,11 @@
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
-      "name": "EU CPI (YoY) (Jun)",
-      "datetime_raw": "7/17/2026, 9:00:00 AM",
-      "datetime_local": "17/07/2026 06:00",
-      "impact": "high",
-      "time_to": "passed"
-    },
-    {
       "name": "UK CPI (YoY) (Jun)",
       "datetime_raw": "7/22/2026, 6:00:00 AM",
       "datetime_local": "22/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 4d 6h"
+      "time_to": "in 4d 5h"
     },
     {
       "name": "EU ECB Interest Rate Decision (Jul)",
@@ -49,7 +42,7 @@
       "datetime_raw": "7/24/2026, 2:00:00 PM",
       "datetime_local": "24/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 6d 14h"
+      "time_to": "in 6d 13h"
     }
   ]
 }
