@@ -37,8 +37,7 @@ CACHE_FILE = "news_cache.json"
 
 # Menciones normales para resúmenes y alertas
 MENTIONS = [
-    "@almtaiwea76",
-    "@xaxepro99",
+    "@all",
 ]
 
 # Mención solo para avisos de cookie/estado raro
