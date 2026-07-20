@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-20T00:50:36.604661-03:00",
+  "last_news_sent_at": "2026-07-20T16:03:51.587376-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,42 +7,126 @@
       "datetime_raw": "7/22/2026, 6:00:00 AM",
       "datetime_local": "22/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 2d 1h"
+      "time_to": "in 1d 10h"
     },
     {
       "name": "EU ECB Interest Rate Decision (Jul)",
       "datetime_raw": "7/23/2026, 12:15:00 PM",
       "datetime_local": "23/07/2026 09:15",
       "impact": "high",
-      "time_to": "in 3d 8h"
+      "time_to": "in 2d 17h"
     },
     {
       "name": "EU Deposit Facility Rate (Jul)",
       "datetime_raw": "7/23/2026, 12:15:00 PM",
       "datetime_local": "23/07/2026 09:15",
       "impact": "high",
-      "time_to": "in 3d 8h"
+      "time_to": "in 2d 17h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Jul)",
       "datetime_raw": "7/24/2026, 1:45:00 PM",
       "datetime_local": "24/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 4d 9h"
+      "time_to": "in 3d 18h"
     },
     {
       "name": "US S&P Global Services PMI (Jul)",
       "datetime_raw": "7/24/2026, 1:45:00 PM",
       "datetime_local": "24/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 4d 9h"
+      "time_to": "in 3d 18h"
     },
     {
       "name": "US New Home Sales (Jun)",
       "datetime_raw": "7/24/2026, 2:00:00 PM",
       "datetime_local": "24/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 4d 9h"
+      "time_to": "in 3d 18h"
+    },
+    {
+      "name": "US Durable Goods Orders (MoM) (Jun)",
+      "datetime_raw": "7/27/2026, 12:30:00 PM",
+      "datetime_local": "27/07/2026 09:30",
+      "impact": "high",
+      "time_to": "in 6d 17h"
+    },
+    {
+      "name": "US CB Consumer Confidence (Jul)",
+      "datetime_raw": "7/28/2026, 2:00:00 PM",
+      "datetime_local": "28/07/2026 11:00",
+      "impact": "high",
+      "time_to": "in 7d 18h"
+    },
+    {
+      "name": "US Fed Interest Rate Decision",
+      "datetime_raw": "7/29/2026, 6:00:00 PM",
+      "datetime_local": "29/07/2026 15:00",
+      "impact": "high",
+      "time_to": "in 8d 22h"
+    },
+    {
+      "name": "DE German GDP (QoQ) (Q2)",
+      "datetime_raw": "7/30/2026, 6:00:00 AM",
+      "datetime_local": "30/07/2026 03:00",
+      "impact": "high",
+      "time_to": "in 9d 10h"
+    },
+    {
+      "name": "UK BoE Interest Rate Decision (Jul)",
+      "datetime_raw": "7/30/2026, 11:00:00 AM",
+      "datetime_local": "30/07/2026 08:00",
+      "impact": "high",
+      "time_to": "in 9d 15h"
+    },
+    {
+      "name": "DE German CPI (MoM) (Jul)",
+      "datetime_raw": "7/30/2026, 12:00:00 PM",
+      "datetime_local": "30/07/2026 09:00",
+      "impact": "high",
+      "time_to": "in 9d 16h"
+    },
+    {
+      "name": "US Core PCE Price Index (MoM) (Jun)",
+      "datetime_raw": "7/30/2026, 12:30:00 PM",
+      "datetime_local": "30/07/2026 09:30",
+      "impact": "high",
+      "time_to": "in 9d 17h"
+    },
+    {
+      "name": "US Core PCE Price Index (YoY) (Jun)",
+      "datetime_raw": "7/30/2026, 12:30:00 PM",
+      "datetime_local": "30/07/2026 09:30",
+      "impact": "high",
+      "time_to": "in 9d 17h"
+    },
+    {
+      "name": "US GDP (QoQ) (Q2)",
+      "datetime_raw": "7/30/2026, 12:30:00 PM",
+      "datetime_local": "30/07/2026 09:30",
+      "impact": "high",
+      "time_to": "in 9d 17h"
+    },
+    {
+      "name": "CN Manufacturing PMI (Jul)",
+      "datetime_raw": "7/31/2026, 1:30:00 AM",
+      "datetime_local": "30/07/2026 22:30",
+      "impact": "high",
+      "time_to": "in 10d 6h"
+    },
+    {
+      "name": "EU CPI (YoY) (Jul)",
+      "datetime_raw": "7/31/2026, 9:00:00 AM",
+      "datetime_local": "31/07/2026 06:00",
+      "impact": "high",
+      "time_to": "in 10d 13h"
+    },
+    {
+      "name": "US Chicago PMI (Jul)",
+      "datetime_raw": "7/31/2026, 1:45:00 PM",
+      "datetime_local": "31/07/2026 10:45",
+      "impact": "high",
+      "time_to": "in 10d 18h"
     }
   ]
 }
