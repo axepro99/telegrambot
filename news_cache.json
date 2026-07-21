@@ -7,21 +7,21 @@
       "datetime_raw": "7/22/2026, 6:00:00 AM",
       "datetime_local": "22/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 11h 49m"
+      "time_to": "in 11h 39m"
     },
     {
       "name": "EU ECB Interest Rate Decision (Jul)",
       "datetime_raw": "7/23/2026, 12:15:00 PM",
       "datetime_local": "23/07/2026 09:15",
       "impact": "high",
-      "time_to": "in 1d 18h"
+      "time_to": "in 1d 17h"
     },
     {
       "name": "EU Deposit Facility Rate (Jul)",
       "datetime_raw": "7/23/2026, 12:15:00 PM",
       "datetime_local": "23/07/2026 09:15",
       "impact": "high",
-      "time_to": "in 1d 18h"
+      "time_to": "in 1d 17h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Jul)",
