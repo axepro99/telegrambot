@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-22T02:00:43.741421-03:00",
+  "last_news_sent_at": "2026-07-22T02:40:40.292549-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "7/22/2026, 6:00:00 AM",
       "datetime_local": "22/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 29m 25s"
+      "time_to": "in 19m 19s"
     },
     {
       "name": "EU ECB Interest Rate Decision (Jul)",
