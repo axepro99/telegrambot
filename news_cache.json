@@ -49,7 +49,7 @@
       "datetime_raw": "7/27/2026, 12:30:00 PM",
       "datetime_local": "27/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 5d 2h"
+      "time_to": "in 5d 1h"
     },
     {
       "name": "US CB Consumer Confidence (Jul)",
@@ -91,28 +91,28 @@
       "datetime_raw": "7/30/2026, 12:30:00 PM",
       "datetime_local": "30/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 8d 2h"
+      "time_to": "in 8d 1h"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Jun)",
       "datetime_raw": "7/30/2026, 12:30:00 PM",
       "datetime_local": "30/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 8d 2h"
+      "time_to": "in 8d 1h"
     },
     {
       "name": "US GDP (QoQ) (Q2)",
       "datetime_raw": "7/30/2026, 12:30:00 PM",
       "datetime_local": "30/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 8d 2h"
+      "time_to": "in 8d 1h"
     },
     {
       "name": "CN Manufacturing PMI (Jul)",
       "datetime_raw": "7/31/2026, 1:30:00 AM",
       "datetime_local": "30/07/2026 22:30",
       "impact": "high",
-      "time_to": "in 8d 15h"
+      "time_to": "in 8d 14h"
     },
     {
       "name": "EU CPI (YoY) (Jul)",
