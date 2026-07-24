@@ -7,21 +7,21 @@
       "datetime_raw": "7/24/2026, 1:45:00 PM",
       "datetime_local": "24/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 11h 54m"
+      "time_to": "in 11h 44m"
     },
     {
       "name": "US S&P Global Services PMI (Jul)",
       "datetime_raw": "7/24/2026, 1:45:00 PM",
       "datetime_local": "24/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 11h 54m"
+      "time_to": "in 11h 44m"
     },
     {
       "name": "US New Home Sales (Jun)",
       "datetime_raw": "7/24/2026, 2:00:00 PM",
       "datetime_local": "24/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 12h 9m"
+      "time_to": "in 11h 59m"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Jun)",
@@ -35,35 +35,35 @@
       "datetime_raw": "7/28/2026, 2:00:00 PM",
       "datetime_local": "28/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 4d 12h"
+      "time_to": "in 4d 11h"
     },
     {
       "name": "US Fed Interest Rate Decision",
       "datetime_raw": "7/29/2026, 6:00:00 PM",
       "datetime_local": "29/07/2026 15:00",
       "impact": "high",
-      "time_to": "in 5d 16h"
+      "time_to": "in 5d 15h"
     },
     {
       "name": "DE German GDP (QoQ) (Q2)",
       "datetime_raw": "7/30/2026, 6:00:00 AM",
       "datetime_local": "30/07/2026 03:00",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "UK BoE Interest Rate Decision (Jul)",
       "datetime_raw": "7/30/2026, 11:00:00 AM",
       "datetime_local": "30/07/2026 08:00",
       "impact": "high",
-      "time_to": "in 6d 9h"
+      "time_to": "in 6d 8h"
     },
     {
       "name": "DE German CPI (MoM) (Jul)",
       "datetime_raw": "7/30/2026, 12:00:00 PM",
       "datetime_local": "30/07/2026 09:00",
       "impact": "high",
-      "time_to": "in 6d 10h"
+      "time_to": "in 6d 9h"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Jun)",
@@ -98,7 +98,7 @@
       "datetime_raw": "7/31/2026, 9:00:00 AM",
       "datetime_local": "31/07/2026 06:00",
       "impact": "high",
-      "time_to": "in 7d 7h"
+      "time_to": "in 7d 6h"
     },
     {
       "name": "US Chicago PMI (Jul)",
