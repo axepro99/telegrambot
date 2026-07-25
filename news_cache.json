@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-25T02:10:31.315615-03:00",
+  "last_news_sent_at": "2026-07-25T02:50:27.182394-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -84,7 +84,7 @@
       "datetime_raw": "7/31/2026, 1:45:00 PM",
       "datetime_local": "31/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 6d 8h"
+      "time_to": "in 6d 7h"
     }
   ]
 }
