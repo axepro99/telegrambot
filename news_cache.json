@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-27T07:00:48.025109-03:00",
+  "last_news_sent_at": "2026-07-27T07:40:31.449220-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "7/27/2026, 12:30:00 PM",
       "datetime_local": "27/07/2026 09:30",
       "impact": "high",
-      "time_to": "in 1h 59m"
+      "time_to": "in 1h 49m"
     },
     {
       "name": "US CB Consumer Confidence (Jul)",
