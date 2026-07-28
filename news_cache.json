@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-28T06:50:27.666552-03:00",
+  "last_news_sent_at": "2026-07-28T07:20:29.088735-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "7/28/2026, 2:00:00 PM",
       "datetime_local": "28/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 3h 49m"
+      "time_to": "in 3h 39m"
     },
     {
       "name": "US Fed Interest Rate Decision",
@@ -112,7 +112,7 @@
       "datetime_raw": "8/5/2026, 12:15:00 PM",
       "datetime_local": "05/08/2026 09:15",
       "impact": "high",
-      "time_to": "in 8d 2h"
+      "time_to": "in 8d 1h"
     },
     {
       "name": "US S&P Global Services PMI (Jul)",
