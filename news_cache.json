@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-07-27T22:00:47.057973-03:00",
+  "last_news_sent_at": "2026-07-27T22:40:27.096119-03:00",
   "cache_created_at": "2026-07-01T01:30:32.867128+02:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "7/28/2026, 2:00:00 PM",
       "datetime_local": "28/07/2026 11:00",
       "impact": "high",
-      "time_to": "in 12h 29m"
+      "time_to": "in 12h 19m"
     },
     {
       "name": "US Fed Interest Rate Decision",
