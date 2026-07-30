@@ -31,9 +31,9 @@ jobs:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
           COOKIE_NAME: ${{ secrets.COOKIE_NAME }}
-          COOKIE_NAME_2: ${{ secrets.COOKIE_NAME }}
+          COOKIE_NAME_2: ${{ secrets.COOKIE_NAME_2 }}
           COOKIE_VALUE: ${{ secrets.COOKIE_VALUE }}
-          COOKIE_VALUE_2: ${{ secrets.COOKIE_VALUE }}
+          COOKIE_VALUE_2: ${{ secrets.COOKIE_VALUE_2 }}
         run: |
           python news_bot.py
 
