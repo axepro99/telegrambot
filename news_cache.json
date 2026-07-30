@@ -7,21 +7,21 @@
       "datetime_raw": "7/31/2026, 1:30:00 AM",
       "datetime_local": "30/07/2026 22:30",
       "impact": "high",
-      "time_to": "in 7h 29m"
+      "time_to": "in 7h 19m"
     },
     {
       "name": "EU CPI (YoY) (Jul)",
       "datetime_raw": "7/31/2026, 9:00:00 AM",
       "datetime_local": "31/07/2026 06:00",
       "impact": "high",
-      "time_to": "in 14h 59m"
+      "time_to": "in 14h 49m"
     },
     {
       "name": "US Chicago PMI (Jul)",
       "datetime_raw": "7/31/2026, 1:45:00 PM",
       "datetime_local": "31/07/2026 10:45",
       "impact": "high",
-      "time_to": "in 19h 44m"
+      "time_to": "in 19h 34m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Jul)",
