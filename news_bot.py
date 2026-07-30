@@ -27,14 +27,31 @@ for _name, _value in ((COOKIE_NAME, COOKIE_VALUE), (COOKIE_NAME_2, COOKIE_VALUE_
 # Solo nombres, nunca valores (los valores son el token de sesión)
 print(f"[CONFIG] Cookies cargadas: {len(COOKIES)} -> {list(COOKIES.keys())}")
 
+# Copiadas tal cual del "Copy as cURL" de Chrome sobre /news.
+# Sin "accept: text/html" el servidor puede devolver algo que no es la página entera.
 HEADERS = {
+    "accept": (
+        "text/html,application/xhtml+xml,application/xml;q=0.9,"
+        "image/avif,image/webp,image/apng,*/*;q=0.8,"
+        "application/signed-exchange;v=b3;q=0.7"
+    ),
+    "accept-language": "es-ES,es;q=0.9,en;q=0.8,ro;q=0.7,da;q=0.6,de;q=0.5",
+    "cache-control": "max-age=0",
+    "priority": "u=0, i",
+    "referer": "https://www.driftfund.io/dashboard",
+    "sec-ch-ua": '"Not=A?Brand";v="99", "Google Chrome";v="151", "Chromium";v="151"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"Windows"',
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
     "user-agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/149.0.0.0 Safari/537.36"
+        "Chrome/151.0.0.0 Safari/537.36"
     ),
-    "referer": "https://www.driftfund.io/rules",
-    "accept-language": "es-ES,es;q=0.9,en;q=0.8,ar;q=0.7",
 }
 
 # Drift da las fechas en UTC (SOURCE_TZ)
@@ -56,12 +73,28 @@ ERROR_MENTION = "@xaxepro99"
 # ========= HTTP =========
 
 def fetch_html_safe() -> str | None:
-    """GET /news. Si status 200, devuelve HTML; si no, avisa y devuelve None."""
+    """GET /news. Devuelve HTML solo si de verdad hemos llegado a /news."""
     try:
         session = requests.Session()
         r = session.get(URL, headers=HEADERS, cookies=COOKIES, timeout=30)
         status = r.status_code
-        print(f"[HTTP] GET {URL} status: {status}")
+        print(f"[HTTP] GET {URL} status: {status} url_final: {r.url}")
+
+        # Sin sesión válida Drift contesta 307 y te manda a /login. requests sigue
+        # el redirect solo, así que el status final es 200 aunque nunca vimos /news:
+        # el bot acababa parseando la página de login y sacando 0 eventos.
+        if r.history:
+            saltos = " -> ".join(str(h.status_code) for h in r.history)
+            msg = (
+                f"DRIFT ERROR: /news redirigió ({saltos}) a {r.url}. "
+                f"Sesión no válida, cookies cargadas: {len(COOKIES)} (deben ser 2). "
+                "No se actualiza cache.\n"
+                f"{ERROR_MENTION}"
+            )
+            print("[HTTP]", msg)
+            send_telegram_message(msg)
+            return None
+
         if status == 200:
             return r.text
         else:
@@ -97,9 +130,36 @@ def minutes_until_event(datetime_raw: str) -> float:
     return delta.total_seconds() / 60.0  # la diferencia es la misma en cualquier huso [web:663]
 
 
+def format_time_to(minutes: float) -> str:
+    """Minutos restantes -> texto tipo 'in 2d 14h' / 'in 3h 19m' / 'in 42m'."""
+    total = int(minutes)
+    days, rest = divmod(total, 60 * 24)
+    hours, mins = divmod(rest, 60)
+    if days > 0:
+        return f"in {days}d {hours}h"
+    if hours > 0:
+        return f"in {hours}h {mins}m"
+    return f"in {mins}m"
+
+
+def is_pending(event) -> bool:
+    """True si el evento aún no ha ocurrido.
+
+    Calculado en vivo desde datetime_raw. NO usar event["time_to"]: ese texto
+    es el que había en la web cuando se hizo el scrape y no se actualiza solo.
+    """
+    try:
+        return minutes_until_event(event["datetime_raw"]) > 0
+    except Exception as ex:
+        print(f"[TIME] No se pudo calcular minutos para {event.get('name')}: {ex}")
+        return True  # ante la duda, no lo borramos
+
+
 # ========= PARSEO =========
 
 def parse_events(html: str):
+    # Si la sesión no vale, Drift devuelve 200 con un HTML mucho más corto y sin tabla
+    print(f"[PARSE] HTML recibido: {len(html)} chars")
     soup = BeautifulSoup(html, "lxml")
     events = []
 
@@ -298,19 +358,31 @@ def main():
             save_cache(last_news_sent_at, events, cache_created_at)
             print("[MAIN] Cache actualizada con eventos nuevos.")
         else:
-            # Si no hay eventos nuevos, mantenemos cache anterior sin avisar
-            print("[MAIN] /news devolvió 0 eventos, se mantiene la cache anterior.")
+            # 200 pero 0 eventos = sesión inválida o HTML cambiado. Esto antes
+            # pasaba en silencio y la cache se quedaba vieja durante días.
+            msg = (
+                "DRIFT ERROR: /news responde 200 pero 0 eventos parseados. "
+                f"Cookies cargadas: {len(COOKIES)} (deben ser 2). "
+                "Sesión caducada o web cambiada.\n"
+                f"{ERROR_MENTION}"
+            )
+            print("[MAIN]", msg)
+            send_telegram_message(msg)
     else:
         print("[MAIN] No se actualiza cache; se mantienen eventos anteriores.")
 
-    # 2.b. Contar eventos high no passed pendientes
-    high_pending = [
-        e for e in events
-        if e.get("impact", "").lower() == "high"
-        and "passed" not in e.get("time_to", "").lower()
-    ]
+    # 2.a. Tirar los eventos que ya han ocurrido, calculado en vivo.
+    before = len(events)
+    events = [e for e in events if is_pending(e)]
+    dropped = before - len(events)
+    if dropped:
+        print(f"[MAIN] Descartados {dropped} eventos ya pasados.")
+        save_cache(last_news_sent_at, events, cache_created_at)
+
+    # 2.b. Contar eventos high pendientes
+    high_pending = [e for e in events if e.get("impact", "").lower() == "high"]
     num_high_pending = len(high_pending)
-    print(f"[MAIN] Eventos high no passed pendientes: {num_high_pending}")
+    print(f"[MAIN] Eventos high pendientes: {num_high_pending}")
 
     # Solo si quedan 3 o menos eventos high no passed, mandamos aviso solo a @xaxepro99
     if 0 < num_high_pending <= 3:
@@ -351,18 +423,12 @@ def main():
     # 4. Enviar resumen si toca (primero resumen, luego alertas)
     if should_send_news and events:
         print("[MAIN] Toca enviar resumen de noticias.")
-        # Encontrar el evento high no passed más cercano
-        nearest_event = None
-        nearest_minutes = None
-        high_pending_count = 0
 
+        # Eventos high pendientes, con los minutos calculados en vivo
+        pending = []
         for e in events:
             if e["impact"].lower() != "high":
                 continue
-            if "passed" in e["time_to"].lower():
-                continue
-
-            high_pending_count += 1
 
             try:
                 m = minutes_until_event(e["datetime_raw"])
@@ -370,36 +436,32 @@ def main():
                 print(f"[MAIN] Error calculando minutos para {e['name']}: {ex}")
                 continue
 
-            print(f"[MAIN] {e['name']} pendiente, empieza en {m:.1f} minutos (hora Brasil).")
-
             if m <= 0:
+                print(f"[MAIN] {e['name']} ya ha pasado, fuera del resumen.")
                 continue
 
-            if nearest_minutes is None or m < nearest_minutes:
-                nearest_minutes = m
-                nearest_event = e
+            print(f"[MAIN] {e['name']} pendiente, empieza en {m:.1f} minutos (hora Brasil).")
+            pending.append((m, e))
 
-        print(f"[MAIN] Eventos high pendientes (resumen): {high_pending_count}")
-        if nearest_event:
-            print(f"[MAIN] Evento más cercano: {nearest_event['name']} en {nearest_minutes:.1f} minutos.")
+        pending.sort(key=lambda par: par[0])  # el más cercano primero
+        print(f"[MAIN] Eventos high pendientes (resumen): {len(pending)}")
 
-        lines = []
-        for e in events:
-            if e["impact"].lower() != "high":
-                continue
-            if "passed" in e["time_to"].lower():
-                continue
-
-            if nearest_event is not None and e is nearest_event:
-                line = f"🔥 *{e['datetime_local']}* - *{e['name']}* ({e['time_to']})"
-            else:
-                line = f"*{e['datetime_local']}* - {e['name']} ({e['time_to']})"
-
-            lines.append(line)
-
-        if not lines:
+        if not pending:
             print("[MAIN] No hay eventos high pendientes para resumen.")
         else:
+            nearest_minutes, nearest_event = pending[0]
+            print(f"[MAIN] Evento más cercano: {nearest_event['name']} en {nearest_minutes:.1f} minutos.")
+
+            lines = []
+            for m, e in pending:
+                # time_to recalculado, no el texto congelado que venía en la cache
+                time_to = format_time_to(m)
+                if e is nearest_event:
+                    line = f"🔥 *{e['datetime_local']}* - *{e['name']}* ({time_to})"
+                else:
+                    line = f"*{e['datetime_local']}* - {e['name']} ({time_to})"
+                lines.append(line)
+
             header = f"DRIFT NEWS (hora Brasil, {len(lines)} eventos high):\n\n"
             message = header + "\n".join(lines)
             mentions_line = build_mentions_line()
