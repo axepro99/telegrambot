@@ -11,12 +11,21 @@ URL = "https://www.driftfund.io/news"
 
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
+# Supabase parte el token de auth en varios trozos:
+#   sb-<proyecto>-auth-token.0  y  sb-<proyecto>-auth-token.1
+# Hay que mandar LOS DOS o la sesión no vale.
 COOKIE_NAME = os.getenv("COOKIE_NAME")
 COOKIE_VALUE = os.getenv("COOKIE_VALUE")
+COOKIE_NAME_2 = os.getenv("COOKIE_NAME_2")
+COOKIE_VALUE_2 = os.getenv("COOKIE_VALUE_2")
 
 COOKIES = {}
-if COOKIE_NAME and COOKIE_VALUE:
-    COOKIES[COOKIE_NAME] = COOKIE_VALUE
+for _name, _value in ((COOKIE_NAME, COOKIE_VALUE), (COOKIE_NAME_2, COOKIE_VALUE_2)):
+    if _name and _value:
+        COOKIES[_name] = _value
+
+# Solo nombres, nunca valores (los valores son el token de sesión)
+print(f"[CONFIG] Cookies cargadas: {len(COOKIES)} -> {list(COOKIES.keys())}")
 
 HEADERS = {
     "user-agent": (
