@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-08-01T13:10:31.079448-03:00",
+  "last_news_sent_at": "2026-08-01T13:50:37.241508-03:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "8/3/2026, 1:45:00 PM",
       "datetime_local": "03/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 1d 21h"
+      "time_to": "in 1d 20h"
     },
     {
       "name": "US ISM Manufacturing PMI (Jul)",
@@ -42,7 +42,7 @@
       "datetime_raw": "8/5/2026, 1:45:00 PM",
       "datetime_local": "05/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 3d 21h"
+      "time_to": "in 3d 20h"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Jul)",
