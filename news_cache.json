@@ -63,21 +63,21 @@
       "datetime_raw": "8/7/2026, 12:30:00 PM",
       "datetime_local": "07/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 5d 3h"
+      "time_to": "in 5d 2h"
     },
     {
       "name": "US Nonfarm Payrolls (Jul)",
       "datetime_raw": "8/7/2026, 12:30:00 PM",
       "datetime_local": "07/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 5d 3h"
+      "time_to": "in 5d 2h"
     },
     {
       "name": "US Unemployment Rate (Jul)",
       "datetime_raw": "8/7/2026, 12:30:00 PM",
       "datetime_local": "07/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 5d 3h"
+      "time_to": "in 5d 2h"
     }
   ]
 }
