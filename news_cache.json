@@ -7,21 +7,21 @@
       "datetime_raw": "8/3/2026, 1:45:00 PM",
       "datetime_local": "03/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 44m 3s"
+      "time_to": "in 34m 31s"
     },
     {
       "name": "US ISM Manufacturing PMI (Jul)",
       "datetime_raw": "8/3/2026, 2:00:00 PM",
       "datetime_local": "03/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 59m 3s"
+      "time_to": "in 49m 31s"
     },
     {
       "name": "US ISM Manufacturing Prices (Jul)",
       "datetime_raw": "8/3/2026, 2:00:00 PM",
       "datetime_local": "03/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 59m 3s"
+      "time_to": "in 49m 31s"
     },
     {
       "name": "US JOLTS Job Openings (Jun)",
