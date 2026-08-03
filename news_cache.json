@@ -7,7 +7,7 @@
       "datetime_raw": "8/4/2026, 2:00:00 PM",
       "datetime_local": "04/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 19h 9m"
+      "time_to": "in 18h 59m"
     },
     {
       "name": "US ADP Nonfarm Employment Change (Jul)",
@@ -28,14 +28,14 @@
       "datetime_raw": "8/5/2026, 2:00:00 PM",
       "datetime_local": "05/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 1d 19h"
+      "time_to": "in 1d 18h"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Jul)",
       "datetime_raw": "8/5/2026, 2:00:00 PM",
       "datetime_local": "05/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 1d 19h"
+      "time_to": "in 1d 18h"
     },
     {
       "name": "US Average Hourly Earnings MoM (Jul)",
