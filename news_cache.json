@@ -7,21 +7,21 @@
       "datetime_raw": "8/3/2026, 1:45:00 PM",
       "datetime_local": "03/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 1h 24m"
+      "time_to": "in 1h 14m"
     },
     {
       "name": "US ISM Manufacturing PMI (Jul)",
       "datetime_raw": "8/3/2026, 2:00:00 PM",
       "datetime_local": "03/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 1h 39m"
+      "time_to": "in 1h 29m"
     },
     {
       "name": "US ISM Manufacturing Prices (Jul)",
       "datetime_raw": "8/3/2026, 2:00:00 PM",
       "datetime_local": "03/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 1h 39m"
+      "time_to": "in 1h 29m"
     },
     {
       "name": "US JOLTS Job Openings (Jun)",
@@ -63,21 +63,21 @@
       "datetime_raw": "8/7/2026, 12:30:00 PM",
       "datetime_local": "07/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 4d 0h"
+      "time_to": "in 3d 23h"
     },
     {
       "name": "US Nonfarm Payrolls (Jul)",
       "datetime_raw": "8/7/2026, 12:30:00 PM",
       "datetime_local": "07/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 4d 0h"
+      "time_to": "in 3d 23h"
     },
     {
       "name": "US Unemployment Rate (Jul)",
       "datetime_raw": "8/7/2026, 12:30:00 PM",
       "datetime_local": "07/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 4d 0h"
+      "time_to": "in 3d 23h"
     }
   ]
 }
