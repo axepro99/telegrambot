@@ -7,28 +7,28 @@
       "datetime_raw": "8/7/2026, 12:30:00 PM",
       "datetime_local": "07/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 17h"
+      "time_to": "in 1d 16h"
     },
     {
       "name": "US Nonfarm Payrolls (Jul)",
       "datetime_raw": "8/7/2026, 12:30:00 PM",
       "datetime_local": "07/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 17h"
+      "time_to": "in 1d 16h"
     },
     {
       "name": "US Unemployment Rate (Jul)",
       "datetime_raw": "8/7/2026, 12:30:00 PM",
       "datetime_local": "07/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 17h"
+      "time_to": "in 1d 16h"
     },
     {
       "name": "AU RBA Interest Rate Decision (Aug)",
       "datetime_raw": "8/11/2026, 4:30:00 AM",
       "datetime_local": "11/08/2026 01:30",
       "impact": "high",
-      "time_to": "in 5d 9h"
+      "time_to": "in 5d 8h"
     },
     {
       "name": "US Existing Home Sales (Jul)",
@@ -49,21 +49,21 @@
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 6d 17h"
+      "time_to": "in 6d 16h"
     },
     {
       "name": "US CPI (MoM) (Jul)",
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 6d 17h"
+      "time_to": "in 6d 16h"
     },
     {
       "name": "US Core CPI (MoM) (Jul)",
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 6d 17h"
+      "time_to": "in 6d 16h"
     },
     {
       "name": "UK GDP (YoY) (Q2)",
@@ -91,21 +91,21 @@
       "datetime_raw": "8/13/2026, 12:30:00 PM",
       "datetime_local": "13/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 7d 17h"
+      "time_to": "in 7d 16h"
     },
     {
       "name": "US Core Retail Sales (MoM) (Jul)",
       "datetime_raw": "8/14/2026, 12:30:00 PM",
       "datetime_local": "14/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 8d 17h"
+      "time_to": "in 8d 16h"
     },
     {
       "name": "US Retail Sales (MoM) (Jul)",
       "datetime_raw": "8/14/2026, 12:30:00 PM",
       "datetime_local": "14/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 8d 17h"
+      "time_to": "in 8d 16h"
     }
   ]
 }
