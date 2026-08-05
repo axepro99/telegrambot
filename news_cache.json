@@ -7,49 +7,49 @@
       "datetime_raw": "8/5/2026, 1:45:00 PM",
       "datetime_local": "05/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 19m 58s"
+      "time_to": "in 14m 15s"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Jul)",
       "datetime_raw": "8/5/2026, 2:00:00 PM",
       "datetime_local": "05/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 34m 58s"
+      "time_to": "in 29m 15s"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Jul)",
       "datetime_raw": "8/5/2026, 2:00:00 PM",
       "datetime_local": "05/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 34m 58s"
+      "time_to": "in 29m 15s"
     },
     {
       "name": "US Average Hourly Earnings MoM (Jul)",
       "datetime_raw": "8/7/2026, 12:30:00 PM",
       "datetime_local": "07/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 23h"
+      "time_to": "in 1d 22h"
     },
     {
       "name": "US Nonfarm Payrolls (Jul)",
       "datetime_raw": "8/7/2026, 12:30:00 PM",
       "datetime_local": "07/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 23h"
+      "time_to": "in 1d 22h"
     },
     {
       "name": "US Unemployment Rate (Jul)",
       "datetime_raw": "8/7/2026, 12:30:00 PM",
       "datetime_local": "07/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 23h"
+      "time_to": "in 1d 22h"
     },
     {
       "name": "AU RBA Interest Rate Decision (Aug)",
       "datetime_raw": "8/11/2026, 4:30:00 AM",
       "datetime_local": "11/08/2026 01:30",
       "impact": "high",
-      "time_to": "in 5d 15h"
+      "time_to": "in 5d 14h"
     },
     {
       "name": "US Existing Home Sales (Jul)",
@@ -70,21 +70,21 @@
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 6d 23h"
+      "time_to": "in 6d 22h"
     },
     {
       "name": "US CPI (MoM) (Jul)",
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 6d 23h"
+      "time_to": "in 6d 22h"
     },
     {
       "name": "US Core CPI (MoM) (Jul)",
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 6d 23h"
+      "time_to": "in 6d 22h"
     },
     {
       "name": "UK GDP (YoY) (Q2)",
@@ -112,21 +112,21 @@
       "datetime_raw": "8/13/2026, 12:30:00 PM",
       "datetime_local": "13/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 7d 23h"
+      "time_to": "in 7d 22h"
     },
     {
       "name": "US Core Retail Sales (MoM) (Jul)",
       "datetime_raw": "8/14/2026, 12:30:00 PM",
       "datetime_local": "14/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 8d 23h"
+      "time_to": "in 8d 22h"
     },
     {
       "name": "US Retail Sales (MoM) (Jul)",
       "datetime_raw": "8/14/2026, 12:30:00 PM",
       "datetime_local": "14/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 8d 23h"
+      "time_to": "in 8d 22h"
     }
   ]
 }
