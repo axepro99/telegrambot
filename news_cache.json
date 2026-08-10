@@ -7,7 +7,7 @@
       "datetime_raw": "8/11/2026, 4:30:00 AM",
       "datetime_local": "11/08/2026 01:30",
       "impact": "high",
-      "time_to": "in 15h 9m"
+      "time_to": "in 14h 59m"
     },
     {
       "name": "US Existing Home Sales (Jul)",
@@ -28,21 +28,21 @@
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 23h"
+      "time_to": "in 1d 22h"
     },
     {
       "name": "US CPI (MoM) (Jul)",
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 23h"
+      "time_to": "in 1d 22h"
     },
     {
       "name": "US Core CPI (MoM) (Jul)",
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 23h"
+      "time_to": "in 1d 22h"
     },
     {
       "name": "UK GDP (YoY) (Q2)",
@@ -70,21 +70,21 @@
       "datetime_raw": "8/13/2026, 12:30:00 PM",
       "datetime_local": "13/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 2d 23h"
+      "time_to": "in 2d 22h"
     },
     {
       "name": "US Core Retail Sales (MoM) (Jul)",
       "datetime_raw": "8/14/2026, 12:30:00 PM",
       "datetime_local": "14/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 3d 23h"
+      "time_to": "in 3d 22h"
     },
     {
       "name": "US Retail Sales (MoM) (Jul)",
       "datetime_raw": "8/14/2026, 12:30:00 PM",
       "datetime_local": "14/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 3d 23h"
+      "time_to": "in 3d 22h"
     }
   ]
 }
