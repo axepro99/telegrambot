@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-08-11T05:50:32.574183-03:00",
+  "last_news_sent_at": "2026-08-11T06:30:32.753145-03:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -7,35 +7,35 @@
       "datetime_raw": "8/11/2026, 2:00:00 PM",
       "datetime_local": "11/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 4h 39m"
+      "time_to": "in 4h 29m"
     },
     {
       "name": "DE German CPI (MoM) (Jul)",
       "datetime_raw": "8/12/2026, 6:00:00 AM",
       "datetime_local": "12/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 20h 39m"
+      "time_to": "in 20h 29m"
     },
     {
       "name": "US CPI (YoY) (Jul)",
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 3h"
+      "time_to": "in 1d 2h"
     },
     {
       "name": "US CPI (MoM) (Jul)",
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 3h"
+      "time_to": "in 1d 2h"
     },
     {
       "name": "US Core CPI (MoM) (Jul)",
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 3h"
+      "time_to": "in 1d 2h"
     },
     {
       "name": "UK GDP (YoY) (Q2)",
@@ -63,21 +63,21 @@
       "datetime_raw": "8/13/2026, 12:30:00 PM",
       "datetime_local": "13/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 2d 3h"
+      "time_to": "in 2d 2h"
     },
     {
       "name": "US Core Retail Sales (MoM) (Jul)",
       "datetime_raw": "8/14/2026, 12:30:00 PM",
       "datetime_local": "14/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 3d 3h"
+      "time_to": "in 3d 2h"
     },
     {
       "name": "US Retail Sales (MoM) (Jul)",
       "datetime_raw": "8/14/2026, 12:30:00 PM",
       "datetime_local": "14/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 3d 3h"
+      "time_to": "in 3d 2h"
     }
   ]
 }
