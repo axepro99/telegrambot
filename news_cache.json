@@ -7,14 +7,14 @@
       "datetime_raw": "8/11/2026, 2:00:00 PM",
       "datetime_local": "11/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 2h 2m"
+      "time_to": "in 1h 59m"
     },
     {
       "name": "DE German CPI (MoM) (Jul)",
       "datetime_raw": "8/12/2026, 6:00:00 AM",
       "datetime_local": "12/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 18h 2m"
+      "time_to": "in 17h 59m"
     },
     {
       "name": "US CPI (YoY) (Jul)",
@@ -42,21 +42,21 @@
       "datetime_raw": "8/13/2026, 6:00:00 AM",
       "datetime_local": "13/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 1d 18h"
+      "time_to": "in 1d 17h"
     },
     {
       "name": "UK GDP (MoM) (Jun)",
       "datetime_raw": "8/13/2026, 6:00:00 AM",
       "datetime_local": "13/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 1d 18h"
+      "time_to": "in 1d 17h"
     },
     {
       "name": "UK GDP (QoQ) (Q2)",
       "datetime_raw": "8/13/2026, 6:00:00 AM",
       "datetime_local": "13/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 1d 18h"
+      "time_to": "in 1d 17h"
     },
     {
       "name": "US PPI (MoM) (Jul)",
@@ -91,21 +91,21 @@
       "datetime_raw": "8/19/2026, 6:00:00 AM",
       "datetime_local": "19/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 7d 18h"
+      "time_to": "in 7d 17h"
     },
     {
       "name": "EU CPI (YoY) (Jul)",
       "datetime_raw": "8/19/2026, 9:00:00 AM",
       "datetime_local": "19/08/2026 06:00",
       "impact": "high",
-      "time_to": "in 7d 21h"
+      "time_to": "in 7d 20h"
     },
     {
       "name": "US FOMC Meeting Minutes",
       "datetime_raw": "8/19/2026, 6:00:00 PM",
       "datetime_local": "19/08/2026 15:00",
       "impact": "high",
-      "time_to": "in 8d 6h"
+      "time_to": "in 8d 5h"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Aug)",
