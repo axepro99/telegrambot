@@ -7,28 +7,28 @@
       "datetime_raw": "8/12/2026, 6:00:00 AM",
       "datetime_local": "12/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 14h 59m"
+      "time_to": "in 14h 49m"
     },
     {
       "name": "US CPI (YoY) (Jul)",
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 21h 29m"
+      "time_to": "in 21h 19m"
     },
     {
       "name": "US CPI (MoM) (Jul)",
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 21h 29m"
+      "time_to": "in 21h 19m"
     },
     {
       "name": "US Core CPI (MoM) (Jul)",
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 21h 29m"
+      "time_to": "in 21h 19m"
     },
     {
       "name": "UK GDP (YoY) (Q2)",
