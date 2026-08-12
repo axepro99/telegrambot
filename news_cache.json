@@ -7,42 +7,42 @@
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1h 9m"
+      "time_to": "in 1h 1m"
     },
     {
       "name": "US CPI (MoM) (Jul)",
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1h 9m"
+      "time_to": "in 1h 1m"
     },
     {
       "name": "US Core CPI (MoM) (Jul)",
       "datetime_raw": "8/12/2026, 12:30:00 PM",
       "datetime_local": "12/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1h 9m"
+      "time_to": "in 1h 1m"
     },
     {
       "name": "UK GDP (YoY) (Q2)",
       "datetime_raw": "8/13/2026, 6:00:00 AM",
       "datetime_local": "13/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 18h 39m"
+      "time_to": "in 18h 31m"
     },
     {
       "name": "UK GDP (MoM) (Jun)",
       "datetime_raw": "8/13/2026, 6:00:00 AM",
       "datetime_local": "13/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 18h 39m"
+      "time_to": "in 18h 31m"
     },
     {
       "name": "UK GDP (QoQ) (Q2)",
       "datetime_raw": "8/13/2026, 6:00:00 AM",
       "datetime_local": "13/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 18h 39m"
+      "time_to": "in 18h 31m"
     },
     {
       "name": "US PPI (MoM) (Jul)",
