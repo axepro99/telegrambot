@@ -7,21 +7,21 @@
       "datetime_raw": "8/13/2026, 12:30:00 PM",
       "datetime_local": "13/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1h 9m"
+      "time_to": "in 55m 34s"
     },
     {
       "name": "US Core Retail Sales (MoM) (Jul)",
       "datetime_raw": "8/14/2026, 12:30:00 PM",
       "datetime_local": "14/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 1h"
+      "time_to": "in 1d 0h"
     },
     {
       "name": "US Retail Sales (MoM) (Jul)",
       "datetime_raw": "8/14/2026, 12:30:00 PM",
       "datetime_local": "14/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 1h"
+      "time_to": "in 1d 0h"
     },
     {
       "name": "JP GDP (QoQ) (Q2, prelim)",
@@ -56,14 +56,14 @@
       "datetime_raw": "8/20/2026, 12:30:00 PM",
       "datetime_local": "20/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 7d 1h"
+      "time_to": "in 7d 0h"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "8/20/2026, 12:30:00 PM",
       "datetime_local": "20/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 7d 1h"
+      "time_to": "in 7d 0h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Aug, prelim)",
