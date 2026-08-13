@@ -7,21 +7,21 @@
       "datetime_raw": "8/14/2026, 12:30:00 PM",
       "datetime_local": "14/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 18h 49m"
+      "time_to": "in 18h 34m"
     },
     {
       "name": "US Retail Sales (MoM) (Jul)",
       "datetime_raw": "8/14/2026, 12:30:00 PM",
       "datetime_local": "14/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 18h 49m"
+      "time_to": "in 18h 34m"
     },
     {
       "name": "JP GDP (QoQ) (Q2, prelim)",
       "datetime_raw": "8/16/2026, 11:50:00 PM",
       "datetime_local": "16/08/2026 20:50",
       "impact": "high",
-      "time_to": "in 3d 6h"
+      "time_to": "in 3d 5h"
     },
     {
       "name": "UK CPI (YoY) (Jul)",
@@ -63,14 +63,14 @@
       "datetime_raw": "8/21/2026, 1:45:00 PM",
       "datetime_local": "21/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 7d 20h"
+      "time_to": "in 7d 19h"
     },
     {
       "name": "US S&P Global Services PMI (Aug, prelim)",
       "datetime_raw": "8/21/2026, 1:45:00 PM",
       "datetime_local": "21/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 7d 20h"
+      "time_to": "in 7d 19h"
     }
   ]
 }
