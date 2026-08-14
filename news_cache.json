@@ -7,7 +7,7 @@
       "datetime_raw": "8/16/2026, 11:50:00 PM",
       "datetime_local": "16/08/2026 20:50",
       "impact": "high",
-      "time_to": "in 2d 8h"
+      "time_to": "in 2d 7h"
     },
     {
       "name": "UK CPI (YoY) (Jul)",
@@ -49,14 +49,14 @@
       "datetime_raw": "8/21/2026, 1:45:00 PM",
       "datetime_local": "21/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 6d 22h"
+      "time_to": "in 6d 21h"
     },
     {
       "name": "US S&P Global Services PMI (Aug, prelim)",
       "datetime_raw": "8/21/2026, 1:45:00 PM",
       "datetime_local": "21/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 6d 22h"
+      "time_to": "in 6d 21h"
     }
   ]
 }
