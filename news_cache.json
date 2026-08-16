@@ -7,28 +7,28 @@
       "datetime_raw": "8/16/2026, 11:50:00 PM",
       "datetime_local": "16/08/2026 20:50",
       "impact": "high",
-      "time_to": "in 8h 57m"
+      "time_to": "in 8h 49m"
     },
     {
       "name": "UK CPI (YoY) (Jul)",
       "datetime_raw": "8/19/2026, 6:00:00 AM",
       "datetime_local": "19/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 2d 15h"
+      "time_to": "in 2d 14h"
     },
     {
       "name": "EU CPI (YoY) (Jul)",
       "datetime_raw": "8/19/2026, 9:00:00 AM",
       "datetime_local": "19/08/2026 06:00",
       "impact": "high",
-      "time_to": "in 2d 18h"
+      "time_to": "in 2d 17h"
     },
     {
       "name": "US FOMC Meeting Minutes",
       "datetime_raw": "8/19/2026, 6:00:00 PM",
       "datetime_local": "19/08/2026 15:00",
       "impact": "high",
-      "time_to": "in 3d 3h"
+      "time_to": "in 3d 2h"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Aug)",
@@ -63,21 +63,21 @@
       "datetime_raw": "8/25/2026, 6:00:00 AM",
       "datetime_local": "25/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 8d 15h"
+      "time_to": "in 8d 14h"
     },
     {
       "name": "US CB Consumer Confidence (Aug)",
       "datetime_raw": "8/25/2026, 2:00:00 PM",
       "datetime_local": "25/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 8d 23h"
+      "time_to": "in 8d 22h"
     },
     {
       "name": "US New Home Sales (Jul)",
       "datetime_raw": "8/25/2026, 2:00:00 PM",
       "datetime_local": "25/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 8d 23h"
+      "time_to": "in 8d 22h"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Jul)",
