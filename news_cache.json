@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-08-16T08:59:05.765349-03:00",
+  "last_news_sent_at": "2026-08-16T09:40:25.835625-03:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "8/16/2026, 11:50:00 PM",
       "datetime_local": "16/08/2026 20:50",
       "impact": "high",
-      "time_to": "in 11h 29m"
+      "time_to": "in 11h 9m"
     },
     {
       "name": "UK CPI (YoY) (Jul)",
@@ -35,14 +35,14 @@
       "datetime_raw": "8/20/2026, 12:30:00 PM",
       "datetime_local": "20/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 4d 0h"
+      "time_to": "in 3d 23h"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "8/20/2026, 12:30:00 PM",
       "datetime_local": "20/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 4d 0h"
+      "time_to": "in 3d 23h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Aug, prelim)",
@@ -84,28 +84,28 @@
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 10d 0h"
+      "time_to": "in 9d 23h"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Jul)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 10d 0h"
+      "time_to": "in 9d 23h"
     },
     {
       "name": "US GDP (QoQ) (Q2)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 10d 0h"
+      "time_to": "in 9d 23h"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Jul)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 10d 0h"
+      "time_to": "in 9d 23h"
     }
   ]
 }
