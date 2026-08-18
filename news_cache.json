@@ -7,21 +7,21 @@
       "datetime_raw": "8/19/2026, 6:00:00 AM",
       "datetime_local": "19/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 7h 26m"
+      "time_to": "in 7h 19m"
     },
     {
       "name": "EU CPI (YoY) (Jul)",
       "datetime_raw": "8/19/2026, 9:00:00 AM",
       "datetime_local": "19/08/2026 06:00",
       "impact": "high",
-      "time_to": "in 10h 26m"
+      "time_to": "in 10h 19m"
     },
     {
       "name": "US FOMC Meeting Minutes",
       "datetime_raw": "8/19/2026, 6:00:00 PM",
       "datetime_local": "19/08/2026 15:00",
       "impact": "high",
-      "time_to": "in 19h 26m"
+      "time_to": "in 19h 19m"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Aug)",
