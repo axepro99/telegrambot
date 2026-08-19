@@ -7,14 +7,14 @@
       "datetime_raw": "8/20/2026, 12:30:00 PM",
       "datetime_local": "20/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 16h 35m"
+      "time_to": "in 16h 29m"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "8/20/2026, 12:30:00 PM",
       "datetime_local": "20/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 16h 35m"
+      "time_to": "in 16h 29m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Aug, prelim)",
@@ -35,21 +35,21 @@
       "datetime_raw": "8/25/2026, 6:00:00 AM",
       "datetime_local": "25/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 5d 10h"
+      "time_to": "in 5d 9h"
     },
     {
       "name": "US CB Consumer Confidence (Aug)",
       "datetime_raw": "8/25/2026, 2:00:00 PM",
       "datetime_local": "25/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 5d 18h"
+      "time_to": "in 5d 17h"
     },
     {
       "name": "US New Home Sales (Jul)",
       "datetime_raw": "8/25/2026, 2:00:00 PM",
       "datetime_local": "25/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 5d 18h"
+      "time_to": "in 5d 17h"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Jul)",
