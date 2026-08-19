@@ -7,7 +7,7 @@
       "datetime_raw": "8/19/2026, 6:00:00 PM",
       "datetime_local": "19/08/2026 15:00",
       "impact": "high",
-      "time_to": "in 8h 7m"
+      "time_to": "in 7h 59m"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Aug)",
@@ -42,21 +42,21 @@
       "datetime_raw": "8/25/2026, 6:00:00 AM",
       "datetime_local": "25/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 5d 20h"
+      "time_to": "in 5d 19h"
     },
     {
       "name": "US CB Consumer Confidence (Aug)",
       "datetime_raw": "8/25/2026, 2:00:00 PM",
       "datetime_local": "25/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "US New Home Sales (Jul)",
       "datetime_raw": "8/25/2026, 2:00:00 PM",
       "datetime_local": "25/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Jul)",
