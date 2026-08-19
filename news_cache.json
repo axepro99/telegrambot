@@ -7,35 +7,35 @@
       "datetime_raw": "8/19/2026, 6:00:00 AM",
       "datetime_local": "19/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 4h 39m"
+      "time_to": "in 4h 19m"
     },
     {
       "name": "EU CPI (YoY) (Jul)",
       "datetime_raw": "8/19/2026, 9:00:00 AM",
       "datetime_local": "19/08/2026 06:00",
       "impact": "high",
-      "time_to": "in 7h 39m"
+      "time_to": "in 7h 19m"
     },
     {
       "name": "US FOMC Meeting Minutes",
       "datetime_raw": "8/19/2026, 6:00:00 PM",
       "datetime_local": "19/08/2026 15:00",
       "impact": "high",
-      "time_to": "in 16h 39m"
+      "time_to": "in 16h 19m"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Aug)",
       "datetime_raw": "8/20/2026, 12:30:00 PM",
       "datetime_local": "20/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 11h"
+      "time_to": "in 1d 10h"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "8/20/2026, 12:30:00 PM",
       "datetime_local": "20/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 11h"
+      "time_to": "in 1d 10h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Aug, prelim)",
@@ -77,28 +77,28 @@
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 7d 11h"
+      "time_to": "in 7d 10h"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Jul)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 7d 11h"
+      "time_to": "in 7d 10h"
     },
     {
       "name": "US GDP (QoQ) (Q2)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 7d 11h"
+      "time_to": "in 7d 10h"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Jul)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 7d 11h"
+      "time_to": "in 7d 10h"
     }
   ]
 }
