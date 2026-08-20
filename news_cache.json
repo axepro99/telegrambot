@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-08-20T08:36:01.612169-03:00",
+  "last_news_sent_at": "2026-08-20T09:20:27.202814-03:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -7,14 +7,14 @@
       "datetime_raw": "8/20/2026, 12:30:00 PM",
       "datetime_local": "20/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 29m 18s"
+      "time_to": "in 9m 32s"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "8/20/2026, 12:30:00 PM",
       "datetime_local": "20/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 29m 18s"
+      "time_to": "in 9m 32s"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Aug, prelim)",
