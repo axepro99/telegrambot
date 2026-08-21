@@ -7,28 +7,28 @@
       "datetime_raw": "8/21/2026, 1:45:00 PM",
       "datetime_local": "21/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 7h 4m"
+      "time_to": "in 6h 45m"
     },
     {
       "name": "US S&P Global Services PMI (Aug, prelim)",
       "datetime_raw": "8/21/2026, 1:45:00 PM",
       "datetime_local": "21/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 7h 4m"
+      "time_to": "in 6h 45m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Aug, flash)",
       "datetime_raw": "8/22/2026, 1:45:00 PM",
       "datetime_local": "22/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 1d 7h"
+      "time_to": "in 1d 6h"
     },
     {
       "name": "US S&P Global Services PMI (Aug, flash)",
       "datetime_raw": "8/22/2026, 1:45:00 PM",
       "datetime_local": "22/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 1d 7h"
+      "time_to": "in 1d 6h"
     },
     {
       "name": "DE German GDP (QoQ) (Q2)",
