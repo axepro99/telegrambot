@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-08-21T09:00:43.997694-03:00",
+  "last_news_sent_at": "2026-08-21T09:40:26.130567-03:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -7,14 +7,14 @@
       "datetime_raw": "8/21/2026, 1:45:00 PM",
       "datetime_local": "21/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 1h 24m"
+      "time_to": "in 1h 4m"
     },
     {
       "name": "US S&P Global Services PMI (Aug, prelim)",
       "datetime_raw": "8/21/2026, 1:45:00 PM",
       "datetime_local": "21/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 1h 24m"
+      "time_to": "in 1h 4m"
     },
     {
       "name": "DE German GDP (QoQ) (Q2)",
@@ -42,28 +42,28 @@
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 5d 0h"
+      "time_to": "in 4d 23h"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Jul)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 5d 0h"
+      "time_to": "in 4d 23h"
     },
     {
       "name": "US GDP (QoQ) (Q2)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 5d 0h"
+      "time_to": "in 4d 23h"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Jul)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 5d 0h"
+      "time_to": "in 4d 23h"
     }
   ]
 }
