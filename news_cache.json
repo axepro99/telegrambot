@@ -7,49 +7,49 @@
       "datetime_raw": "8/21/2026, 1:45:00 PM",
       "datetime_local": "21/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 5h 4m"
+      "time_to": "in 4h 44m"
     },
     {
       "name": "US S&P Global Services PMI (Aug, prelim)",
       "datetime_raw": "8/21/2026, 1:45:00 PM",
       "datetime_local": "21/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 5h 4m"
+      "time_to": "in 4h 44m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Aug, flash)",
       "datetime_raw": "8/22/2026, 1:45:00 PM",
       "datetime_local": "22/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 1d 5h"
+      "time_to": "in 1d 4h"
     },
     {
       "name": "US S&P Global Services PMI (Aug, flash)",
       "datetime_raw": "8/22/2026, 1:45:00 PM",
       "datetime_local": "22/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 1d 5h"
+      "time_to": "in 1d 4h"
     },
     {
       "name": "DE German GDP (QoQ) (Q2)",
       "datetime_raw": "8/25/2026, 6:00:00 AM",
       "datetime_local": "25/08/2026 03:00",
       "impact": "high",
-      "time_to": "in 3d 21h"
+      "time_to": "in 3d 20h"
     },
     {
       "name": "US CB Consumer Confidence (Aug)",
       "datetime_raw": "8/25/2026, 2:00:00 PM",
       "datetime_local": "25/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 4d 5h"
+      "time_to": "in 4d 4h"
     },
     {
       "name": "US New Home Sales (Jul)",
       "datetime_raw": "8/25/2026, 2:00:00 PM",
       "datetime_local": "25/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 4d 5h"
+      "time_to": "in 4d 4h"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Jul)",
