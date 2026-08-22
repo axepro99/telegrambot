@@ -28,28 +28,28 @@
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 3d 15h"
+      "time_to": "in 3d 14h"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Jul)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 3d 15h"
+      "time_to": "in 3d 14h"
     },
     {
       "name": "US GDP (QoQ) (Q2)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 3d 15h"
+      "time_to": "in 3d 14h"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Jul)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 3d 15h"
+      "time_to": "in 3d 14h"
     }
   ]
 }
