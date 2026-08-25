@@ -7,14 +7,14 @@
       "datetime_raw": "8/25/2026, 2:00:00 PM",
       "datetime_local": "25/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 3h 2m"
+      "time_to": "in 2h 59m"
     },
     {
       "name": "US New Home Sales (Jul)",
       "datetime_raw": "8/25/2026, 2:00:00 PM",
       "datetime_local": "25/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 3h 2m"
+      "time_to": "in 2h 59m"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Jul)",
@@ -77,7 +77,7 @@
       "datetime_raw": "8/31/2026, 12:00:00 PM",
       "datetime_local": "31/08/2026 09:00",
       "impact": "high",
-      "time_to": "in 6d 1h"
+      "time_to": "in 6d 0h"
     },
     {
       "name": "US Chicago PMI (Aug)",
@@ -91,7 +91,7 @@
       "datetime_raw": "9/1/2026, 9:00:00 AM",
       "datetime_local": "01/09/2026 06:00",
       "impact": "high",
-      "time_to": "in 6d 22h"
+      "time_to": "in 6d 21h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Aug)",
@@ -105,28 +105,28 @@
       "datetime_raw": "9/1/2026, 2:00:00 PM",
       "datetime_local": "01/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 7d 3h"
+      "time_to": "in 7d 2h"
     },
     {
       "name": "US ISM Manufacturing PMI (Aug)",
       "datetime_raw": "9/1/2026, 2:00:00 PM",
       "datetime_local": "01/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 7d 3h"
+      "time_to": "in 7d 2h"
     },
     {
       "name": "US JOLTS Job Openings (Jul)",
       "datetime_raw": "9/1/2026, 2:00:00 PM",
       "datetime_local": "01/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 7d 3h"
+      "time_to": "in 7d 2h"
     },
     {
       "name": "NZ RBNZ Interest Rate Decision",
       "datetime_raw": "9/2/2026, 2:00:00 AM",
       "datetime_local": "01/09/2026 23:00",
       "impact": "high",
-      "time_to": "in 7d 15h"
+      "time_to": "in 7d 14h"
     },
     {
       "name": "US ADP Nonfarm Employment Change (Aug)",
@@ -161,14 +161,14 @@
       "datetime_raw": "9/3/2026, 2:00:00 PM",
       "datetime_local": "03/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 9d 3h"
+      "time_to": "in 9d 2h"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Aug)",
       "datetime_raw": "9/3/2026, 2:00:00 PM",
       "datetime_local": "03/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 9d 3h"
+      "time_to": "in 9d 2h"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Aug)",
