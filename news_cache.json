@@ -7,14 +7,14 @@
       "datetime_raw": "8/25/2026, 2:00:00 PM",
       "datetime_local": "25/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 2h 59m"
+      "time_to": "in 2h 39m"
     },
     {
       "name": "US New Home Sales (Jul)",
       "datetime_raw": "8/25/2026, 2:00:00 PM",
       "datetime_local": "25/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 2h 59m"
+      "time_to": "in 2h 39m"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Jul)",
@@ -133,7 +133,7 @@
       "datetime_raw": "9/2/2026, 12:15:00 PM",
       "datetime_local": "02/09/2026 09:15",
       "impact": "high",
-      "time_to": "in 8d 1h"
+      "time_to": "in 8d 0h"
     },
     {
       "name": "CA BoC Interest Rate Decision",
