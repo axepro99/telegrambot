@@ -7,42 +7,42 @@
       "datetime_raw": "8/25/2026, 2:00:00 PM",
       "datetime_local": "25/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 39m 33s"
+      "time_to": "in 30m 10s"
     },
     {
       "name": "US New Home Sales (Jul)",
       "datetime_raw": "8/25/2026, 2:00:00 PM",
       "datetime_local": "25/08/2026 11:00",
       "impact": "high",
-      "time_to": "in 39m 33s"
+      "time_to": "in 30m 10s"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Jul)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 23h 9m"
+      "time_to": "in 23h 0m"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Jul)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 23h 9m"
+      "time_to": "in 23h 0m"
     },
     {
       "name": "US GDP (QoQ) (Q2)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 23h 9m"
+      "time_to": "in 23h 0m"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Jul)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 23h 9m"
+      "time_to": "in 23h 0m"
     },
     {
       "name": "US Crude Oil Inventories",
