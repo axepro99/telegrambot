@@ -1,48 +1,20 @@
 {
-  "last_news_sent_at": "2026-08-26T08:50:56.766471-03:00",
+  "last_news_sent_at": "2026-08-26T09:40:29.051837-03:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
-    {
-      "name": "US Core PCE Price Index (YoY) (Jul)",
-      "datetime_raw": "8/26/2026, 12:30:00 PM",
-      "datetime_local": "26/08/2026 09:30",
-      "impact": "high",
-      "time_to": "in 9m 34s"
-    },
-    {
-      "name": "US Core PCE Price Index (MoM) (Jul)",
-      "datetime_raw": "8/26/2026, 12:30:00 PM",
-      "datetime_local": "26/08/2026 09:30",
-      "impact": "high",
-      "time_to": "in 9m 34s"
-    },
-    {
-      "name": "US GDP (QoQ) (Q2)",
-      "datetime_raw": "8/26/2026, 12:30:00 PM",
-      "datetime_local": "26/08/2026 09:30",
-      "impact": "high",
-      "time_to": "in 9m 34s"
-    },
-    {
-      "name": "US Durable Goods Orders (MoM) (Jul)",
-      "datetime_raw": "8/26/2026, 12:30:00 PM",
-      "datetime_local": "26/08/2026 09:30",
-      "impact": "high",
-      "time_to": "in 9m 34s"
-    },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "8/26/2026, 2:30:00 PM",
       "datetime_local": "26/08/2026 11:30",
       "impact": "high",
-      "time_to": "in 2h 9m"
+      "time_to": "in 1h 49m"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "8/27/2026, 12:30:00 PM",
       "datetime_local": "27/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 1d 0h"
+      "time_to": "in 23h 49m"
     },
     {
       "name": "US Chicago PMI (Aug)",
@@ -56,7 +28,7 @@
       "datetime_raw": "8/31/2026, 1:30:00 AM",
       "datetime_local": "30/08/2026 22:30",
       "impact": "high",
-      "time_to": "in 4d 13h"
+      "time_to": "in 4d 12h"
     },
     {
       "name": "DE German CPI (MoM) (Aug)",
@@ -133,7 +105,7 @@
       "datetime_raw": "9/3/2026, 12:30:00 PM",
       "datetime_local": "03/09/2026 09:30",
       "impact": "high",
-      "time_to": "in 8d 0h"
+      "time_to": "in 7d 23h"
     },
     {
       "name": "US S&P Global Services PMI (Aug)",
@@ -161,21 +133,21 @@
       "datetime_raw": "9/4/2026, 12:30:00 PM",
       "datetime_local": "04/09/2026 09:30",
       "impact": "high",
-      "time_to": "in 9d 0h"
+      "time_to": "in 8d 23h"
     },
     {
       "name": "US Nonfarm Payrolls (Aug)",
       "datetime_raw": "9/4/2026, 12:30:00 PM",
       "datetime_local": "04/09/2026 09:30",
       "impact": "high",
-      "time_to": "in 9d 0h"
+      "time_to": "in 8d 23h"
     },
     {
       "name": "US Unemployment Rate (Aug)",
       "datetime_raw": "9/4/2026, 12:30:00 PM",
       "datetime_local": "04/09/2026 09:30",
       "impact": "high",
-      "time_to": "in 9d 0h"
+      "time_to": "in 8d 23h"
     }
   ]
 }
