@@ -7,35 +7,35 @@
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 6h 29m"
+      "time_to": "in 6h 9m"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Jul)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 6h 29m"
+      "time_to": "in 6h 9m"
     },
     {
       "name": "US GDP (QoQ) (Q2)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 6h 29m"
+      "time_to": "in 6h 9m"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Jul)",
       "datetime_raw": "8/26/2026, 12:30:00 PM",
       "datetime_local": "26/08/2026 09:30",
       "impact": "high",
-      "time_to": "in 6h 29m"
+      "time_to": "in 6h 9m"
     },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "8/26/2026, 2:30:00 PM",
       "datetime_local": "26/08/2026 11:30",
       "impact": "high",
-      "time_to": "in 8h 29m"
+      "time_to": "in 8h 9m"
     },
     {
       "name": "US Initial Jobless Claims",
@@ -119,7 +119,7 @@
       "datetime_raw": "9/2/2026, 12:15:00 PM",
       "datetime_local": "02/09/2026 09:15",
       "impact": "high",
-      "time_to": "in 7d 6h"
+      "time_to": "in 7d 5h"
     },
     {
       "name": "CA BoC Interest Rate Decision",
