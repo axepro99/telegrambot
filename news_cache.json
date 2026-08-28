@@ -7,14 +7,14 @@
       "datetime_raw": "8/28/2026, 1:45:00 PM",
       "datetime_local": "28/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 11h 24m"
+      "time_to": "in 11h 4m"
     },
     {
       "name": "CN Manufacturing PMI (Aug)",
       "datetime_raw": "8/31/2026, 1:30:00 AM",
       "datetime_local": "30/08/2026 22:30",
       "impact": "high",
-      "time_to": "in 2d 23h"
+      "time_to": "in 2d 22h"
     },
     {
       "name": "DE German CPI (MoM) (Aug)",
@@ -91,7 +91,7 @@
       "datetime_raw": "9/3/2026, 12:30:00 PM",
       "datetime_local": "03/09/2026 09:30",
       "impact": "high",
-      "time_to": "in 6d 10h"
+      "time_to": "in 6d 9h"
     },
     {
       "name": "US S&P Global Services PMI (Aug)",
@@ -119,21 +119,21 @@
       "datetime_raw": "9/4/2026, 12:30:00 PM",
       "datetime_local": "04/09/2026 09:30",
       "impact": "high",
-      "time_to": "in 7d 10h"
+      "time_to": "in 7d 9h"
     },
     {
       "name": "US Nonfarm Payrolls (Aug)",
       "datetime_raw": "9/4/2026, 12:30:00 PM",
       "datetime_local": "04/09/2026 09:30",
       "impact": "high",
-      "time_to": "in 7d 10h"
+      "time_to": "in 7d 9h"
     },
     {
       "name": "US Unemployment Rate (Aug)",
       "datetime_raw": "9/4/2026, 12:30:00 PM",
       "datetime_local": "04/09/2026 09:30",
       "impact": "high",
-      "time_to": "in 7d 10h"
+      "time_to": "in 7d 9h"
     }
   ]
 }
