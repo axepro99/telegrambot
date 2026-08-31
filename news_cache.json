@@ -7,21 +7,21 @@
       "datetime_raw": "8/31/2026, 1:30:00 AM",
       "datetime_local": "30/08/2026 22:30",
       "impact": "high",
-      "time_to": "in 29m 14s"
+      "time_to": "in 9m 23s"
     },
     {
       "name": "DE German CPI (MoM) (Aug)",
       "datetime_raw": "8/31/2026, 12:00:00 PM",
       "datetime_local": "31/08/2026 09:00",
       "impact": "high",
-      "time_to": "in 10h 59m"
+      "time_to": "in 10h 39m"
     },
     {
       "name": "US Chicago PMI (Aug)",
       "datetime_raw": "8/31/2026, 1:45:00 PM",
       "datetime_local": "31/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 12h 44m"
+      "time_to": "in 12h 24m"
     },
     {
       "name": "EU CPI (YoY) (Aug)",
@@ -70,7 +70,7 @@
       "datetime_raw": "9/2/2026, 12:15:00 PM",
       "datetime_local": "02/09/2026 09:15",
       "impact": "high",
-      "time_to": "in 2d 11h"
+      "time_to": "in 2d 10h"
     },
     {
       "name": "CA BoC Interest Rate Decision",
