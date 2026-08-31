@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-08-31T07:20:39.233972-03:00",
+  "last_news_sent_at": "2026-08-31T08:00:48.520736-03:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -7,56 +7,56 @@
       "datetime_raw": "8/31/2026, 12:00:00 PM",
       "datetime_local": "31/08/2026 09:00",
       "impact": "high",
-      "time_to": "in 1h 19m"
+      "time_to": "in 59m 11s"
     },
     {
       "name": "US Chicago PMI (Aug)",
       "datetime_raw": "8/31/2026, 1:45:00 PM",
       "datetime_local": "31/08/2026 10:45",
       "impact": "high",
-      "time_to": "in 3h 4m"
+      "time_to": "in 2h 44m"
     },
     {
       "name": "EU CPI (YoY) (Aug)",
       "datetime_raw": "9/1/2026, 9:00:00 AM",
       "datetime_local": "01/09/2026 06:00",
       "impact": "high",
-      "time_to": "in 22h 19m"
+      "time_to": "in 21h 59m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Aug)",
       "datetime_raw": "9/1/2026, 1:45:00 PM",
       "datetime_local": "01/09/2026 10:45",
       "impact": "high",
-      "time_to": "in 1d 3h"
+      "time_to": "in 1d 2h"
     },
     {
       "name": "US ISM Manufacturing Prices (Aug)",
       "datetime_raw": "9/1/2026, 2:00:00 PM",
       "datetime_local": "01/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 1d 3h"
+      "time_to": "in 1d 2h"
     },
     {
       "name": "US ISM Manufacturing PMI (Aug)",
       "datetime_raw": "9/1/2026, 2:00:00 PM",
       "datetime_local": "01/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 1d 3h"
+      "time_to": "in 1d 2h"
     },
     {
       "name": "US JOLTS Job Openings (Jul)",
       "datetime_raw": "9/1/2026, 2:00:00 PM",
       "datetime_local": "01/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 1d 3h"
+      "time_to": "in 1d 2h"
     },
     {
       "name": "NZ RBNZ Interest Rate Decision",
       "datetime_raw": "9/2/2026, 2:00:00 AM",
       "datetime_local": "01/09/2026 23:00",
       "impact": "high",
-      "time_to": "in 1d 15h"
+      "time_to": "in 1d 14h"
     },
     {
       "name": "US ADP Nonfarm Employment Change (Aug)",
@@ -70,7 +70,7 @@
       "datetime_raw": "9/2/2026, 1:45:00 PM",
       "datetime_local": "02/09/2026 10:45",
       "impact": "high",
-      "time_to": "in 2d 3h"
+      "time_to": "in 2d 2h"
     },
     {
       "name": "US Initial Jobless Claims",
@@ -84,21 +84,21 @@
       "datetime_raw": "9/3/2026, 1:45:00 PM",
       "datetime_local": "03/09/2026 10:45",
       "impact": "high",
-      "time_to": "in 3d 3h"
+      "time_to": "in 3d 2h"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Aug)",
       "datetime_raw": "9/3/2026, 2:00:00 PM",
       "datetime_local": "03/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 3d 3h"
+      "time_to": "in 3d 2h"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Aug)",
       "datetime_raw": "9/3/2026, 2:00:00 PM",
       "datetime_local": "03/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 3d 3h"
+      "time_to": "in 3d 2h"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Aug)",
@@ -126,14 +126,14 @@
       "datetime_raw": "9/7/2026, 11:50:00 PM",
       "datetime_local": "07/09/2026 20:50",
       "impact": "high",
-      "time_to": "in 7d 13h"
+      "time_to": "in 7d 12h"
     },
     {
       "name": "DE German CPI (MoM) (Aug)",
       "datetime_raw": "9/10/2026, 6:00:00 AM",
       "datetime_local": "10/09/2026 03:00",
       "impact": "high",
-      "time_to": "in 9d 19h"
+      "time_to": "in 9d 18h"
     },
     {
       "name": "EU Deposit Facility Rate (Sep)",
@@ -161,14 +161,14 @@
       "datetime_raw": "9/10/2026, 2:00:00 PM",
       "datetime_local": "10/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 10d 3h"
+      "time_to": "in 10d 2h"
     },
     {
       "name": "UK GDP (MoM) (Jul)",
       "datetime_raw": "9/11/2026, 6:00:00 AM",
       "datetime_local": "11/09/2026 03:00",
       "impact": "high",
-      "time_to": "in 10d 19h"
+      "time_to": "in 10d 18h"
     },
     {
       "name": "US CPI (MoM) (Aug)",
