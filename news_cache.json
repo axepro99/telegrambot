@@ -7,35 +7,35 @@
       "datetime_raw": "9/1/2026, 9:00:00 AM",
       "datetime_local": "01/09/2026 06:00",
       "impact": "high",
-      "time_to": "in 7h 39m"
+      "time_to": "in 7h 33m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Aug)",
       "datetime_raw": "9/1/2026, 1:45:00 PM",
       "datetime_local": "01/09/2026 10:45",
       "impact": "high",
-      "time_to": "in 12h 24m"
+      "time_to": "in 12h 18m"
     },
     {
       "name": "US ISM Manufacturing Prices (Aug)",
       "datetime_raw": "9/1/2026, 2:00:00 PM",
       "datetime_local": "01/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 12h 39m"
+      "time_to": "in 12h 33m"
     },
     {
       "name": "US ISM Manufacturing PMI (Aug)",
       "datetime_raw": "9/1/2026, 2:00:00 PM",
       "datetime_local": "01/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 12h 39m"
+      "time_to": "in 12h 33m"
     },
     {
       "name": "US JOLTS Job Openings (Jul)",
       "datetime_raw": "9/1/2026, 2:00:00 PM",
       "datetime_local": "01/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 12h 39m"
+      "time_to": "in 12h 33m"
     },
     {
       "name": "NZ RBNZ Interest Rate Decision",
