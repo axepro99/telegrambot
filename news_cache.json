@@ -7,21 +7,21 @@
       "datetime_raw": "9/2/2026, 2:00:00 AM",
       "datetime_local": "01/09/2026 23:00",
       "impact": "high",
-      "time_to": "in 39m 30s"
+      "time_to": "in 38m 26s"
     },
     {
       "name": "US ADP Nonfarm Employment Change (Aug)",
       "datetime_raw": "9/2/2026, 12:15:00 PM",
       "datetime_local": "02/09/2026 09:15",
       "impact": "high",
-      "time_to": "in 10h 54m"
+      "time_to": "in 10h 53m"
     },
     {
       "name": "CA BoC Interest Rate Decision",
       "datetime_raw": "9/2/2026, 1:45:00 PM",
       "datetime_local": "02/09/2026 10:45",
       "impact": "high",
-      "time_to": "in 12h 24m"
+      "time_to": "in 12h 23m"
     },
     {
       "name": "US Initial Jobless Claims",
