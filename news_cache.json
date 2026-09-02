@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-09-02T11:20:31.507502-03:00",
+  "last_news_sent_at": "2026-09-02T12:00:54.910094-03:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -7,28 +7,28 @@
       "datetime_raw": "9/3/2026, 12:30:00 PM",
       "datetime_local": "03/09/2026 09:30",
       "impact": "high",
-      "time_to": "in 21h 47m"
+      "time_to": "in 21h 29m"
     },
     {
       "name": "US S&P Global Services PMI (Aug)",
       "datetime_raw": "9/3/2026, 1:45:00 PM",
       "datetime_local": "03/09/2026 10:45",
       "impact": "high",
-      "time_to": "in 23h 2m"
+      "time_to": "in 22h 44m"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Aug)",
       "datetime_raw": "9/3/2026, 2:00:00 PM",
       "datetime_local": "03/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 23h 17m"
+      "time_to": "in 22h 59m"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Aug)",
       "datetime_raw": "9/3/2026, 2:00:00 PM",
       "datetime_local": "03/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 23h 17m"
+      "time_to": "in 22h 59m"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Aug)",
@@ -56,14 +56,14 @@
       "datetime_raw": "9/7/2026, 11:50:00 PM",
       "datetime_local": "07/09/2026 20:50",
       "impact": "high",
-      "time_to": "in 5d 9h"
+      "time_to": "in 5d 8h"
     },
     {
       "name": "DE German CPI (MoM) (Aug)",
       "datetime_raw": "9/10/2026, 6:00:00 AM",
       "datetime_local": "10/09/2026 03:00",
       "impact": "high",
-      "time_to": "in 7d 15h"
+      "time_to": "in 7d 14h"
     },
     {
       "name": "EU Deposit Facility Rate (Sep)",
@@ -91,14 +91,14 @@
       "datetime_raw": "9/10/2026, 2:00:00 PM",
       "datetime_local": "10/09/2026 11:00",
       "impact": "high",
-      "time_to": "in 7d 23h"
+      "time_to": "in 7d 22h"
     },
     {
       "name": "UK GDP (MoM) (Jul)",
       "datetime_raw": "9/11/2026, 6:00:00 AM",
       "datetime_local": "11/09/2026 03:00",
       "impact": "high",
-      "time_to": "in 8d 15h"
+      "time_to": "in 8d 14h"
     },
     {
       "name": "US CPI (MoM) (Aug)",
