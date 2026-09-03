@@ -14,42 +14,42 @@
       "datetime_raw": "Thu, Sep 3, 01:45 PM·13:45UTC",
       "datetime_local": "Thu, Sep 3, 01:45 PM·13:45UTC",
       "impact": "high",
-      "time_to": "in 44m 4s"
+      "time_to": "in 24m 25s"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Aug)",
       "datetime_raw": "Thu, Sep 3, 02:00 PM·14:00UTC",
       "datetime_local": "Thu, Sep 3, 02:00 PM·14:00UTC",
       "impact": "high",
-      "time_to": "in 59m 4s"
+      "time_to": "in 39m 25s"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Aug)",
       "datetime_raw": "Thu, Sep 3, 02:00 PM·14:00UTC",
       "datetime_local": "Thu, Sep 3, 02:00 PM·14:00UTC",
       "impact": "high",
-      "time_to": "in 59m 4s"
+      "time_to": "in 39m 25s"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Aug)",
       "datetime_raw": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 23h 29m"
+      "time_to": "in 23h 9m"
     },
     {
       "name": "US Nonfarm Payrolls (Aug)",
       "datetime_raw": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 23h 29m"
+      "time_to": "in 23h 9m"
     },
     {
       "name": "US Unemployment Rate (Aug)",
       "datetime_raw": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 23h 29m"
+      "time_to": "in 23h 9m"
     },
     {
       "name": "JP GDP (QoQ) (Q2)",
@@ -70,14 +70,14 @@
       "datetime_raw": "Thu, Sep 10, 12:15 PM·12:15UTC",
       "datetime_local": "Thu, Sep 10, 12:15 PM·12:15UTC",
       "impact": "high",
-      "time_to": "in 6d 23h"
+      "time_to": "in 6d 22h"
     },
     {
       "name": "EU ECB Interest Rate Decision (Sep)",
       "datetime_raw": "Thu, Sep 10, 12:15 PM·12:15UTC",
       "datetime_local": "Thu, Sep 10, 12:15 PM·12:15UTC",
       "impact": "high",
-      "time_to": "in 6d 23h"
+      "time_to": "in 6d 22h"
     },
     {
       "name": "US PPI (MoM) (Aug)",
