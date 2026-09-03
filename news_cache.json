@@ -7,49 +7,49 @@
       "datetime_raw": "Thu, Sep 3, 12:30 PM·12:30UTC",
       "datetime_local": "Thu, Sep 3, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 2h 9m"
+      "time_to": "in 1h 49m"
     },
     {
       "name": "US S&P Global Services PMI (Aug)",
       "datetime_raw": "Thu, Sep 3, 01:45 PM·13:45UTC",
       "datetime_local": "Thu, Sep 3, 01:45 PM·13:45UTC",
       "impact": "high",
-      "time_to": "in 3h 24m"
+      "time_to": "in 3h 4m"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Aug)",
       "datetime_raw": "Thu, Sep 3, 02:00 PM·14:00UTC",
       "datetime_local": "Thu, Sep 3, 02:00 PM·14:00UTC",
       "impact": "high",
-      "time_to": "in 3h 39m"
+      "time_to": "in 3h 19m"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Aug)",
       "datetime_raw": "Thu, Sep 3, 02:00 PM·14:00UTC",
       "datetime_local": "Thu, Sep 3, 02:00 PM·14:00UTC",
       "impact": "high",
-      "time_to": "in 3h 39m"
+      "time_to": "in 3h 19m"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Aug)",
       "datetime_raw": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 1d 2h"
+      "time_to": "in 1d 1h"
     },
     {
       "name": "US Nonfarm Payrolls (Aug)",
       "datetime_raw": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 1d 2h"
+      "time_to": "in 1d 1h"
     },
     {
       "name": "US Unemployment Rate (Aug)",
       "datetime_raw": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 1d 2h"
+      "time_to": "in 1d 1h"
     },
     {
       "name": "JP GDP (QoQ) (Q2)",
@@ -84,7 +84,7 @@
       "datetime_raw": "Thu, Sep 10, 12:30 PM·12:30UTC",
       "datetime_local": "Thu, Sep 10, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 7d 2h"
+      "time_to": "in 7d 1h"
     },
     {
       "name": "US Existing Home Sales (Aug)",
@@ -105,21 +105,21 @@
       "datetime_raw": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 8d 2h"
+      "time_to": "in 8d 1h"
     },
     {
       "name": "US CPI (YoY) (Aug)",
       "datetime_raw": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 8d 2h"
+      "time_to": "in 8d 1h"
     },
     {
       "name": "US Core CPI (MoM) (Aug)",
       "datetime_raw": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 8d 2h"
+      "time_to": "in 8d 1h"
     }
   ]
 }
