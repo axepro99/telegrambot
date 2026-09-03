@@ -7,28 +7,28 @@
       "datetime_raw": "Thu, Sep 3, 12:30 PM·12:30UTC",
       "datetime_local": "Thu, Sep 3, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 4h 49m"
+      "time_to": "in 4h 29m"
     },
     {
       "name": "US S&P Global Services PMI (Aug)",
       "datetime_raw": "Thu, Sep 3, 01:45 PM·13:45UTC",
       "datetime_local": "Thu, Sep 3, 01:45 PM·13:45UTC",
       "impact": "high",
-      "time_to": "in 6h 4m"
+      "time_to": "in 5h 44m"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Aug)",
       "datetime_raw": "Thu, Sep 3, 02:00 PM·14:00UTC",
       "datetime_local": "Thu, Sep 3, 02:00 PM·14:00UTC",
       "impact": "high",
-      "time_to": "in 6h 19m"
+      "time_to": "in 5h 59m"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Aug)",
       "datetime_raw": "Thu, Sep 3, 02:00 PM·14:00UTC",
       "datetime_local": "Thu, Sep 3, 02:00 PM·14:00UTC",
       "impact": "high",
-      "time_to": "in 6h 19m"
+      "time_to": "in 5h 59m"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Aug)",
@@ -56,14 +56,14 @@
       "datetime_raw": "Mon, Sep 7, 11:50 PM·23:50UTC",
       "datetime_local": "Mon, Sep 7, 11:50 PM·23:50UTC",
       "impact": "high",
-      "time_to": "in 4d 16h"
+      "time_to": "in 4d 15h"
     },
     {
       "name": "DE German CPI (MoM) (Aug)",
       "datetime_raw": "Thu, Sep 10, 06:00 AM·06:00UTC",
       "datetime_local": "Thu, Sep 10, 06:00 AM·06:00UTC",
       "impact": "high",
-      "time_to": "in 6d 22h"
+      "time_to": "in 6d 21h"
     },
     {
       "name": "EU Deposit Facility Rate (Sep)",
@@ -91,14 +91,14 @@
       "datetime_raw": "Thu, Sep 10, 02:00 PM·14:00UTC",
       "datetime_local": "Thu, Sep 10, 02:00 PM·14:00UTC",
       "impact": "high",
-      "time_to": "in 7d 6h"
+      "time_to": "in 7d 5h"
     },
     {
       "name": "UK GDP (MoM) (Jul)",
       "datetime_raw": "Fri, Sep 11, 06:00 AM·06:00UTC",
       "datetime_local": "Fri, Sep 11, 06:00 AM·06:00UTC",
       "impact": "high",
-      "time_to": "in 7d 22h"
+      "time_to": "in 7d 21h"
     },
     {
       "name": "US CPI (MoM) (Aug)",
