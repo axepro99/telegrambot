@@ -7,35 +7,35 @@
       "datetime_raw": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 4h 49m"
+      "time_to": "in 4h 29m"
     },
     {
       "name": "US Nonfarm Payrolls (Aug)",
       "datetime_raw": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 4h 49m"
+      "time_to": "in 4h 29m"
     },
     {
       "name": "US Unemployment Rate (Aug)",
       "datetime_raw": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 4, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 4h 49m"
+      "time_to": "in 4h 29m"
     },
     {
       "name": "JP GDP (QoQ) (Q2)",
       "datetime_raw": "Mon, Sep 7, 11:50 PM·23:50UTC",
       "datetime_local": "Mon, Sep 7, 11:50 PM·23:50UTC",
       "impact": "high",
-      "time_to": "in 3d 16h"
+      "time_to": "in 3d 15h"
     },
     {
       "name": "DE German CPI (MoM) (Aug)",
       "datetime_raw": "Thu, Sep 10, 06:00 AM·06:00UTC",
       "datetime_local": "Thu, Sep 10, 06:00 AM·06:00UTC",
       "impact": "high",
-      "time_to": "in 5d 22h"
+      "time_to": "in 5d 21h"
     },
     {
       "name": "EU Deposit Facility Rate (Sep)",
@@ -63,14 +63,14 @@
       "datetime_raw": "Thu, Sep 10, 02:00 PM·14:00UTC",
       "datetime_local": "Thu, Sep 10, 02:00 PM·14:00UTC",
       "impact": "high",
-      "time_to": "in 6d 6h"
+      "time_to": "in 6d 5h"
     },
     {
       "name": "UK GDP (MoM) (Jul)",
       "datetime_raw": "Fri, Sep 11, 06:00 AM·06:00UTC",
       "datetime_local": "Fri, Sep 11, 06:00 AM·06:00UTC",
       "impact": "high",
-      "time_to": "in 6d 22h"
+      "time_to": "in 6d 21h"
     },
     {
       "name": "US CPI (MoM) (Aug)",
