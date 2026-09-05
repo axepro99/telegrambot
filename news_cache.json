@@ -7,14 +7,14 @@
       "datetime_raw": "Mon, Sep 7, 11:50 PM·23:50UTC",
       "datetime_local": "Mon, Sep 7, 11:50 PM·23:50UTC",
       "impact": "high",
-      "time_to": "in 2d 19h"
+      "time_to": "in 2d 18h"
     },
     {
       "name": "DE German CPI (MoM) (Aug)",
       "datetime_raw": "Thu, Sep 10, 06:00 AM·06:00UTC",
       "datetime_local": "Thu, Sep 10, 06:00 AM·06:00UTC",
       "impact": "high",
-      "time_to": "in 5d 1h"
+      "time_to": "in 5d 0h"
     },
     {
       "name": "EU Deposit Facility Rate (Sep)",
@@ -42,14 +42,14 @@
       "datetime_raw": "Thu, Sep 10, 02:00 PM·14:00UTC",
       "datetime_local": "Thu, Sep 10, 02:00 PM·14:00UTC",
       "impact": "high",
-      "time_to": "in 5d 9h"
+      "time_to": "in 5d 8h"
     },
     {
       "name": "UK GDP (MoM) (Jul)",
       "datetime_raw": "Fri, Sep 11, 06:00 AM·06:00UTC",
       "datetime_local": "Fri, Sep 11, 06:00 AM·06:00UTC",
       "impact": "high",
-      "time_to": "in 6d 1h"
+      "time_to": "in 6d 0h"
     },
     {
       "name": "US CPI (MoM) (Aug)",
