@@ -35,7 +35,7 @@
       "datetime_raw": "Thu, Sep 10, 12:30 PM·12:30UTC",
       "datetime_local": "Thu, Sep 10, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 4d 19h"
+      "time_to": "in 4d 18h"
     },
     {
       "name": "US Existing Home Sales (Aug)",
@@ -56,21 +56,21 @@
       "datetime_raw": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 5d 19h"
+      "time_to": "in 5d 18h"
     },
     {
       "name": "US CPI (YoY) (Aug)",
       "datetime_raw": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 5d 19h"
+      "time_to": "in 5d 18h"
     },
     {
       "name": "US Core CPI (MoM) (Aug)",
       "datetime_raw": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 5d 19h"
+      "time_to": "in 5d 18h"
     }
   ]
 }
