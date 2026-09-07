@@ -7,21 +7,21 @@
       "datetime_raw": "Mon, Sep 7, 11:50 PM·23:50UTC",
       "datetime_local": "Mon, Sep 7, 11:50 PM·23:50UTC",
       "impact": "high",
-      "time_to": "in 6h 9m"
+      "time_to": "in 5h 49m"
     },
     {
       "name": "US 10-Year Note Auction",
       "datetime_raw": "Wed, Sep 9, 05:00 PM·17:00UTC",
       "datetime_local": "Wed, Sep 9, 05:00 PM·17:00UTC",
       "impact": "high",
-      "time_to": "in 1d 23h"
+      "time_to": "in 1d 22h"
     },
     {
       "name": "DE German CPI (MoM) (Aug)",
       "datetime_raw": "Thu, Sep 10, 06:00 AM·06:00UTC",
       "datetime_local": "Thu, Sep 10, 06:00 AM·06:00UTC",
       "impact": "high",
-      "time_to": "in 2d 12h"
+      "time_to": "in 2d 11h"
     },
     {
       "name": "EU Deposit Facility Rate (Sep)",
@@ -56,21 +56,21 @@
       "datetime_raw": "Thu, Sep 10, 12:45 PM·12:45UTC",
       "datetime_local": "Thu, Sep 10, 12:45 PM·12:45UTC",
       "impact": "high",
-      "time_to": "in 2d 19h"
+      "time_to": "in 2d 18h"
     },
     {
       "name": "US Existing Home Sales (Aug)",
       "datetime_raw": "Thu, Sep 10, 02:00 PM·14:00UTC",
       "datetime_local": "Thu, Sep 10, 02:00 PM·14:00UTC",
       "impact": "high",
-      "time_to": "in 2d 20h"
+      "time_to": "in 2d 19h"
     },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "Thu, Sep 10, 04:00 PM·16:00UTC",
       "datetime_local": "Thu, Sep 10, 04:00 PM·16:00UTC",
       "impact": "high",
-      "time_to": "in 2d 22h"
+      "time_to": "in 2d 21h"
     },
     {
       "name": "US 30-Year Bond Auction",
@@ -84,7 +84,7 @@
       "datetime_raw": "Fri, Sep 11, 06:00 AM·06:00UTC",
       "datetime_local": "Fri, Sep 11, 06:00 AM·06:00UTC",
       "impact": "high",
-      "time_to": "in 3d 12h"
+      "time_to": "in 3d 11h"
     },
     {
       "name": "US CPI (MoM) (Aug)",
@@ -112,7 +112,7 @@
       "datetime_raw": "Wed, Sep 16, 06:00 AM·06:00UTC",
       "datetime_local": "Wed, Sep 16, 06:00 AM·06:00UTC",
       "impact": "high",
-      "time_to": "in 8d 12h"
+      "time_to": "in 8d 11h"
     },
     {
       "name": "US Core Retail Sales (MoM) (Aug)",
@@ -133,21 +133,21 @@
       "datetime_raw": "Wed, Sep 16, 06:00 PM·18:00UTC",
       "datetime_local": "Wed, Sep 16, 06:00 PM·18:00UTC",
       "impact": "high",
-      "time_to": "in 9d 0h"
+      "time_to": "in 8d 23h"
     },
     {
       "name": "EU CPI (YoY) (Aug)",
       "datetime_raw": "Thu, Sep 17, 09:00 AM·09:00UTC",
       "datetime_local": "Thu, Sep 17, 09:00 AM·09:00UTC",
       "impact": "high",
-      "time_to": "in 9d 15h"
+      "time_to": "in 9d 14h"
     },
     {
       "name": "UK BoE Interest Rate Decision (Sep)",
       "datetime_raw": "Thu, Sep 17, 11:00 AM·11:00UTC",
       "datetime_local": "Thu, Sep 17, 11:00 AM·11:00UTC",
       "impact": "high",
-      "time_to": "in 9d 17h"
+      "time_to": "in 9d 16h"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Sep)",
