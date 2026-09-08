@@ -35,14 +35,14 @@
       "datetime_raw": "Thu, Sep 10, 12:30 PM·12:30UTC",
       "datetime_local": "Thu, Sep 10, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 2d 9h"
+      "time_to": "in 2d 8h"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Sep 10, 12:30 PM·12:30UTC",
       "datetime_local": "Thu, Sep 10, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 2d 9h"
+      "time_to": "in 2d 8h"
     },
     {
       "name": "EU ECB Press Conference",
@@ -84,21 +84,21 @@
       "datetime_raw": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 3d 9h"
+      "time_to": "in 3d 8h"
     },
     {
       "name": "US CPI (YoY) (Aug)",
       "datetime_raw": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 3d 9h"
+      "time_to": "in 3d 8h"
     },
     {
       "name": "US Core CPI (MoM) (Aug)",
       "datetime_raw": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 3d 9h"
+      "time_to": "in 3d 8h"
     },
     {
       "name": "UK CPI (YoY) (Aug)",
@@ -112,14 +112,14 @@
       "datetime_raw": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "datetime_local": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 8d 9h"
+      "time_to": "in 8d 8h"
     },
     {
       "name": "US Retail Sales (MoM) (Aug)",
       "datetime_raw": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "datetime_local": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 8d 9h"
+      "time_to": "in 8d 8h"
     },
     {
       "name": "US Fed Interest Rate Decision",
@@ -147,7 +147,7 @@
       "datetime_raw": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "datetime_local": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 9d 9h"
+      "time_to": "in 9d 8h"
     }
   ]
 }
