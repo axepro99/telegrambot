@@ -21,14 +21,14 @@
       "datetime_raw": "Thu, Sep 10, 12:15 PM·12:15UTC",
       "datetime_local": "Thu, Sep 10, 12:15 PM·12:15UTC",
       "impact": "high",
-      "time_to": "in 2d 2h"
+      "time_to": "in 2d 1h"
     },
     {
       "name": "EU ECB Interest Rate Decision (Sep)",
       "datetime_raw": "Thu, Sep 10, 12:15 PM·12:15UTC",
       "datetime_local": "Thu, Sep 10, 12:15 PM·12:15UTC",
       "impact": "high",
-      "time_to": "in 2d 2h"
+      "time_to": "in 2d 1h"
     },
     {
       "name": "US PPI (MoM) (Aug)",
@@ -70,7 +70,7 @@
       "datetime_raw": "Thu, Sep 10, 05:01 PM·17:01UTC",
       "datetime_local": "Thu, Sep 10, 05:01 PM·17:01UTC",
       "impact": "high",
-      "time_to": "in 2d 7h"
+      "time_to": "in 2d 6h"
     },
     {
       "name": "UK GDP (MoM) (Jul)",
