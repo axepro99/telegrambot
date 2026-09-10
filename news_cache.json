@@ -56,42 +56,42 @@
       "datetime_raw": "Thu, Sep 10, 04:00 PM·16:00UTC",
       "datetime_local": "Thu, Sep 10, 04:00 PM·16:00UTC",
       "impact": "high",
-      "time_to": "in 39m 24s"
+      "time_to": "in 19m 25s"
     },
     {
       "name": "US 30-Year Bond Auction",
       "datetime_raw": "Thu, Sep 10, 05:01 PM·17:01UTC",
       "datetime_local": "Thu, Sep 10, 05:01 PM·17:01UTC",
       "impact": "high",
-      "time_to": "in 1h 40m"
+      "time_to": "in 1h 20m"
     },
     {
       "name": "UK GDP (MoM) (Jul)",
       "datetime_raw": "Fri, Sep 11, 06:00 AM·06:00UTC",
       "datetime_local": "Fri, Sep 11, 06:00 AM·06:00UTC",
       "impact": "high",
-      "time_to": "in 14h 39m"
+      "time_to": "in 14h 19m"
     },
     {
       "name": "US CPI (MoM) (Aug)",
       "datetime_raw": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 21h 9m"
+      "time_to": "in 20h 49m"
     },
     {
       "name": "US CPI (YoY) (Aug)",
       "datetime_raw": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 21h 9m"
+      "time_to": "in 20h 49m"
     },
     {
       "name": "US Core CPI (MoM) (Aug)",
       "datetime_raw": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 21h 9m"
+      "time_to": "in 20h 49m"
     },
     {
       "name": "UK CPI (YoY) (Aug)",
@@ -105,14 +105,14 @@
       "datetime_raw": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "datetime_local": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 5d 21h"
+      "time_to": "in 5d 20h"
     },
     {
       "name": "US Retail Sales (MoM) (Aug)",
       "datetime_raw": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "datetime_local": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 5d 21h"
+      "time_to": "in 5d 20h"
     },
     {
       "name": "US Fed Interest Rate Decision",
@@ -140,7 +140,7 @@
       "datetime_raw": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "datetime_local": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 6d 21h"
+      "time_to": "in 6d 20h"
     }
   ]
 }
