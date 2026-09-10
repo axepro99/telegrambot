@@ -14,63 +14,63 @@
       "datetime_raw": "Thu, Sep 10, 12:15 PM·12:15UTC",
       "datetime_local": "Thu, Sep 10, 12:15 PM·12:15UTC",
       "impact": "high",
-      "time_to": "in 13m 59s"
+      "time_to": "passed"
     },
     {
       "name": "EU ECB Interest Rate Decision (Sep)",
       "datetime_raw": "Thu, Sep 10, 12:15 PM·12:15UTC",
       "datetime_local": "Thu, Sep 10, 12:15 PM·12:15UTC",
       "impact": "high",
-      "time_to": "in 13m 59s"
+      "time_to": "passed"
     },
     {
       "name": "US PPI (MoM) (Aug)",
       "datetime_raw": "Thu, Sep 10, 12:30 PM·12:30UTC",
       "datetime_local": "Thu, Sep 10, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 28m 59s"
+      "time_to": "in 9m 22s"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Sep 10, 12:30 PM·12:30UTC",
       "datetime_local": "Thu, Sep 10, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 28m 59s"
+      "time_to": "in 9m 22s"
     },
     {
       "name": "EU ECB Press Conference",
       "datetime_raw": "Thu, Sep 10, 12:45 PM·12:45UTC",
       "datetime_local": "Thu, Sep 10, 12:45 PM·12:45UTC",
       "impact": "high",
-      "time_to": "in 43m 59s"
+      "time_to": "in 24m 22s"
     },
     {
       "name": "US Existing Home Sales (Aug)",
       "datetime_raw": "Thu, Sep 10, 02:00 PM·14:00UTC",
       "datetime_local": "Thu, Sep 10, 02:00 PM·14:00UTC",
       "impact": "high",
-      "time_to": "in 1h 58m"
+      "time_to": "in 1h 39m"
     },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "Thu, Sep 10, 04:00 PM·16:00UTC",
       "datetime_local": "Thu, Sep 10, 04:00 PM·16:00UTC",
       "impact": "high",
-      "time_to": "in 3h 58m"
+      "time_to": "in 3h 39m"
     },
     {
       "name": "US 30-Year Bond Auction",
       "datetime_raw": "Thu, Sep 10, 05:01 PM·17:01UTC",
       "datetime_local": "Thu, Sep 10, 05:01 PM·17:01UTC",
       "impact": "high",
-      "time_to": "in 4h 59m"
+      "time_to": "in 4h 40m"
     },
     {
       "name": "UK GDP (MoM) (Jul)",
       "datetime_raw": "Fri, Sep 11, 06:00 AM·06:00UTC",
       "datetime_local": "Fri, Sep 11, 06:00 AM·06:00UTC",
       "impact": "high",
-      "time_to": "in 17h 58m"
+      "time_to": "in 17h 39m"
     },
     {
       "name": "US CPI (MoM) (Aug)",
