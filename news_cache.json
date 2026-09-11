@@ -14,21 +14,21 @@
       "datetime_raw": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 2h 9m"
+      "time_to": "in 1h 49m"
     },
     {
       "name": "US CPI (YoY) (Aug)",
       "datetime_raw": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 2h 9m"
+      "time_to": "in 1h 49m"
     },
     {
       "name": "US Core CPI (MoM) (Aug)",
       "datetime_raw": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "datetime_local": "Fri, Sep 11, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 2h 9m"
+      "time_to": "in 1h 49m"
     },
     {
       "name": "UK CPI (YoY) (Aug)",
@@ -42,14 +42,14 @@
       "datetime_raw": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "datetime_local": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 5d 2h"
+      "time_to": "in 5d 1h"
     },
     {
       "name": "US Retail Sales (MoM) (Aug)",
       "datetime_raw": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "datetime_local": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 5d 2h"
+      "time_to": "in 5d 1h"
     },
     {
       "name": "US Fed Interest Rate Decision",
@@ -77,7 +77,7 @@
       "datetime_raw": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "datetime_local": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 6d 2h"
+      "time_to": "in 6d 1h"
     }
   ]
 }
