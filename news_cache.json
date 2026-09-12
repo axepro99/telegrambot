@@ -14,14 +14,14 @@
       "datetime_raw": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "datetime_local": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 4d 11h"
+      "time_to": "in 4d 10h"
     },
     {
       "name": "US Retail Sales (MoM) (Aug)",
       "datetime_raw": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "datetime_local": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 4d 11h"
+      "time_to": "in 4d 10h"
     },
     {
       "name": "US Fed Interest Rate Decision",
@@ -49,7 +49,7 @@
       "datetime_raw": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "datetime_local": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "impact": "high",
-      "time_to": "in 5d 11h"
+      "time_to": "in 5d 10h"
     }
   ]
 }
