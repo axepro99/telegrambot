@@ -1,5 +1,6 @@
 import os
 import json
+import re
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
@@ -12,7 +13,7 @@ URL = "https://www.driftfund.io/news"
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 # Supabase parte el token de auth en varios trozos:
-#   sb-<proyecto>-auth-token.0  y  sb-<proyecto>-auth-token.1
+# sb--auth-token.0 y sb--auth-token.1
 # Hay que mandar LOS DOS o la sesión no vale.
 COOKIE_NAME = os.getenv("COOKIE_NAME")
 COOKIE_VALUE = os.getenv("COOKIE_VALUE")
@@ -56,8 +57,9 @@ HEADERS = {
 
 # Drift da las fechas en UTC (SOURCE_TZ)
 SOURCE_TZ = pytz.utc
-# Ahora usamos horario de Brasil (São Paulo, UTC-3 sin DST) [web:672][web:675][web:667][web:674]
+# Ahora usamos horario de Bangkok, Tailandia (UTC+7 sin DST)
 TARGET_TZ = pytz.timezone("Asia/Bangkok")
+TARGET_TZ_NAME = "BKK"
 
 CACHE_FILE = "news_cache.json"
 
@@ -68,7 +70,6 @@ MENTIONS = [
 
 # Mención solo para avisos de cookie/estado raro
 ERROR_MENTION = "@xaxepro99"
-
 
 # ========= HTTP =========
 
@@ -108,26 +109,64 @@ def fetch_html_safe() -> str | None:
         send_telegram_message(msg)
         return None
 
-
 # ========= TIEMPO =========
 
+def parse_drift_datetime(date_str: str) -> datetime:
+    """
+    Convierte la fecha de Drift a un datetime con zona UTC.
+
+    Formato nuevo de Drift:
+    Wed, Sep 16, 06:00 AM·06:00UTC
+
+    También admite el formato antiguo:
+    09/16/2026, 06:00:00 AM
+    """
+    date_str = date_str.strip()
+
+    # Formato nuevo: Wed, Sep 16, 06:00 AM·06:00UTC
+    match = re.match(
+        r"^[A-Za-z]{3},\s+([A-Za-z]{3})\s+(\d{1,2}),\s+"
+        r"(\d{1,2}:\d{2}\s+[AP]M)",
+        date_str,
+    )
+
+    if match:
+        month, day, time_part = match.groups()
+
+        # El año no viene en el texto; se toma del año actual en UTC.
+        year = datetime.now(SOURCE_TZ).year
+
+        dt_naive = datetime.strptime(
+            f"{month} {day} {year} {time_part}",
+            "%b %d %Y %I:%M %p",
+        )
+
+        return SOURCE_TZ.localize(dt_naive)
+
+    # Formato antiguo: 09/16/2026, 06:00:00 AM
+    dt_naive = datetime.strptime(
+        date_str,
+        "%m/%d/%Y, %I:%M:%S %p",
+    )
+
+    return SOURCE_TZ.localize(dt_naive)
+
+
 def parse_datetime_to_target(date_str: str) -> str:
-    """Convierte fecha de Drift (UTC) a horario de Thailand (BKK)."""
-    dt_naive = datetime.strptime(date_str, "%m/%d/%Y, %I:%M:%S %p")
-    dt_source = SOURCE_TZ.localize(dt_naive)
-    dt_target = dt_source.astimezone(TARGET_TZ)  # [web:673][web:674][web:676]
+    """Convierte fecha de Drift (UTC) a horario de Bangkok (BKK)."""
+    dt_source = parse_drift_datetime(date_str)
+    dt_target = dt_source.astimezone(TARGET_TZ)
     return dt_target.strftime("%d/%m/%Y %H:%M")
 
 
 def minutes_until_event(datetime_raw: str) -> float:
-    """Minutos desde ahora (Brasil) hasta la hora del evento. Puede ser negativo."""
-    dt_naive = datetime.strptime(datetime_raw, "%m/%d/%Y, %I:%M:%S %p")
-    dt_source = SOURCE_TZ.localize(dt_naive)
+    """Minutos desde ahora (BKK) hasta la hora del evento. Puede ser negativo."""
+    dt_source = parse_drift_datetime(datetime_raw)
     dt_target = dt_source.astimezone(TARGET_TZ)
 
     now_local = datetime.now(TARGET_TZ)
     delta = dt_target - now_local
-    return delta.total_seconds() / 60.0  # la diferencia es la misma en cualquier huso [web:663]
+    return delta.total_seconds() / 60.0  # la diferencia es la misma en cualquier huso
 
 
 def format_time_to(minutes: float) -> str:
@@ -153,7 +192,6 @@ def is_pending(event) -> bool:
     except Exception as ex:
         print(f"[TIME] No se pudo calcular minutos para {event.get('name')}: {ex}")
         return True  # ante la duda, no lo borramos
-
 
 # ========= PARSEO =========
 
@@ -194,15 +232,14 @@ def parse_events(html: str):
 
         events.append({
             "name": name,
-            "datetime_raw": datetime_str_raw,   # siempre en formato Drift (UTC string)
-            "datetime_local": datetime_target,  # ahora en horario de Brasil
+            "datetime_raw": datetime_str_raw,  # siempre en formato Drift (UTC string)
+            "datetime_local": datetime_target,  # ahora en horario de Bangkok
             "impact": impact,
             "time_to": time_to,
         })
 
     print(f"[PARSE] Eventos parseados: {len(events)}")
     return events
-
 
 # ========= CACHE =========
 
@@ -215,7 +252,6 @@ def load_cache():
             "cache_created_at": None,
             "events": [],
         }
-
     try:
         with open(CACHE_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -260,7 +296,6 @@ def save_cache(last_news_sent_at, events, cache_created_at=None):
     except Exception as e:
         print("[CACHE] Error guardando cache:", e)
 
-
 # ========= TELEGRAM =========
 
 def send_telegram_message(text: str):
@@ -274,7 +309,6 @@ def send_telegram_message(text: str):
         "text": text,
         "parse_mode": "Markdown",
     }
-
     try:
         r = requests.post(base_url, data=payload, timeout=10)
         print(f"[TELEGRAM] Status: {r.status_code}")
@@ -287,7 +321,6 @@ def build_mentions_line() -> str:
     if not MENTIONS:
         return ""
     return " ".join(MENTIONS)
-
 
 # ========= ALERTAS < 1 HORA =========
 
@@ -314,7 +347,7 @@ def send_alerts_for_upcoming_events(events):
             print(f"[ALERT] No se pudo calcular minutos para {e['name']}: {ex}")
             continue
 
-        print(f"[ALERT] {e['name']} empieza en {minutes:.1f} minutos (hora Brasil).")
+        print(f"[ALERT] {e['name']} empieza en {minutes:.1f} minutos (hora BKK).")
 
         if minutes <= 0:
             continue  # ya han pasado o están empezando
@@ -329,7 +362,6 @@ def send_alerts_for_upcoming_events(events):
 
     if alerts_sent == 0:
         print("[ALERT] No hay eventos high con menos de 1h para alerta.")
-
 
 # ========= MAIN =========
 
@@ -388,7 +420,7 @@ def main():
     if 0 < num_high_pending <= 3:
         warning = (
             f"DRIFT WARNING: el bot ve {num_high_pending} eventos high pendientes "
-            "en horario de Brasil. Si ves más en la web, posible problema de cookies.\n"
+            "en horario BKK. Si ves más en la web, posible problema de cookies.\n"
             f"{ERROR_MENTION}"
         )
         print("[MAIN]", warning)
@@ -396,7 +428,7 @@ def main():
 
     # 3. Decidir si toca enviar resumen de noticias (cada 30 minutos)
     now_local = datetime.now(TARGET_TZ)
-    print(f"[MAIN] Ahora (Brasil, TARGET_TZ): {now_local.isoformat()}")
+    print(f"[MAIN] Ahora ({TARGET_TZ_NAME}, TARGET_TZ): {now_local.isoformat()}")
 
     should_send_news = False
 
@@ -440,7 +472,7 @@ def main():
                 print(f"[MAIN] {e['name']} ya ha pasado, fuera del resumen.")
                 continue
 
-            print(f"[MAIN] {e['name']} pendiente, empieza en {m:.1f} minutos (hora Brasil).")
+            print(f"[MAIN] {e['name']} pendiente, empieza en {m:.1f} minutos (hora BKK).")
             pending.append((m, e))
 
         pending.sort(key=lambda par: par[0])  # el más cercano primero
