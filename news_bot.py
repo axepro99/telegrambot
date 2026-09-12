@@ -57,7 +57,7 @@ HEADERS = {
 # Drift da las fechas en UTC (SOURCE_TZ)
 SOURCE_TZ = pytz.utc
 # Ahora usamos horario de Brasil (São Paulo, UTC-3 sin DST) [web:672][web:675][web:667][web:674]
-TARGET_TZ = pytz.timezone("America/Sao_Paulo")
+TARGET_TZ = pytz.timezone("Asia/Bangkok")
 
 CACHE_FILE = "news_cache.json"
 
@@ -112,7 +112,7 @@ def fetch_html_safe() -> str | None:
 # ========= TIEMPO =========
 
 def parse_datetime_to_target(date_str: str) -> str:
-    """Convierte fecha de Drift (UTC) a horario de Brasil (São Paulo)."""
+    """Convierte fecha de Drift (UTC) a horario de Thailand (BKK)."""
     dt_naive = datetime.strptime(date_str, "%m/%d/%Y, %I:%M:%S %p")
     dt_source = SOURCE_TZ.localize(dt_naive)
     dt_target = dt_source.astimezone(TARGET_TZ)  # [web:673][web:674][web:676]
@@ -462,7 +462,7 @@ def main():
                     line = f"*{e['datetime_local']}* - {e['name']} ({time_to})"
                 lines.append(line)
 
-            header = f"DRIFT NEWS (hora Brasil, {len(lines)} eventos high):\n\n"
+            header = f"DRIFT NEWS (hora BKK, {len(lines)} eventos high):\n\n"
             message = header + "\n".join(lines)
             mentions_line = build_mentions_line()
             if mentions_line:
