@@ -14,21 +14,21 @@
       "datetime_raw": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "datetime_local": "16/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 2d 19h"
+      "time_to": "in 2d 18h"
     },
     {
       "name": "US Retail Sales (MoM) (Aug)",
       "datetime_raw": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "datetime_local": "16/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 2d 19h"
+      "time_to": "in 2d 18h"
     },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "Wed, Sep 16, 02:30 PM·14:30UTC",
       "datetime_local": "16/09/2026 21:30",
       "impact": "high",
-      "time_to": "in 2d 21h"
+      "time_to": "in 2d 20h"
     },
     {
       "name": "US Fed Interest Rate Decision",
@@ -56,7 +56,7 @@
       "datetime_raw": "Wed, Sep 16, 06:30 PM·18:30UTC",
       "datetime_local": "17/09/2026 01:30",
       "impact": "high",
-      "time_to": "in 3d 1h"
+      "time_to": "in 3d 0h"
     },
     {
       "name": "EU CPI (YoY) (Aug)",
@@ -77,14 +77,14 @@
       "datetime_raw": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "datetime_local": "17/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 3d 19h"
+      "time_to": "in 3d 18h"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "datetime_local": "17/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 3d 19h"
+      "time_to": "in 3d 18h"
     },
     {
       "name": "JP BoJ Interest Rate Decision",
@@ -112,7 +112,7 @@
       "datetime_raw": "Thu, Sep 24, 07:30 AM·07:30UTC",
       "datetime_local": "24/09/2026 14:30",
       "impact": "high",
-      "time_to": "in 10d 14h"
+      "time_to": "in 10d 13h"
     },
     {
       "name": "US New Home Sales (Aug)",
@@ -126,7 +126,7 @@
       "datetime_raw": "Fri, Sep 25, 12:30 PM·12:30UTC",
       "datetime_local": "25/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 11d 19h"
+      "time_to": "in 11d 18h"
     }
   ]
 }
