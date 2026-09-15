@@ -7,21 +7,21 @@
       "datetime_raw": "Wed, Sep 16, 06:00 AM·06:00UTC",
       "datetime_local": "16/09/2026 13:00",
       "impact": "high",
-      "time_to": "in 15h 58m"
+      "time_to": "in 15h 39m"
     },
     {
       "name": "US Core Retail Sales (MoM) (Aug)",
       "datetime_raw": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "datetime_local": "16/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 22h 28m"
+      "time_to": "in 22h 9m"
     },
     {
       "name": "US Retail Sales (MoM) (Aug)",
       "datetime_raw": "Wed, Sep 16, 12:30 PM·12:30UTC",
       "datetime_local": "16/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 22h 28m"
+      "time_to": "in 22h 9m"
     },
     {
       "name": "US Crude Oil Inventories",
