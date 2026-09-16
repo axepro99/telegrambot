@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-09-17T05:00:53.419392+07:00",
+  "last_news_sent_at": "2026-09-17T05:40:32.425206+07:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -7,28 +7,28 @@
       "datetime_raw": "Thu, Sep 17, 09:00 AM·09:00UTC",
       "datetime_local": "17/09/2026 16:00",
       "impact": "high",
-      "time_to": "in 10h 36m"
+      "time_to": "in 10h 19m"
     },
     {
       "name": "UK BoE Interest Rate Decision (Sep)",
       "datetime_raw": "Thu, Sep 17, 11:00 AM·11:00UTC",
       "datetime_local": "17/09/2026 18:00",
       "impact": "high",
-      "time_to": "in 12h 36m"
+      "time_to": "in 12h 19m"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Sep)",
       "datetime_raw": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "datetime_local": "17/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 14h 6m"
+      "time_to": "in 13h 49m"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "datetime_local": "17/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 14h 6m"
+      "time_to": "in 13h 49m"
     },
     {
       "name": "JP BoJ Interest Rate Decision",
@@ -56,7 +56,7 @@
       "datetime_raw": "Thu, Sep 24, 07:30 AM·07:30UTC",
       "datetime_local": "24/09/2026 14:30",
       "impact": "high",
-      "time_to": "in 7d 9h"
+      "time_to": "in 7d 8h"
     },
     {
       "name": "US New Home Sales (Aug)",
@@ -70,7 +70,7 @@
       "datetime_raw": "Fri, Sep 25, 12:30 PM·12:30UTC",
       "datetime_local": "25/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 8d 14h"
+      "time_to": "in 8d 13h"
     }
   ]
 }
