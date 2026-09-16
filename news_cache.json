@@ -7,63 +7,63 @@
       "datetime_raw": "Wed, Sep 16, 06:00 PM·18:00UTC",
       "datetime_local": "17/09/2026 01:00",
       "impact": "high",
-      "time_to": "in 1h 7m"
+      "time_to": "in 59m 1s"
     },
     {
       "name": "US FOMC Economic Projections",
       "datetime_raw": "Wed, Sep 16, 06:00 PM·18:00UTC",
       "datetime_local": "17/09/2026 01:00",
       "impact": "high",
-      "time_to": "in 1h 7m"
+      "time_to": "in 59m 1s"
     },
     {
       "name": "US FOMC Statement",
       "datetime_raw": "Wed, Sep 16, 06:00 PM·18:00UTC",
       "datetime_local": "17/09/2026 01:00",
       "impact": "high",
-      "time_to": "in 1h 7m"
+      "time_to": "in 59m 1s"
     },
     {
       "name": "US FOMC Press Conference",
       "datetime_raw": "Wed, Sep 16, 06:30 PM·18:30UTC",
       "datetime_local": "17/09/2026 01:30",
       "impact": "high",
-      "time_to": "in 1h 37m"
+      "time_to": "in 1h 29m"
     },
     {
       "name": "EU CPI (YoY) (Aug)",
       "datetime_raw": "Thu, Sep 17, 09:00 AM·09:00UTC",
       "datetime_local": "17/09/2026 16:00",
       "impact": "high",
-      "time_to": "in 16h 7m"
+      "time_to": "in 15h 59m"
     },
     {
       "name": "UK BoE Interest Rate Decision (Sep)",
       "datetime_raw": "Thu, Sep 17, 11:00 AM·11:00UTC",
       "datetime_local": "17/09/2026 18:00",
       "impact": "high",
-      "time_to": "in 18h 7m"
+      "time_to": "in 17h 59m"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Sep)",
       "datetime_raw": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "datetime_local": "17/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 19h 37m"
+      "time_to": "in 19h 29m"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "datetime_local": "17/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 19h 37m"
+      "time_to": "in 19h 29m"
     },
     {
       "name": "JP BoJ Interest Rate Decision",
       "datetime_raw": "Fri, Sep 18, 03:00 AM·03:00UTC",
       "datetime_local": "18/09/2026 10:00",
       "impact": "high",
-      "time_to": "in 1d 10h"
+      "time_to": "in 1d 9h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Sep)",
@@ -91,7 +91,7 @@
       "datetime_raw": "Thu, Sep 24, 02:00 PM·14:00UTC",
       "datetime_local": "24/09/2026 21:00",
       "impact": "high",
-      "time_to": "in 7d 21h"
+      "time_to": "in 7d 20h"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Aug)",
