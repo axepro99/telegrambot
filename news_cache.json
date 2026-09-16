@@ -7,63 +7,63 @@
       "datetime_raw": "Wed, Sep 16, 02:30 PM·14:30UTC",
       "datetime_local": "16/09/2026 21:30",
       "impact": "high",
-      "time_to": "in 29m 0s"
+      "time_to": "in 9m 26s"
     },
     {
       "name": "US Fed Interest Rate Decision",
       "datetime_raw": "Wed, Sep 16, 06:00 PM·18:00UTC",
       "datetime_local": "17/09/2026 01:00",
       "impact": "high",
-      "time_to": "in 3h 59m"
+      "time_to": "in 3h 39m"
     },
     {
       "name": "US FOMC Economic Projections",
       "datetime_raw": "Wed, Sep 16, 06:00 PM·18:00UTC",
       "datetime_local": "17/09/2026 01:00",
       "impact": "high",
-      "time_to": "in 3h 59m"
+      "time_to": "in 3h 39m"
     },
     {
       "name": "US FOMC Statement",
       "datetime_raw": "Wed, Sep 16, 06:00 PM·18:00UTC",
       "datetime_local": "17/09/2026 01:00",
       "impact": "high",
-      "time_to": "in 3h 59m"
+      "time_to": "in 3h 39m"
     },
     {
       "name": "US FOMC Press Conference",
       "datetime_raw": "Wed, Sep 16, 06:30 PM·18:30UTC",
       "datetime_local": "17/09/2026 01:30",
       "impact": "high",
-      "time_to": "in 4h 29m"
+      "time_to": "in 4h 9m"
     },
     {
       "name": "EU CPI (YoY) (Aug)",
       "datetime_raw": "Thu, Sep 17, 09:00 AM·09:00UTC",
       "datetime_local": "17/09/2026 16:00",
       "impact": "high",
-      "time_to": "in 18h 59m"
+      "time_to": "in 18h 39m"
     },
     {
       "name": "UK BoE Interest Rate Decision (Sep)",
       "datetime_raw": "Thu, Sep 17, 11:00 AM·11:00UTC",
       "datetime_local": "17/09/2026 18:00",
       "impact": "high",
-      "time_to": "in 20h 59m"
+      "time_to": "in 20h 39m"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Sep)",
       "datetime_raw": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "datetime_local": "17/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 22h 29m"
+      "time_to": "in 22h 9m"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Sep 17, 12:30 PM·12:30UTC",
       "datetime_local": "17/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 22h 29m"
+      "time_to": "in 22h 9m"
     },
     {
       "name": "JP BoJ Interest Rate Decision",
