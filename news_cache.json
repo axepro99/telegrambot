@@ -7,21 +7,21 @@
       "datetime_raw": "Fri, Sep 18, 03:00 AM·03:00UTC",
       "datetime_local": "18/09/2026 10:00",
       "impact": "high",
-      "time_to": "in 10h 19m"
+      "time_to": "in 9h 58m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Sep)",
       "datetime_raw": "Wed, Sep 23, 01:45 PM·13:45UTC",
       "datetime_local": "23/09/2026 20:45",
       "impact": "high",
-      "time_to": "in 5d 21h"
+      "time_to": "in 5d 20h"
     },
     {
       "name": "US S&P Global Services PMI (Sep)",
       "datetime_raw": "Wed, Sep 23, 01:45 PM·13:45UTC",
       "datetime_local": "23/09/2026 20:45",
       "impact": "high",
-      "time_to": "in 5d 21h"
+      "time_to": "in 5d 20h"
     },
     {
       "name": "CH SNB Interest Rate Decision (Q3)",
@@ -35,7 +35,7 @@
       "datetime_raw": "Thu, Sep 24, 02:00 PM·14:00UTC",
       "datetime_local": "24/09/2026 21:00",
       "impact": "high",
-      "time_to": "in 6d 21h"
+      "time_to": "in 6d 20h"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Aug)",
