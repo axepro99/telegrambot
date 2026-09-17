@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-09-18T05:40:33.721060+07:00",
+  "last_news_sent_at": "2026-09-18T06:20:36.728903+07:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "Fri, Sep 18, 03:00 AM·03:00UTC",
       "datetime_local": "18/09/2026 10:00",
       "impact": "high",
-      "time_to": "in 3h 59m"
+      "time_to": "in 3h 39m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Sep)",
