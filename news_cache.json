@@ -7,7 +7,7 @@
       "datetime_raw": "Fri, Sep 18, 03:00 AM·03:00UTC",
       "datetime_local": "18/09/2026 10:00",
       "impact": "high",
-      "time_to": "in 1h 39m"
+      "time_to": "in 1h 25m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Sep)",
@@ -28,7 +28,7 @@
       "datetime_raw": "Thu, Sep 24, 07:30 AM·07:30UTC",
       "datetime_local": "24/09/2026 14:30",
       "impact": "high",
-      "time_to": "in 6d 6h"
+      "time_to": "in 6d 5h"
     },
     {
       "name": "US New Home Sales (Aug)",
@@ -42,7 +42,7 @@
       "datetime_raw": "Fri, Sep 25, 12:30 PM·12:30UTC",
       "datetime_local": "25/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 7d 11h"
+      "time_to": "in 7d 10h"
     }
   ]
 }
