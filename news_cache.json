@@ -7,21 +7,21 @@
       "datetime_raw": "Thu, Sep 24, 07:30 AM·07:30UTC",
       "datetime_local": "24/09/2026 14:30",
       "impact": "high",
-      "time_to": "in 7h 49m"
+      "time_to": "in 7h 32m"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Sep 24, 12:30 PM·12:30UTC",
       "datetime_local": "24/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 12h 49m"
+      "time_to": "in 12h 32m"
     },
     {
       "name": "US New Home Sales (Aug)",
       "datetime_raw": "Thu, Sep 24, 02:00 PM·14:00UTC",
       "datetime_local": "24/09/2026 21:00",
       "impact": "high",
-      "time_to": "in 14h 19m"
+      "time_to": "in 14h 2m"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Aug)",
@@ -112,14 +112,14 @@
       "datetime_raw": "Wed, Sep 30, 01:45 PM·13:45UTC",
       "datetime_local": "30/09/2026 20:45",
       "impact": "high",
-      "time_to": "in 6d 14h"
+      "time_to": "in 6d 13h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Sep)",
       "datetime_raw": "Thu, Oct 1, 01:45 PM·13:45UTC",
       "datetime_local": "01/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 7d 14h"
+      "time_to": "in 7d 13h"
     },
     {
       "name": "US ISM Manufacturing PMI (Sep)",
