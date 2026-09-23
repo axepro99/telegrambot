@@ -7,28 +7,28 @@
       "datetime_raw": "Wed, Sep 23, 02:30 PM·14:30UTC",
       "datetime_local": "23/09/2026 21:30",
       "impact": "high",
-      "time_to": "in 9m 23s"
+      "time_to": "in 5m 1s"
     },
     {
       "name": "CH SNB Interest Rate Decision (Q3)",
       "datetime_raw": "Thu, Sep 24, 07:30 AM·07:30UTC",
       "datetime_local": "24/09/2026 14:30",
       "impact": "high",
-      "time_to": "in 17h 9m"
+      "time_to": "in 17h 5m"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Sep 24, 12:30 PM·12:30UTC",
       "datetime_local": "24/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 22h 9m"
+      "time_to": "in 22h 5m"
     },
     {
       "name": "US New Home Sales (Aug)",
       "datetime_raw": "Thu, Sep 24, 02:00 PM·14:00UTC",
       "datetime_local": "24/09/2026 21:00",
       "impact": "high",
-      "time_to": "in 23h 39m"
+      "time_to": "in 23h 35m"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Aug)",
