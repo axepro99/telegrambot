@@ -7,7 +7,7 @@
       "datetime_raw": "Fri, Sep 25, 12:30 PM·12:30UTC",
       "datetime_local": "25/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 12h 49m"
+      "time_to": "in 12h 34m"
     },
     {
       "name": "AU RBA Interest Rate Decision (Sep)",
@@ -91,14 +91,14 @@
       "datetime_raw": "Wed, Sep 30, 01:45 PM·13:45UTC",
       "datetime_local": "30/09/2026 20:45",
       "impact": "high",
-      "time_to": "in 5d 14h"
+      "time_to": "in 5d 13h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Sep)",
       "datetime_raw": "Thu, Oct 1, 01:45 PM·13:45UTC",
       "datetime_local": "01/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 6d 14h"
+      "time_to": "in 6d 13h"
     },
     {
       "name": "US ISM Manufacturing PMI (Sep)",
