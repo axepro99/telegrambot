@@ -7,14 +7,14 @@
       "datetime_raw": "Thu, Sep 24, 12:30 PM·12:30UTC",
       "datetime_local": "24/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 49m 25s"
+      "time_to": "in 29m 2s"
     },
     {
       "name": "US New Home Sales (Aug)",
       "datetime_raw": "Thu, Sep 24, 02:00 PM·14:00UTC",
       "datetime_local": "24/09/2026 21:00",
       "impact": "high",
-      "time_to": "in 2h 19m"
+      "time_to": "in 1h 59m"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Aug)",
@@ -35,14 +35,14 @@
       "datetime_raw": "Tue, Sep 29, 02:00 PM·14:00UTC",
       "datetime_local": "29/09/2026 21:00",
       "impact": "high",
-      "time_to": "in 5d 2h"
+      "time_to": "in 5d 1h"
     },
     {
       "name": "US JOLTS Job Openings (Aug)",
       "datetime_raw": "Tue, Sep 29, 02:00 PM·14:00UTC",
       "datetime_local": "29/09/2026 21:00",
       "impact": "high",
-      "time_to": "in 5d 2h"
+      "time_to": "in 5d 1h"
     },
     {
       "name": "CN Manufacturing PMI (Sep)",
@@ -56,21 +56,21 @@
       "datetime_raw": "Wed, Sep 30, 06:00 AM·06:00UTC",
       "datetime_local": "30/09/2026 13:00",
       "impact": "high",
-      "time_to": "in 5d 18h"
+      "time_to": "in 5d 17h"
     },
     {
       "name": "UK GDP (YoY) (Q2)",
       "datetime_raw": "Wed, Sep 30, 06:00 AM·06:00UTC",
       "datetime_local": "30/09/2026 13:00",
       "impact": "high",
-      "time_to": "in 5d 18h"
+      "time_to": "in 5d 17h"
     },
     {
       "name": "DE German CPI (MoM) (Sep)",
       "datetime_raw": "Wed, Sep 30, 12:00 PM·12:00UTC",
       "datetime_local": "30/09/2026 19:00",
       "impact": "high",
-      "time_to": "in 6d 0h"
+      "time_to": "in 5d 23h"
     },
     {
       "name": "US ADP Nonfarm Employment Change (Sep)",
@@ -105,35 +105,35 @@
       "datetime_raw": "Wed, Sep 30, 01:45 PM·13:45UTC",
       "datetime_local": "30/09/2026 20:45",
       "impact": "high",
-      "time_to": "in 6d 2h"
+      "time_to": "in 6d 1h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Sep)",
       "datetime_raw": "Thu, Oct 1, 01:45 PM·13:45UTC",
       "datetime_local": "01/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 7d 2h"
+      "time_to": "in 7d 1h"
     },
     {
       "name": "US ISM Manufacturing PMI (Sep)",
       "datetime_raw": "Thu, Oct 1, 02:00 PM·14:00UTC",
       "datetime_local": "01/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 7d 2h"
+      "time_to": "in 7d 1h"
     },
     {
       "name": "US ISM Manufacturing Prices (Sep)",
       "datetime_raw": "Thu, Oct 1, 02:00 PM·14:00UTC",
       "datetime_local": "01/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 7d 2h"
+      "time_to": "in 7d 1h"
     },
     {
       "name": "EU CPI (YoY) (Sep)",
       "datetime_raw": "Fri, Oct 2, 09:00 AM·09:00UTC",
       "datetime_local": "02/10/2026 16:00",
       "impact": "high",
-      "time_to": "in 7d 21h"
+      "time_to": "in 7d 20h"
     },
     {
       "name": "US Nonfarm Payrolls (Sep)",
