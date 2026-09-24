@@ -7,14 +7,14 @@
       "datetime_raw": "Thu, Sep 24, 02:00 PM·14:00UTC",
       "datetime_local": "24/09/2026 21:00",
       "impact": "high",
-      "time_to": "in 19m 22s"
+      "time_to": "in 12m 7s"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Aug)",
       "datetime_raw": "Fri, Sep 25, 12:30 PM·12:30UTC",
       "datetime_local": "25/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 22h 49m"
+      "time_to": "in 22h 42m"
     },
     {
       "name": "AU RBA Interest Rate Decision (Sep)",
@@ -98,14 +98,14 @@
       "datetime_raw": "Wed, Sep 30, 01:45 PM·13:45UTC",
       "datetime_local": "30/09/2026 20:45",
       "impact": "high",
-      "time_to": "in 6d 0h"
+      "time_to": "in 5d 23h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Sep)",
       "datetime_raw": "Thu, Oct 1, 01:45 PM·13:45UTC",
       "datetime_local": "01/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 7d 0h"
+      "time_to": "in 6d 23h"
     },
     {
       "name": "US ISM Manufacturing PMI (Sep)",
