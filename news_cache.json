@@ -7,28 +7,28 @@
       "datetime_raw": "Thu, Sep 24, 12:30 PM·12:30UTC",
       "datetime_local": "24/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 4h 9m"
+      "time_to": "in 3h 49m"
     },
     {
       "name": "US New Home Sales (Aug)",
       "datetime_raw": "Thu, Sep 24, 02:00 PM·14:00UTC",
       "datetime_local": "24/09/2026 21:00",
       "impact": "high",
-      "time_to": "in 5h 39m"
+      "time_to": "in 5h 19m"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Aug)",
       "datetime_raw": "Fri, Sep 25, 12:30 PM·12:30UTC",
       "datetime_local": "25/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 1d 4h"
+      "time_to": "in 1d 3h"
     },
     {
       "name": "AU RBA Interest Rate Decision (Sep)",
       "datetime_raw": "Tue, Sep 29, 04:30 AM·04:30UTC",
       "datetime_local": "29/09/2026 11:30",
       "impact": "high",
-      "time_to": "in 4d 20h"
+      "time_to": "in 4d 19h"
     },
     {
       "name": "US CB Consumer Confidence (Sep)",
@@ -49,7 +49,7 @@
       "datetime_raw": "Wed, Sep 30, 01:30 AM·01:30UTC",
       "datetime_local": "30/09/2026 08:30",
       "impact": "high",
-      "time_to": "in 5d 17h"
+      "time_to": "in 5d 16h"
     },
     {
       "name": "UK GDP (QoQ) (Q2)",
@@ -84,21 +84,21 @@
       "datetime_raw": "Wed, Sep 30, 12:30 PM·12:30UTC",
       "datetime_local": "30/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Aug)",
       "datetime_raw": "Wed, Sep 30, 12:30 PM·12:30UTC",
       "datetime_local": "30/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "US GDP (QoQ) (Q2)",
       "datetime_raw": "Wed, Sep 30, 12:30 PM·12:30UTC",
       "datetime_local": "30/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "US Chicago PMI (Sep)",
@@ -140,21 +140,21 @@
       "datetime_raw": "Fri, Oct 2, 12:30 PM·12:30UTC",
       "datetime_local": "02/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 8d 4h"
+      "time_to": "in 8d 3h"
     },
     {
       "name": "US Unemployment Rate (Sep)",
       "datetime_raw": "Fri, Oct 2, 12:30 PM·12:30UTC",
       "datetime_local": "02/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 8d 4h"
+      "time_to": "in 8d 3h"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Sep)",
       "datetime_raw": "Fri, Oct 2, 12:30 PM·12:30UTC",
       "datetime_local": "02/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 8d 4h"
+      "time_to": "in 8d 3h"
     }
   ]
 }
