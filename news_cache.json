@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-09-25T14:40:35.078534+07:00",
+  "last_news_sent_at": "2026-09-25T15:20:36.634987+07:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "Fri, Sep 25, 12:30 PM·12:30UTC",
       "datetime_local": "25/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 4h 29m"
+      "time_to": "in 4h 9m"
     },
     {
       "name": "AU RBA Interest Rate Decision (Sep)",
@@ -63,7 +63,7 @@
       "datetime_raw": "Wed, Sep 30, 12:15 PM·12:15UTC",
       "datetime_local": "30/09/2026 19:15",
       "impact": "high",
-      "time_to": "in 5d 4h"
+      "time_to": "in 5d 3h"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Aug)",
