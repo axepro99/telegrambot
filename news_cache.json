@@ -84,14 +84,14 @@
       "datetime_raw": "Wed, Sep 30, 01:45 PM·13:45UTC",
       "datetime_local": "30/09/2026 20:45",
       "impact": "high",
-      "time_to": "in 5d 0h"
+      "time_to": "in 4d 23h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Sep)",
       "datetime_raw": "Thu, Oct 1, 01:45 PM·13:45UTC",
       "datetime_local": "01/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 6d 0h"
+      "time_to": "in 5d 23h"
     },
     {
       "name": "US ISM Manufacturing PMI (Sep)",
