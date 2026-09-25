@@ -7,7 +7,7 @@
       "datetime_raw": "Fri, Sep 25, 12:30 PM·12:30UTC",
       "datetime_local": "25/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 1h 28m"
+      "time_to": "in 1h 9m"
     },
     {
       "name": "AU RBA Interest Rate Decision (Sep)",
@@ -63,7 +63,7 @@
       "datetime_raw": "Wed, Sep 30, 12:15 PM·12:15UTC",
       "datetime_local": "30/09/2026 19:15",
       "impact": "high",
-      "time_to": "in 5d 1h"
+      "time_to": "in 5d 0h"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Aug)",
