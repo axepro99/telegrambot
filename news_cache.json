@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-09-26T20:00:52.455313+07:00",
+  "last_news_sent_at": "2026-09-26T20:40:34.982011+07:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "Tue, Sep 29, 04:30 AM·04:30UTC",
       "datetime_local": "29/09/2026 11:30",
       "impact": "high",
-      "time_to": "in 2d 15h"
+      "time_to": "in 2d 14h"
     },
     {
       "name": "US CB Consumer Confidence (Sep)",
@@ -28,7 +28,7 @@
       "datetime_raw": "Wed, Sep 30, 01:30 AM·01:30UTC",
       "datetime_local": "30/09/2026 08:30",
       "impact": "high",
-      "time_to": "in 3d 12h"
+      "time_to": "in 3d 11h"
     },
     {
       "name": "UK GDP (QoQ) (Q2)",
@@ -63,21 +63,21 @@
       "datetime_raw": "Wed, Sep 30, 12:30 PM·12:30UTC",
       "datetime_local": "30/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 3d 23h"
+      "time_to": "in 3d 22h"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Aug)",
       "datetime_raw": "Wed, Sep 30, 12:30 PM·12:30UTC",
       "datetime_local": "30/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 3d 23h"
+      "time_to": "in 3d 22h"
     },
     {
       "name": "US GDP (QoQ) (Q2)",
       "datetime_raw": "Wed, Sep 30, 12:30 PM·12:30UTC",
       "datetime_local": "30/09/2026 19:30",
       "impact": "high",
-      "time_to": "in 3d 23h"
+      "time_to": "in 3d 22h"
     },
     {
       "name": "US Chicago PMI (Sep)",
@@ -119,21 +119,21 @@
       "datetime_raw": "Fri, Oct 2, 12:30 PM·12:30UTC",
       "datetime_local": "02/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 5d 23h"
+      "time_to": "in 5d 22h"
     },
     {
       "name": "US Unemployment Rate (Sep)",
       "datetime_raw": "Fri, Oct 2, 12:30 PM·12:30UTC",
       "datetime_local": "02/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 5d 23h"
+      "time_to": "in 5d 22h"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Sep)",
       "datetime_raw": "Fri, Oct 2, 12:30 PM·12:30UTC",
       "datetime_local": "02/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 5d 23h"
+      "time_to": "in 5d 22h"
     }
   ]
 }
