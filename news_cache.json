@@ -56,7 +56,7 @@
       "datetime_raw": "Wed, Sep 30, 12:15 PM·12:15UTC",
       "datetime_local": "30/09/2026 19:15",
       "impact": "high",
-      "time_to": "in 2d 23h"
+      "time_to": "in 2d 22h"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Aug)",
@@ -85,6 +85,20 @@
       "datetime_local": "30/09/2026 20:45",
       "impact": "high",
       "time_to": "in 3d 0h"
+    },
+    {
+      "name": "US Crude Oil Inventories",
+      "datetime_raw": "Wed, Sep 30, 02:30 PM·14:30UTC",
+      "datetime_local": "30/09/2026 21:30",
+      "impact": "high",
+      "time_to": "in 3d 1h"
+    },
+    {
+      "name": "US Initial Jobless Claims",
+      "datetime_raw": "Thu, Oct 1, 12:30 PM·12:30UTC",
+      "datetime_local": "01/10/2026 19:30",
+      "impact": "high",
+      "time_to": "in 3d 23h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Sep)",
@@ -134,6 +148,27 @@
       "datetime_local": "02/10/2026 19:30",
       "impact": "high",
       "time_to": "in 4d 23h"
+    },
+    {
+      "name": "US S&P Global Services PMI (Sep)",
+      "datetime_raw": "Mon, Oct 5, 01:45 PM·13:45UTC",
+      "datetime_local": "05/10/2026 20:45",
+      "impact": "high",
+      "time_to": "in 8d 0h"
+    },
+    {
+      "name": "US ISM Non-Manufacturing Prices (Sep)",
+      "datetime_raw": "Mon, Oct 5, 02:00 PM·14:00UTC",
+      "datetime_local": "05/10/2026 21:00",
+      "impact": "high",
+      "time_to": "in 8d 0h"
+    },
+    {
+      "name": "US ISM Non-Manufacturing PMI (Sep)",
+      "datetime_raw": "Mon, Oct 5, 02:00 PM·14:00UTC",
+      "datetime_local": "05/10/2026 21:00",
+      "impact": "high",
+      "time_to": "in 8d 0h"
     }
   ]
 }
