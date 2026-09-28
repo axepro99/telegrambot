@@ -7,7 +7,7 @@
       "datetime_raw": "Tue, Sep 29, 04:30 AM·04:30UTC",
       "datetime_local": "29/09/2026 11:30",
       "impact": "high",
-      "time_to": "in 22h 49m"
+      "time_to": "in 22h 33m"
     },
     {
       "name": "US CB Consumer Confidence (Sep)",
@@ -84,7 +84,7 @@
       "datetime_raw": "Wed, Sep 30, 01:45 PM·13:45UTC",
       "datetime_local": "30/09/2026 20:45",
       "impact": "high",
-      "time_to": "in 2d 8h"
+      "time_to": "in 2d 7h"
     },
     {
       "name": "US Crude Oil Inventories",
@@ -105,7 +105,7 @@
       "datetime_raw": "Thu, Oct 1, 01:45 PM·13:45UTC",
       "datetime_local": "01/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 3d 8h"
+      "time_to": "in 3d 7h"
     },
     {
       "name": "US ISM Manufacturing PMI (Sep)",
@@ -154,7 +154,7 @@
       "datetime_raw": "Mon, Oct 5, 01:45 PM·13:45UTC",
       "datetime_local": "05/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 7d 8h"
+      "time_to": "in 7d 7h"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Sep)",
