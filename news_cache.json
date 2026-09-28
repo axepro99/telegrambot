@@ -84,7 +84,7 @@
       "datetime_raw": "Wed, Sep 30, 01:45 PM·13:45UTC",
       "datetime_local": "30/09/2026 20:45",
       "impact": "high",
-      "time_to": "in 2d 13h"
+      "time_to": "in 2d 12h"
     },
     {
       "name": "US Crude Oil Inventories",
@@ -105,7 +105,7 @@
       "datetime_raw": "Thu, Oct 1, 01:45 PM·13:45UTC",
       "datetime_local": "01/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 3d 13h"
+      "time_to": "in 3d 12h"
     },
     {
       "name": "US ISM Manufacturing PMI (Sep)",
@@ -154,7 +154,7 @@
       "datetime_raw": "Mon, Oct 5, 01:45 PM·13:45UTC",
       "datetime_local": "05/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 7d 13h"
+      "time_to": "in 7d 12h"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Sep)",
