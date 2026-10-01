@@ -7,28 +7,28 @@
       "datetime_raw": "Thu, Oct 1, 12:30 PM·12:30UTC",
       "datetime_local": "01/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 6h 0m"
+      "time_to": "in 5h 49m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Sep)",
       "datetime_raw": "Thu, Oct 1, 01:45 PM·13:45UTC",
       "datetime_local": "01/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 7h 15m"
+      "time_to": "in 7h 4m"
     },
     {
       "name": "US ISM Manufacturing PMI (Sep)",
       "datetime_raw": "Thu, Oct 1, 02:00 PM·14:00UTC",
       "datetime_local": "01/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 7h 30m"
+      "time_to": "in 7h 19m"
     },
     {
       "name": "US ISM Manufacturing Prices (Sep)",
       "datetime_raw": "Thu, Oct 1, 02:00 PM·14:00UTC",
       "datetime_local": "01/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 7h 30m"
+      "time_to": "in 7h 19m"
     },
     {
       "name": "EU CPI (YoY) (Sep)",
@@ -42,21 +42,21 @@
       "datetime_raw": "Fri, Oct 2, 12:30 PM·12:30UTC",
       "datetime_local": "02/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 1d 6h"
+      "time_to": "in 1d 5h"
     },
     {
       "name": "US Unemployment Rate (Sep)",
       "datetime_raw": "Fri, Oct 2, 12:30 PM·12:30UTC",
       "datetime_local": "02/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 1d 6h"
+      "time_to": "in 1d 5h"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Sep)",
       "datetime_raw": "Fri, Oct 2, 12:30 PM·12:30UTC",
       "datetime_local": "02/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 1d 6h"
+      "time_to": "in 1d 5h"
     },
     {
       "name": "US S&P Global Services PMI (Sep)",
