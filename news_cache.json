@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-10-01T08:40:31.026142+07:00",
+  "last_news_sent_at": "2026-10-01T09:20:31.548005+07:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -7,28 +7,28 @@
       "datetime_raw": "Thu, Oct 1, 12:30 PM·12:30UTC",
       "datetime_local": "01/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 10h 29m"
+      "time_to": "in 10h 9m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Sep)",
       "datetime_raw": "Thu, Oct 1, 01:45 PM·13:45UTC",
       "datetime_local": "01/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 11h 44m"
+      "time_to": "in 11h 24m"
     },
     {
       "name": "US ISM Manufacturing PMI (Sep)",
       "datetime_raw": "Thu, Oct 1, 02:00 PM·14:00UTC",
       "datetime_local": "01/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 11h 59m"
+      "time_to": "in 11h 39m"
     },
     {
       "name": "US ISM Manufacturing Prices (Sep)",
       "datetime_raw": "Thu, Oct 1, 02:00 PM·14:00UTC",
       "datetime_local": "01/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 11h 59m"
+      "time_to": "in 11h 39m"
     },
     {
       "name": "EU CPI (YoY) (Sep)",
