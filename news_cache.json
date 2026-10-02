@@ -7,28 +7,28 @@
       "datetime_raw": "Fri, Oct 2, 09:00 AM·09:00UTC",
       "datetime_local": "02/10/2026 16:00",
       "impact": "high",
-      "time_to": "in 39m 29s"
+      "time_to": "in 33m 5s"
     },
     {
       "name": "US Nonfarm Payrolls (Sep)",
       "datetime_raw": "Fri, Oct 2, 12:30 PM·12:30UTC",
       "datetime_local": "02/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 4h 9m"
+      "time_to": "in 4h 3m"
     },
     {
       "name": "US Unemployment Rate (Sep)",
       "datetime_raw": "Fri, Oct 2, 12:30 PM·12:30UTC",
       "datetime_local": "02/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 4h 9m"
+      "time_to": "in 4h 3m"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Sep)",
       "datetime_raw": "Fri, Oct 2, 12:30 PM·12:30UTC",
       "datetime_local": "02/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 4h 9m"
+      "time_to": "in 4h 3m"
     },
     {
       "name": "US S&P Global Services PMI (Sep)",
