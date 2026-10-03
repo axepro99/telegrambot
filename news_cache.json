@@ -14,14 +14,14 @@
       "datetime_raw": "Mon, Oct 5, 02:00 PM·14:00UTC",
       "datetime_local": "05/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 2d 12h"
+      "time_to": "in 2d 11h"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Sep)",
       "datetime_raw": "Mon, Oct 5, 02:00 PM·14:00UTC",
       "datetime_local": "05/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 2d 12h"
+      "time_to": "in 2d 11h"
     }
   ]
 }
