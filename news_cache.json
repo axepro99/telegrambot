@@ -7,21 +7,21 @@
       "datetime_raw": "Mon, Oct 5, 01:45 PM·13:45UTC",
       "datetime_local": "05/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 1d 2h"
+      "time_to": "in 1d 1h"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Sep)",
       "datetime_raw": "Mon, Oct 5, 02:00 PM·14:00UTC",
       "datetime_local": "05/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 1d 2h"
+      "time_to": "in 1d 1h"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Sep)",
       "datetime_raw": "Mon, Oct 5, 02:00 PM·14:00UTC",
       "datetime_local": "05/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 1d 2h"
+      "time_to": "in 1d 1h"
     }
   ]
 }
