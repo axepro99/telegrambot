@@ -7,7 +7,7 @@
       "datetime_raw": "Wed, Oct 7, 02:30 PM·14:30UTC",
       "datetime_local": "07/10/2026 21:30",
       "impact": "high",
-      "time_to": "in 1d 15h"
+      "time_to": "in 1d 14h"
     },
     {
       "name": "US 10-Year Note Auction",
@@ -28,7 +28,7 @@
       "datetime_raw": "Thu, Oct 8, 12:30 PM·12:30UTC",
       "datetime_local": "08/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 2d 13h"
+      "time_to": "in 2d 12h"
     },
     {
       "name": "US 30-Year Bond Auction",
@@ -56,21 +56,21 @@
       "datetime_raw": "Wed, Oct 14, 12:30 PM·12:30UTC",
       "datetime_local": "14/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 8d 13h"
+      "time_to": "in 8d 12h"
     },
     {
       "name": "US CPI (MoM) (Sep)",
       "datetime_raw": "Wed, Oct 14, 12:30 PM·12:30UTC",
       "datetime_local": "14/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 8d 13h"
+      "time_to": "in 8d 12h"
     },
     {
       "name": "US CPI (YoY) (Sep)",
       "datetime_raw": "Wed, Oct 14, 12:30 PM·12:30UTC",
       "datetime_local": "14/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 8d 13h"
+      "time_to": "in 8d 12h"
     },
     {
       "name": "UK GDP (MoM) (Aug)",
@@ -84,28 +84,28 @@
       "datetime_raw": "Thu, Oct 15, 12:30 PM·12:30UTC",
       "datetime_local": "15/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 9d 13h"
+      "time_to": "in 9d 12h"
     },
     {
       "name": "US PPI (MoM) (Sep)",
       "datetime_raw": "Thu, Oct 15, 12:30 PM·12:30UTC",
       "datetime_local": "15/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 9d 13h"
+      "time_to": "in 9d 12h"
     },
     {
       "name": "US Core Retail Sales (MoM) (Sep)",
       "datetime_raw": "Thu, Oct 15, 12:30 PM·12:30UTC",
       "datetime_local": "15/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 9d 13h"
+      "time_to": "in 9d 12h"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Oct)",
       "datetime_raw": "Thu, Oct 15, 12:30 PM·12:30UTC",
       "datetime_local": "15/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 9d 13h"
+      "time_to": "in 9d 12h"
     },
     {
       "name": "EU CPI (YoY) (Sep)",
