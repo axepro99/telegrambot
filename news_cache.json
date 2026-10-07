@@ -7,21 +7,21 @@
       "datetime_raw": "Wed, Oct 7, 02:30 PM·14:30UTC",
       "datetime_local": "07/10/2026 21:30",
       "impact": "high",
-      "time_to": "in 12h 29m"
+      "time_to": "in 12h 9m"
     },
     {
       "name": "US 10-Year Note Auction",
       "datetime_raw": "Wed, Oct 7, 05:00 PM·17:00UTC",
       "datetime_local": "08/10/2026 00:00",
       "impact": "high",
-      "time_to": "in 14h 59m"
+      "time_to": "in 14h 39m"
     },
     {
       "name": "US FOMC Meeting Minutes",
       "datetime_raw": "Wed, Oct 7, 06:00 PM·18:00UTC",
       "datetime_local": "08/10/2026 01:00",
       "impact": "high",
-      "time_to": "in 15h 59m"
+      "time_to": "in 15h 39m"
     },
     {
       "name": "US Initial Jobless Claims",
