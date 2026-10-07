@@ -7,21 +7,21 @@
       "datetime_raw": "Wed, Oct 7, 02:30 PM·14:30UTC",
       "datetime_local": "07/10/2026 21:30",
       "impact": "high",
-      "time_to": "in 3h 49m"
+      "time_to": "in 3h 28m"
     },
     {
       "name": "US 10-Year Note Auction",
       "datetime_raw": "Wed, Oct 7, 05:00 PM·17:00UTC",
       "datetime_local": "08/10/2026 00:00",
       "impact": "high",
-      "time_to": "in 6h 19m"
+      "time_to": "in 5h 58m"
     },
     {
       "name": "US FOMC Meeting Minutes",
       "datetime_raw": "Wed, Oct 7, 06:00 PM·18:00UTC",
       "datetime_local": "08/10/2026 01:00",
       "impact": "high",
-      "time_to": "in 7h 19m"
+      "time_to": "in 6h 58m"
     },
     {
       "name": "US Initial Jobless Claims",
@@ -35,21 +35,21 @@
       "datetime_raw": "Thu, Oct 8, 05:00 PM·17:00UTC",
       "datetime_local": "09/10/2026 00:00",
       "impact": "high",
-      "time_to": "in 1d 6h"
+      "time_to": "in 1d 5h"
     },
     {
       "name": "DE German CPI (MoM) (Sep)",
       "datetime_raw": "Tue, Oct 13, 06:00 AM·06:00UTC",
       "datetime_local": "13/10/2026 13:00",
       "impact": "high",
-      "time_to": "in 5d 19h"
+      "time_to": "in 5d 18h"
     },
     {
       "name": "US Existing Home Sales (Sep)",
       "datetime_raw": "Tue, Oct 13, 02:00 PM·14:00UTC",
       "datetime_local": "13/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 6d 3h"
+      "time_to": "in 6d 2h"
     },
     {
       "name": "US Core CPI (MoM) (Sep)",
@@ -77,7 +77,7 @@
       "datetime_raw": "Thu, Oct 15, 06:00 AM·06:00UTC",
       "datetime_local": "15/10/2026 13:00",
       "impact": "high",
-      "time_to": "in 7d 19h"
+      "time_to": "in 7d 18h"
     },
     {
       "name": "US Retail Sales (MoM) (Sep)",
@@ -112,7 +112,7 @@
       "datetime_raw": "Fri, Oct 16, 09:00 AM·09:00UTC",
       "datetime_local": "16/10/2026 16:00",
       "impact": "high",
-      "time_to": "in 8d 22h"
+      "time_to": "in 8d 21h"
     }
   ]
 }
