@@ -7,14 +7,14 @@
       "datetime_raw": "Tue, Oct 13, 06:00 AM·06:00UTC",
       "datetime_local": "13/10/2026 13:00",
       "impact": "high",
-      "time_to": "in 3d 19h"
+      "time_to": "in 3d 18h"
     },
     {
       "name": "US Existing Home Sales (Sep)",
       "datetime_raw": "Tue, Oct 13, 02:00 PM·14:00UTC",
       "datetime_local": "13/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 4d 3h"
+      "time_to": "in 4d 2h"
     },
     {
       "name": "US Core CPI (MoM) (Sep)",
@@ -42,7 +42,7 @@
       "datetime_raw": "Thu, Oct 15, 06:00 AM·06:00UTC",
       "datetime_local": "15/10/2026 13:00",
       "impact": "high",
-      "time_to": "in 5d 19h"
+      "time_to": "in 5d 18h"
     },
     {
       "name": "US Retail Sales (MoM) (Sep)",
@@ -77,7 +77,7 @@
       "datetime_raw": "Fri, Oct 16, 09:00 AM·09:00UTC",
       "datetime_local": "16/10/2026 16:00",
       "impact": "high",
-      "time_to": "in 6d 22h"
+      "time_to": "in 6d 21h"
     }
   ]
 }
