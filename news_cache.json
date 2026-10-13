@@ -7,28 +7,28 @@
       "datetime_raw": "Tue, Oct 13, 02:00 PM·14:00UTC",
       "datetime_local": "13/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 4h 39m"
+      "time_to": "in 4h 19m"
     },
     {
       "name": "US Core CPI (MoM) (Sep)",
       "datetime_raw": "Wed, Oct 14, 12:30 PM·12:30UTC",
       "datetime_local": "14/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 1d 3h"
+      "time_to": "in 1d 2h"
     },
     {
       "name": "US CPI (MoM) (Sep)",
       "datetime_raw": "Wed, Oct 14, 12:30 PM·12:30UTC",
       "datetime_local": "14/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 1d 3h"
+      "time_to": "in 1d 2h"
     },
     {
       "name": "US CPI (YoY) (Sep)",
       "datetime_raw": "Wed, Oct 14, 12:30 PM·12:30UTC",
       "datetime_local": "14/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 1d 3h"
+      "time_to": "in 1d 2h"
     },
     {
       "name": "UK GDP (MoM) (Aug)",
@@ -42,35 +42,35 @@
       "datetime_raw": "Thu, Oct 15, 12:30 PM·12:30UTC",
       "datetime_local": "15/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 2d 3h"
+      "time_to": "in 2d 2h"
     },
     {
       "name": "US PPI (MoM) (Sep)",
       "datetime_raw": "Thu, Oct 15, 12:30 PM·12:30UTC",
       "datetime_local": "15/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 2d 3h"
+      "time_to": "in 2d 2h"
     },
     {
       "name": "US Core Retail Sales (MoM) (Sep)",
       "datetime_raw": "Thu, Oct 15, 12:30 PM·12:30UTC",
       "datetime_local": "15/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 2d 3h"
+      "time_to": "in 2d 2h"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Oct)",
       "datetime_raw": "Thu, Oct 15, 12:30 PM·12:30UTC",
       "datetime_local": "15/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 2d 3h"
+      "time_to": "in 2d 2h"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Oct 15, 12:30 PM·12:30UTC",
       "datetime_local": "15/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 2d 3h"
+      "time_to": "in 2d 2h"
     },
     {
       "name": "US Crude Oil Inventories",
@@ -84,7 +84,7 @@
       "datetime_raw": "Fri, Oct 16, 03:30 AM·03:30UTC",
       "datetime_local": "16/10/2026 10:30",
       "impact": "high",
-      "time_to": "in 2d 18h"
+      "time_to": "in 2d 17h"
     },
     {
       "name": "EU CPI (YoY) (Sep)",
@@ -112,7 +112,7 @@
       "datetime_raw": "Thu, Oct 22, 12:30 PM·12:30UTC",
       "datetime_local": "22/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 9d 3h"
+      "time_to": "in 9d 2h"
     },
     {
       "name": "US S&P Global Services PMI (Oct)",
