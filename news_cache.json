@@ -7,21 +7,21 @@
       "datetime_raw": "Wed, Oct 14, 12:30 PM·12:30UTC",
       "datetime_local": "14/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 11h 49m"
+      "time_to": "in 11h 33m"
     },
     {
       "name": "US CPI (MoM) (Sep)",
       "datetime_raw": "Wed, Oct 14, 12:30 PM·12:30UTC",
       "datetime_local": "14/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 11h 49m"
+      "time_to": "in 11h 33m"
     },
     {
       "name": "US CPI (YoY) (Sep)",
       "datetime_raw": "Wed, Oct 14, 12:30 PM·12:30UTC",
       "datetime_local": "14/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 11h 49m"
+      "time_to": "in 11h 33m"
     },
     {
       "name": "UK GDP (MoM) (Aug)",
@@ -112,14 +112,14 @@
       "datetime_raw": "Fri, Oct 23, 01:45 PM·13:45UTC",
       "datetime_local": "23/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 9d 13h"
+      "time_to": "in 9d 12h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Oct)",
       "datetime_raw": "Fri, Oct 23, 01:45 PM·13:45UTC",
       "datetime_local": "23/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 9d 13h"
+      "time_to": "in 9d 12h"
     }
   ]
 }
