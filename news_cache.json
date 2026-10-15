@@ -7,35 +7,35 @@
       "datetime_raw": "Thu, Oct 15, 04:00 PM·16:00UTC",
       "datetime_local": "15/10/2026 23:00",
       "impact": "high",
-      "time_to": "in 1h 6m"
+      "time_to": "in 58m 58s"
     },
     {
       "name": "US Fed Chair Warsh Speaks",
       "datetime_raw": "Fri, Oct 16, 03:30 AM·03:30UTC",
       "datetime_local": "16/10/2026 10:30",
       "impact": "high",
-      "time_to": "in 12h 36m"
+      "time_to": "in 12h 28m"
     },
     {
       "name": "EU CPI (YoY) (Sep)",
       "datetime_raw": "Fri, Oct 16, 09:00 AM·09:00UTC",
       "datetime_local": "16/10/2026 16:00",
       "impact": "high",
-      "time_to": "in 18h 6m"
+      "time_to": "in 17h 58m"
     },
     {
       "name": "CN GDP (YoY) (Q3)",
       "datetime_raw": "Mon, Oct 19, 02:00 AM·02:00UTC",
       "datetime_local": "19/10/2026 09:00",
       "impact": "high",
-      "time_to": "in 3d 11h"
+      "time_to": "in 3d 10h"
     },
     {
       "name": "UK CPI (YoY) (Sep)",
       "datetime_raw": "Wed, Oct 21, 06:00 AM·06:00UTC",
       "datetime_local": "21/10/2026 13:00",
       "impact": "high",
-      "time_to": "in 5d 15h"
+      "time_to": "in 5d 14h"
     },
     {
       "name": "US Initial Jobless Claims",
