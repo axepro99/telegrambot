@@ -7,14 +7,14 @@
       "datetime_raw": "Fri, Oct 16, 03:30 AM·03:30UTC",
       "datetime_local": "16/10/2026 10:30",
       "impact": "high",
-      "time_to": "in 5h 49m"
+      "time_to": "in 5h 41m"
     },
     {
       "name": "EU CPI (YoY) (Sep)",
       "datetime_raw": "Fri, Oct 16, 09:00 AM·09:00UTC",
       "datetime_local": "16/10/2026 16:00",
       "impact": "high",
-      "time_to": "in 11h 19m"
+      "time_to": "in 11h 11m"
     },
     {
       "name": "CN GDP (YoY) (Q3)",
@@ -42,14 +42,14 @@
       "datetime_raw": "Fri, Oct 23, 01:45 PM·13:45UTC",
       "datetime_local": "23/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 7d 16h"
+      "time_to": "in 7d 15h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Oct)",
       "datetime_raw": "Fri, Oct 23, 01:45 PM·13:45UTC",
       "datetime_local": "23/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 7d 16h"
+      "time_to": "in 7d 15h"
     }
   ]
 }
