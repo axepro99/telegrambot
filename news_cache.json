@@ -7,21 +7,21 @@
       "datetime_raw": "Thu, Oct 15, 04:00 PM·16:00UTC",
       "datetime_local": "15/10/2026 23:00",
       "impact": "high",
-      "time_to": "in 1h 19m"
+      "time_to": "in 1h 6m"
     },
     {
       "name": "US Fed Chair Warsh Speaks",
       "datetime_raw": "Fri, Oct 16, 03:30 AM·03:30UTC",
       "datetime_local": "16/10/2026 10:30",
       "impact": "high",
-      "time_to": "in 12h 49m"
+      "time_to": "in 12h 36m"
     },
     {
       "name": "EU CPI (YoY) (Sep)",
       "datetime_raw": "Fri, Oct 16, 09:00 AM·09:00UTC",
       "datetime_local": "16/10/2026 16:00",
       "impact": "high",
-      "time_to": "in 18h 19m"
+      "time_to": "in 18h 6m"
     },
     {
       "name": "CN GDP (YoY) (Q3)",
@@ -49,14 +49,14 @@
       "datetime_raw": "Fri, Oct 23, 01:45 PM·13:45UTC",
       "datetime_local": "23/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 7d 23h"
+      "time_to": "in 7d 22h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Oct)",
       "datetime_raw": "Fri, Oct 23, 01:45 PM·13:45UTC",
       "datetime_local": "23/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 7d 23h"
+      "time_to": "in 7d 22h"
     }
   ]
 }
