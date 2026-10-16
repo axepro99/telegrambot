@@ -3,18 +3,11 @@
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
-      "name": "US Fed Chair Warsh Speaks",
-      "datetime_raw": "Fri, Oct 16, 03:30 AM·03:30UTC",
-      "datetime_local": "16/10/2026 10:30",
-      "impact": "high",
-      "time_to": "in 9m 26s"
-    },
-    {
       "name": "EU CPI (YoY) (Sep)",
       "datetime_raw": "Fri, Oct 16, 09:00 AM·09:00UTC",
       "datetime_local": "16/10/2026 16:00",
       "impact": "high",
-      "time_to": "in 5h 39m"
+      "time_to": "in 5h 19m"
     },
     {
       "name": "CN GDP (YoY) (Q3)",
@@ -35,7 +28,7 @@
       "datetime_raw": "Thu, Oct 22, 12:30 PM·12:30UTC",
       "datetime_local": "22/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 6d 9h"
+      "time_to": "in 6d 8h"
     },
     {
       "name": "US S&P Global Services PMI (Oct)",
