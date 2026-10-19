@@ -7,14 +7,14 @@
       "datetime_raw": "Mon, Oct 19, 02:00 AM·02:00UTC",
       "datetime_local": "19/10/2026 09:00",
       "impact": "high",
-      "time_to": "in 1h 19m"
+      "time_to": "in 59m 4s"
     },
     {
       "name": "UK CPI (YoY) (Sep)",
       "datetime_raw": "Wed, Oct 21, 06:00 AM·06:00UTC",
       "datetime_local": "21/10/2026 13:00",
       "impact": "high",
-      "time_to": "in 2d 5h"
+      "time_to": "in 2d 4h"
     },
     {
       "name": "US Initial Jobless Claims",
@@ -28,14 +28,14 @@
       "datetime_raw": "Fri, Oct 23, 01:45 PM·13:45UTC",
       "datetime_local": "23/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 4d 13h"
+      "time_to": "in 4d 12h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Oct)",
       "datetime_raw": "Fri, Oct 23, 01:45 PM·13:45UTC",
       "datetime_local": "23/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 4d 13h"
+      "time_to": "in 4d 12h"
     }
   ]
 }
