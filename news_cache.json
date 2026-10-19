@@ -7,7 +7,7 @@
       "datetime_raw": "Wed, Oct 21, 06:00 AM·06:00UTC",
       "datetime_local": "21/10/2026 13:00",
       "impact": "high",
-      "time_to": "in 1d 17h"
+      "time_to": "in 1d 16h"
     },
     {
       "name": "US Crude Oil Inventories",
@@ -49,21 +49,21 @@
       "datetime_raw": "Tue, Oct 27, 02:00 PM·14:00UTC",
       "datetime_local": "27/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 8d 1h"
+      "time_to": "in 8d 0h"
     },
     {
       "name": "US New Home Sales (Sep)",
       "datetime_raw": "Tue, Oct 27, 02:00 PM·14:00UTC",
       "datetime_local": "27/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 8d 1h"
+      "time_to": "in 8d 0h"
     },
     {
       "name": "NZ RBNZ Interest Rate Decision",
       "datetime_raw": "Wed, Oct 28, 01:00 AM·01:00UTC",
       "datetime_local": "28/10/2026 08:00",
       "impact": "high",
-      "time_to": "in 8d 12h"
+      "time_to": "in 8d 11h"
     },
     {
       "name": "CA BoC Interest Rate Decision",
@@ -77,7 +77,7 @@
       "datetime_raw": "Wed, Oct 28, 06:00 PM·18:00UTC",
       "datetime_local": "29/10/2026 01:00",
       "impact": "high",
-      "time_to": "in 9d 5h"
+      "time_to": "in 9d 4h"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Sep)",
@@ -119,21 +119,21 @@
       "datetime_raw": "Fri, Oct 30, 03:00 AM·03:00UTC",
       "datetime_local": "30/10/2026 10:00",
       "impact": "high",
-      "time_to": "in 10d 14h"
+      "time_to": "in 10d 13h"
     },
     {
       "name": "DE German GDP (QoQ) (Q3)",
       "datetime_raw": "Fri, Oct 30, 09:00 AM·09:00UTC",
       "datetime_local": "30/10/2026 16:00",
       "impact": "high",
-      "time_to": "in 10d 20h"
+      "time_to": "in 10d 19h"
     },
     {
       "name": "DE German CPI (MoM) (Oct)",
       "datetime_raw": "Fri, Oct 30, 01:00 PM·13:00UTC",
       "datetime_local": "30/10/2026 20:00",
       "impact": "high",
-      "time_to": "in 11d 0h"
+      "time_to": "in 10d 23h"
     },
     {
       "name": "US Chicago PMI (Oct)",
