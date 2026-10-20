@@ -7,14 +7,14 @@
       "datetime_raw": "Wed, Oct 21, 06:00 AM·06:00UTC",
       "datetime_local": "21/10/2026 13:00",
       "impact": "high",
-      "time_to": "in 11h 59m"
+      "time_to": "in 11h 39m"
     },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "Wed, Oct 21, 02:30 PM·14:30UTC",
       "datetime_local": "21/10/2026 21:30",
       "impact": "high",
-      "time_to": "in 20h 29m"
+      "time_to": "in 20h 9m"
     },
     {
       "name": "US Initial Jobless Claims",
@@ -105,14 +105,14 @@
       "datetime_raw": "Thu, Oct 29, 01:15 PM·13:15UTC",
       "datetime_local": "29/10/2026 20:15",
       "impact": "high",
-      "time_to": "in 8d 19h"
+      "time_to": "in 8d 18h"
     },
     {
       "name": "EU ECB Interest Rate Decision (Oct)",
       "datetime_raw": "Thu, Oct 29, 01:15 PM·13:15UTC",
       "datetime_local": "29/10/2026 20:15",
       "impact": "high",
-      "time_to": "in 8d 19h"
+      "time_to": "in 8d 18h"
     },
     {
       "name": "JP BoJ Interest Rate Decision",
