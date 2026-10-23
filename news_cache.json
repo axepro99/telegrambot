@@ -7,14 +7,14 @@
       "datetime_raw": "Fri, Oct 23, 01:45 PM·13:45UTC",
       "datetime_local": "23/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 1h 43m"
+      "time_to": "in 1h 24m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Oct)",
       "datetime_raw": "Fri, Oct 23, 01:45 PM·13:45UTC",
       "datetime_local": "23/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 1h 43m"
+      "time_to": "in 1h 24m"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Sep)",
@@ -119,14 +119,14 @@
       "datetime_raw": "Thu, Oct 29, 01:15 PM·13:15UTC",
       "datetime_local": "29/10/2026 20:15",
       "impact": "high",
-      "time_to": "in 6d 1h"
+      "time_to": "in 6d 0h"
     },
     {
       "name": "EU ECB Interest Rate Decision (Oct)",
       "datetime_raw": "Thu, Oct 29, 01:15 PM·13:15UTC",
       "datetime_local": "29/10/2026 20:15",
       "impact": "high",
-      "time_to": "in 6d 1h"
+      "time_to": "in 6d 0h"
     },
     {
       "name": "EU ECB Press Conference",
