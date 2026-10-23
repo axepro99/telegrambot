@@ -7,14 +7,14 @@
       "datetime_raw": "Fri, Oct 23, 01:45 PM·13:45UTC",
       "datetime_local": "23/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 13h 4m"
+      "time_to": "in 12h 50m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Oct)",
       "datetime_raw": "Fri, Oct 23, 01:45 PM·13:45UTC",
       "datetime_local": "23/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 13h 4m"
+      "time_to": "in 12h 50m"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Sep)",
@@ -49,7 +49,7 @@
       "datetime_raw": "Wed, Oct 28, 01:45 PM·13:45UTC",
       "datetime_local": "28/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 5d 13h"
+      "time_to": "in 5d 12h"
     },
     {
       "name": "US Fed Interest Rate Decision",
@@ -119,7 +119,7 @@
       "datetime_raw": "Fri, Oct 30, 01:45 PM·13:45UTC",
       "datetime_local": "30/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 7d 13h"
+      "time_to": "in 7d 12h"
     }
   ]
 }
