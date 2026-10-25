@@ -42,7 +42,7 @@
       "datetime_raw": "Wed, Oct 28, 01:45 PM·13:45UTC",
       "datetime_local": "28/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 3d 7h"
+      "time_to": "in 3d 6h"
     },
     {
       "name": "US Crude Oil Inventories",
@@ -119,7 +119,7 @@
       "datetime_raw": "Thu, Oct 29, 01:45 PM·13:45UTC",
       "datetime_local": "29/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 4d 7h"
+      "time_to": "in 4d 6h"
     },
     {
       "name": "JP BoJ Interest Rate Decision",
@@ -147,7 +147,7 @@
       "datetime_raw": "Fri, Oct 30, 01:45 PM·13:45UTC",
       "datetime_local": "30/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 5d 7h"
+      "time_to": "in 5d 6h"
     }
   ]
 }
