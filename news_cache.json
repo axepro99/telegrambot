@@ -7,21 +7,21 @@
       "datetime_raw": "Tue, Oct 27, 12:30 PM·12:30UTC",
       "datetime_local": "27/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 21h 28m"
+      "time_to": "in 21h 9m"
     },
     {
       "name": "US CB Consumer Confidence (Oct)",
       "datetime_raw": "Tue, Oct 27, 02:00 PM·14:00UTC",
       "datetime_local": "27/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 22h 58m"
+      "time_to": "in 22h 39m"
     },
     {
       "name": "US New Home Sales (Sep)",
       "datetime_raw": "Tue, Oct 27, 02:00 PM·14:00UTC",
       "datetime_local": "27/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 22h 58m"
+      "time_to": "in 22h 39m"
     },
     {
       "name": "NZ RBNZ Interest Rate Decision",
@@ -105,14 +105,14 @@
       "datetime_raw": "Thu, Oct 29, 01:15 PM·13:15UTC",
       "datetime_local": "29/10/2026 20:15",
       "impact": "high",
-      "time_to": "in 2d 22h"
+      "time_to": "in 2d 21h"
     },
     {
       "name": "EU ECB Interest Rate Decision (Oct)",
       "datetime_raw": "Thu, Oct 29, 01:15 PM·13:15UTC",
       "datetime_local": "29/10/2026 20:15",
       "impact": "high",
-      "time_to": "in 2d 22h"
+      "time_to": "in 2d 21h"
     },
     {
       "name": "EU ECB Press Conference",
