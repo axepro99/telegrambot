@@ -7,21 +7,21 @@
       "datetime_raw": "Tue, Oct 27, 12:30 PM·12:30UTC",
       "datetime_local": "27/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 18h 9m"
+      "time_to": "in 17h 49m"
     },
     {
       "name": "US CB Consumer Confidence (Oct)",
       "datetime_raw": "Tue, Oct 27, 02:00 PM·14:00UTC",
       "datetime_local": "27/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 19h 39m"
+      "time_to": "in 19h 19m"
     },
     {
       "name": "US New Home Sales (Sep)",
       "datetime_raw": "Tue, Oct 27, 02:00 PM·14:00UTC",
       "datetime_local": "27/10/2026 21:00",
       "impact": "high",
-      "time_to": "in 19h 39m"
+      "time_to": "in 19h 19m"
     },
     {
       "name": "NZ RBNZ Interest Rate Decision",
@@ -35,7 +35,7 @@
       "datetime_raw": "Wed, Oct 28, 12:30 PM·12:30UTC",
       "datetime_local": "28/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 1d 18h"
+      "time_to": "in 1d 17h"
     },
     {
       "name": "CA BoC Interest Rate Decision",
@@ -49,7 +49,7 @@
       "datetime_raw": "Wed, Oct 28, 02:30 PM·14:30UTC",
       "datetime_local": "28/10/2026 21:30",
       "impact": "high",
-      "time_to": "in 1d 20h"
+      "time_to": "in 1d 19h"
     },
     {
       "name": "US Fed Interest Rate Decision",
@@ -70,35 +70,35 @@
       "datetime_raw": "Wed, Oct 28, 06:30 PM·18:30UTC",
       "datetime_local": "29/10/2026 01:30",
       "impact": "high",
-      "time_to": "in 2d 0h"
+      "time_to": "in 1d 23h"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Sep)",
       "datetime_raw": "Thu, Oct 29, 12:30 PM·12:30UTC",
       "datetime_local": "29/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 2d 18h"
+      "time_to": "in 2d 17h"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Sep)",
       "datetime_raw": "Thu, Oct 29, 12:30 PM·12:30UTC",
       "datetime_local": "29/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 2d 18h"
+      "time_to": "in 2d 17h"
     },
     {
       "name": "US GDP (QoQ) (Q3)",
       "datetime_raw": "Thu, Oct 29, 12:30 PM·12:30UTC",
       "datetime_local": "29/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 2d 18h"
+      "time_to": "in 2d 17h"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Oct 29, 12:30 PM·12:30UTC",
       "datetime_local": "29/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 2d 18h"
+      "time_to": "in 2d 17h"
     },
     {
       "name": "EU Deposit Facility Rate (Oct)",
