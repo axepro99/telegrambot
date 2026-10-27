@@ -7,49 +7,49 @@
       "datetime_raw": "Wed, Oct 28, 01:00 AM·01:00UTC",
       "datetime_local": "28/10/2026 08:00",
       "impact": "high",
-      "time_to": "in 3h 19m"
+      "time_to": "in 2h 59m"
     },
     {
       "name": "UK Autumn Forecast Statement",
       "datetime_raw": "Wed, Oct 28, 12:30 PM·12:30UTC",
       "datetime_local": "28/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 14h 49m"
+      "time_to": "in 14h 29m"
     },
     {
       "name": "CA BoC Interest Rate Decision",
       "datetime_raw": "Wed, Oct 28, 01:45 PM·13:45UTC",
       "datetime_local": "28/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 16h 4m"
+      "time_to": "in 15h 44m"
     },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "Wed, Oct 28, 02:30 PM·14:30UTC",
       "datetime_local": "28/10/2026 21:30",
       "impact": "high",
-      "time_to": "in 16h 49m"
+      "time_to": "in 16h 29m"
     },
     {
       "name": "US Fed Interest Rate Decision",
       "datetime_raw": "Wed, Oct 28, 06:00 PM·18:00UTC",
       "datetime_local": "29/10/2026 01:00",
       "impact": "high",
-      "time_to": "in 20h 19m"
+      "time_to": "in 19h 59m"
     },
     {
       "name": "US FOMC Statement",
       "datetime_raw": "Wed, Oct 28, 06:00 PM·18:00UTC",
       "datetime_local": "29/10/2026 01:00",
       "impact": "high",
-      "time_to": "in 20h 19m"
+      "time_to": "in 19h 59m"
     },
     {
       "name": "US FOMC Press Conference",
       "datetime_raw": "Wed, Oct 28, 06:30 PM·18:30UTC",
       "datetime_local": "29/10/2026 01:30",
       "impact": "high",
-      "time_to": "in 20h 49m"
+      "time_to": "in 20h 29m"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Sep)",
@@ -98,35 +98,35 @@
       "datetime_raw": "Thu, Oct 29, 01:45 PM·13:45UTC",
       "datetime_local": "29/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 1d 16h"
+      "time_to": "in 1d 15h"
     },
     {
       "name": "JP BoJ Interest Rate Decision",
       "datetime_raw": "Fri, Oct 30, 03:00 AM·03:00UTC",
       "datetime_local": "30/10/2026 10:00",
       "impact": "high",
-      "time_to": "in 2d 5h"
+      "time_to": "in 2d 4h"
     },
     {
       "name": "DE German GDP (QoQ) (Q3)",
       "datetime_raw": "Fri, Oct 30, 09:00 AM·09:00UTC",
       "datetime_local": "30/10/2026 16:00",
       "impact": "high",
-      "time_to": "in 2d 11h"
+      "time_to": "in 2d 10h"
     },
     {
       "name": "DE German CPI (MoM) (Oct)",
       "datetime_raw": "Fri, Oct 30, 01:00 PM·13:00UTC",
       "datetime_local": "30/10/2026 20:00",
       "impact": "high",
-      "time_to": "in 2d 15h"
+      "time_to": "in 2d 14h"
     },
     {
       "name": "US Chicago PMI (Oct)",
       "datetime_raw": "Fri, Oct 30, 01:45 PM·13:45UTC",
       "datetime_local": "30/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 2d 16h"
+      "time_to": "in 2d 15h"
     }
   ]
 }
