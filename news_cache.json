@@ -7,42 +7,42 @@
       "datetime_raw": "Wed, Oct 28, 12:30 PM·12:30UTC",
       "datetime_local": "28/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 5h 29m"
+      "time_to": "in 5h 9m"
     },
     {
       "name": "CA BoC Interest Rate Decision",
       "datetime_raw": "Wed, Oct 28, 01:45 PM·13:45UTC",
       "datetime_local": "28/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 6h 44m"
+      "time_to": "in 6h 24m"
     },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "Wed, Oct 28, 02:30 PM·14:30UTC",
       "datetime_local": "28/10/2026 21:30",
       "impact": "high",
-      "time_to": "in 7h 29m"
+      "time_to": "in 7h 9m"
     },
     {
       "name": "US Fed Interest Rate Decision",
       "datetime_raw": "Wed, Oct 28, 06:00 PM·18:00UTC",
       "datetime_local": "29/10/2026 01:00",
       "impact": "high",
-      "time_to": "in 10h 59m"
+      "time_to": "in 10h 39m"
     },
     {
       "name": "US FOMC Statement",
       "datetime_raw": "Wed, Oct 28, 06:00 PM·18:00UTC",
       "datetime_local": "29/10/2026 01:00",
       "impact": "high",
-      "time_to": "in 10h 59m"
+      "time_to": "in 10h 39m"
     },
     {
       "name": "US FOMC Press Conference",
       "datetime_raw": "Wed, Oct 28, 06:30 PM·18:30UTC",
       "datetime_local": "29/10/2026 01:30",
       "impact": "high",
-      "time_to": "in 11h 29m"
+      "time_to": "in 11h 9m"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Sep)",
@@ -77,14 +77,14 @@
       "datetime_raw": "Thu, Oct 29, 01:15 PM·13:15UTC",
       "datetime_local": "29/10/2026 20:15",
       "impact": "high",
-      "time_to": "in 1d 6h"
+      "time_to": "in 1d 5h"
     },
     {
       "name": "EU ECB Interest Rate Decision (Oct)",
       "datetime_raw": "Thu, Oct 29, 01:15 PM·13:15UTC",
       "datetime_local": "29/10/2026 20:15",
       "impact": "high",
-      "time_to": "in 1d 6h"
+      "time_to": "in 1d 5h"
     },
     {
       "name": "EU ECB Press Conference",
