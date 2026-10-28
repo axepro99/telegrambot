@@ -7,70 +7,70 @@
       "datetime_raw": "Wed, Oct 28, 06:00 PM·18:00UTC",
       "datetime_local": "29/10/2026 01:00",
       "impact": "high",
-      "time_to": "in 1h 39m"
+      "time_to": "in 1h 19m"
     },
     {
       "name": "US FOMC Statement",
       "datetime_raw": "Wed, Oct 28, 06:00 PM·18:00UTC",
       "datetime_local": "29/10/2026 01:00",
       "impact": "high",
-      "time_to": "in 1h 39m"
+      "time_to": "in 1h 19m"
     },
     {
       "name": "US FOMC Press Conference",
       "datetime_raw": "Wed, Oct 28, 06:30 PM·18:30UTC",
       "datetime_local": "29/10/2026 01:30",
       "impact": "high",
-      "time_to": "in 2h 9m"
+      "time_to": "in 1h 49m"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Sep)",
       "datetime_raw": "Thu, Oct 29, 12:30 PM·12:30UTC",
       "datetime_local": "29/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 20h 9m"
+      "time_to": "in 19h 49m"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Sep)",
       "datetime_raw": "Thu, Oct 29, 12:30 PM·12:30UTC",
       "datetime_local": "29/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 20h 9m"
+      "time_to": "in 19h 49m"
     },
     {
       "name": "US GDP (QoQ) (Q3)",
       "datetime_raw": "Thu, Oct 29, 12:30 PM·12:30UTC",
       "datetime_local": "29/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 20h 9m"
+      "time_to": "in 19h 49m"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Oct 29, 12:30 PM·12:30UTC",
       "datetime_local": "29/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 20h 9m"
+      "time_to": "in 19h 49m"
     },
     {
       "name": "EU Deposit Facility Rate (Oct)",
       "datetime_raw": "Thu, Oct 29, 01:15 PM·13:15UTC",
       "datetime_local": "29/10/2026 20:15",
       "impact": "high",
-      "time_to": "in 20h 54m"
+      "time_to": "in 20h 34m"
     },
     {
       "name": "EU ECB Interest Rate Decision (Oct)",
       "datetime_raw": "Thu, Oct 29, 01:15 PM·13:15UTC",
       "datetime_local": "29/10/2026 20:15",
       "impact": "high",
-      "time_to": "in 20h 54m"
+      "time_to": "in 20h 34m"
     },
     {
       "name": "EU ECB Press Conference",
       "datetime_raw": "Thu, Oct 29, 01:45 PM·13:45UTC",
       "datetime_local": "29/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 21h 24m"
+      "time_to": "in 21h 4m"
     },
     {
       "name": "JP BoJ Interest Rate Decision",
