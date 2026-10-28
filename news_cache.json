@@ -7,98 +7,98 @@
       "datetime_raw": "Wed, Oct 28, 06:00 PM·18:00UTC",
       "datetime_local": "29/10/2026 01:00",
       "impact": "high",
-      "time_to": "in 2h 19m"
+      "time_to": "in 1h 58m"
     },
     {
       "name": "US FOMC Statement",
       "datetime_raw": "Wed, Oct 28, 06:00 PM·18:00UTC",
       "datetime_local": "29/10/2026 01:00",
       "impact": "high",
-      "time_to": "in 2h 19m"
+      "time_to": "in 1h 58m"
     },
     {
       "name": "US FOMC Press Conference",
       "datetime_raw": "Wed, Oct 28, 06:30 PM·18:30UTC",
       "datetime_local": "29/10/2026 01:30",
       "impact": "high",
-      "time_to": "in 2h 49m"
+      "time_to": "in 2h 28m"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Sep)",
       "datetime_raw": "Thu, Oct 29, 12:30 PM·12:30UTC",
       "datetime_local": "29/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 20h 49m"
+      "time_to": "in 20h 28m"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Sep)",
       "datetime_raw": "Thu, Oct 29, 12:30 PM·12:30UTC",
       "datetime_local": "29/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 20h 49m"
+      "time_to": "in 20h 28m"
     },
     {
       "name": "US GDP (QoQ) (Q3)",
       "datetime_raw": "Thu, Oct 29, 12:30 PM·12:30UTC",
       "datetime_local": "29/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 20h 49m"
+      "time_to": "in 20h 28m"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Oct 29, 12:30 PM·12:30UTC",
       "datetime_local": "29/10/2026 19:30",
       "impact": "high",
-      "time_to": "in 20h 49m"
+      "time_to": "in 20h 28m"
     },
     {
       "name": "EU Deposit Facility Rate (Oct)",
       "datetime_raw": "Thu, Oct 29, 01:15 PM·13:15UTC",
       "datetime_local": "29/10/2026 20:15",
       "impact": "high",
-      "time_to": "in 21h 34m"
+      "time_to": "in 21h 13m"
     },
     {
       "name": "EU ECB Interest Rate Decision (Oct)",
       "datetime_raw": "Thu, Oct 29, 01:15 PM·13:15UTC",
       "datetime_local": "29/10/2026 20:15",
       "impact": "high",
-      "time_to": "in 21h 34m"
+      "time_to": "in 21h 13m"
     },
     {
       "name": "EU ECB Press Conference",
       "datetime_raw": "Thu, Oct 29, 01:45 PM·13:45UTC",
       "datetime_local": "29/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 22h 4m"
+      "time_to": "in 21h 43m"
     },
     {
       "name": "JP BoJ Interest Rate Decision",
       "datetime_raw": "Fri, Oct 30, 03:00 AM·03:00UTC",
       "datetime_local": "30/10/2026 10:00",
       "impact": "high",
-      "time_to": "in 1d 11h"
+      "time_to": "in 1d 10h"
     },
     {
       "name": "DE German GDP (QoQ) (Q3)",
       "datetime_raw": "Fri, Oct 30, 09:00 AM·09:00UTC",
       "datetime_local": "30/10/2026 16:00",
       "impact": "high",
-      "time_to": "in 1d 17h"
+      "time_to": "in 1d 16h"
     },
     {
       "name": "DE German CPI (MoM) (Oct)",
       "datetime_raw": "Fri, Oct 30, 01:00 PM·13:00UTC",
       "datetime_local": "30/10/2026 20:00",
       "impact": "high",
-      "time_to": "in 1d 21h"
+      "time_to": "in 1d 20h"
     },
     {
       "name": "US Chicago PMI (Oct)",
       "datetime_raw": "Fri, Oct 30, 01:45 PM·13:45UTC",
       "datetime_local": "30/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 1d 22h"
+      "time_to": "in 1d 21h"
     }
   ]
 }
