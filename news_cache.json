@@ -7,28 +7,28 @@
       "datetime_raw": "Fri, Oct 30, 03:00 AM·03:00UTC",
       "datetime_local": "30/10/2026 10:00",
       "impact": "high",
-      "time_to": "in 3h 19m"
+      "time_to": "in 2h 59m"
     },
     {
       "name": "DE German GDP (QoQ) (Q3)",
       "datetime_raw": "Fri, Oct 30, 09:00 AM·09:00UTC",
       "datetime_local": "30/10/2026 16:00",
       "impact": "high",
-      "time_to": "in 9h 19m"
+      "time_to": "in 8h 59m"
     },
     {
       "name": "DE German CPI (MoM) (Oct)",
       "datetime_raw": "Fri, Oct 30, 01:00 PM·13:00UTC",
       "datetime_local": "30/10/2026 20:00",
       "impact": "high",
-      "time_to": "in 13h 19m"
+      "time_to": "in 12h 59m"
     },
     {
       "name": "US Chicago PMI (Oct)",
       "datetime_raw": "Fri, Oct 30, 01:45 PM·13:45UTC",
       "datetime_local": "30/10/2026 20:45",
       "impact": "high",
-      "time_to": "in 14h 4m"
+      "time_to": "in 13h 44m"
     }
   ]
 }
