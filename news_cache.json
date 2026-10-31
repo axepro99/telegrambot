@@ -7,21 +7,21 @@
       "datetime_raw": "Mon, Nov 2, 02:45 PM·14:45UTC",
       "datetime_local": "02/11/2026 21:45",
       "impact": "high",
-      "time_to": "in 2d 5h"
+      "time_to": "in 2d 4h"
     },
     {
       "name": "US ISM Manufacturing PMI (Oct)",
       "datetime_raw": "Mon, Nov 2, 03:00 PM·15:00UTC",
       "datetime_local": "02/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 2d 5h"
+      "time_to": "in 2d 4h"
     },
     {
       "name": "US ISM Manufacturing Prices (Oct)",
       "datetime_raw": "Mon, Nov 2, 03:00 PM·15:00UTC",
       "datetime_local": "02/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 2d 5h"
+      "time_to": "in 2d 4h"
     },
     {
       "name": "AU RBA Interest Rate Decision (Nov)",
@@ -35,14 +35,14 @@
       "datetime_raw": "Tue, Nov 3, 03:00 PM·15:00UTC",
       "datetime_local": "03/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 3d 5h"
+      "time_to": "in 3d 4h"
     },
     {
       "name": "EU CPI (YoY) (Oct)",
       "datetime_raw": "Wed, Nov 4, 10:00 AM·10:00UTC",
       "datetime_local": "04/11/2026 17:00",
       "impact": "high",
-      "time_to": "in 4d 0h"
+      "time_to": "in 3d 23h"
     },
     {
       "name": "US ADP Nonfarm Employment Change (Oct)",
@@ -56,21 +56,21 @@
       "datetime_raw": "Wed, Nov 4, 02:45 PM·14:45UTC",
       "datetime_local": "04/11/2026 21:45",
       "impact": "high",
-      "time_to": "in 4d 5h"
+      "time_to": "in 4d 4h"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Oct)",
       "datetime_raw": "Wed, Nov 4, 03:00 PM·15:00UTC",
       "datetime_local": "04/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 4d 5h"
+      "time_to": "in 4d 4h"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Oct)",
       "datetime_raw": "Wed, Nov 4, 03:00 PM·15:00UTC",
       "datetime_local": "04/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 4d 5h"
+      "time_to": "in 4d 4h"
     },
     {
       "name": "US Crude Oil Inventories",
@@ -84,7 +84,7 @@
       "datetime_raw": "Thu, Nov 5, 12:00 PM·12:00UTC",
       "datetime_local": "05/11/2026 19:00",
       "impact": "high",
-      "time_to": "in 5d 2h"
+      "time_to": "in 5d 1h"
     },
     {
       "name": "US Initial Jobless Claims",
