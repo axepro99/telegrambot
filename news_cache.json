@@ -7,7 +7,7 @@
       "datetime_raw": "Mon, Nov 2, 02:45 PM·14:45UTC",
       "datetime_local": "02/11/2026 21:45",
       "impact": "high",
-      "time_to": "in 2d 1h"
+      "time_to": "in 2d 0h"
     },
     {
       "name": "US ISM Manufacturing PMI (Oct)",
@@ -56,7 +56,7 @@
       "datetime_raw": "Wed, Nov 4, 02:45 PM·14:45UTC",
       "datetime_local": "04/11/2026 21:45",
       "impact": "high",
-      "time_to": "in 4d 1h"
+      "time_to": "in 4d 0h"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Oct)",
