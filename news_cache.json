@@ -7,21 +7,21 @@
       "datetime_raw": "Mon, Nov 2, 02:45 PM·14:45UTC",
       "datetime_local": "02/11/2026 21:45",
       "impact": "high",
-      "time_to": "in 15h 44m"
+      "time_to": "in 15h 24m"
     },
     {
       "name": "US ISM Manufacturing PMI (Oct)",
       "datetime_raw": "Mon, Nov 2, 03:00 PM·15:00UTC",
       "datetime_local": "02/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 15h 59m"
+      "time_to": "in 15h 39m"
     },
     {
       "name": "US ISM Manufacturing Prices (Oct)",
       "datetime_raw": "Mon, Nov 2, 03:00 PM·15:00UTC",
       "datetime_local": "02/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 15h 59m"
+      "time_to": "in 15h 39m"
     },
     {
       "name": "AU RBA Interest Rate Decision (Nov)",
@@ -49,7 +49,7 @@
       "datetime_raw": "Wed, Nov 4, 01:15 PM·13:15UTC",
       "datetime_local": "04/11/2026 20:15",
       "impact": "high",
-      "time_to": "in 2d 14h"
+      "time_to": "in 2d 13h"
     },
     {
       "name": "US S&P Global Services PMI (Oct)",
