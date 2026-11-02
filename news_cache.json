@@ -7,14 +7,14 @@
       "datetime_raw": "Tue, Nov 3, 03:30 AM·03:30UTC",
       "datetime_local": "03/11/2026 10:30",
       "impact": "high",
-      "time_to": "in 3h 49m"
+      "time_to": "in 3h 33m"
     },
     {
       "name": "US JOLTS Job Openings (Sep)",
       "datetime_raw": "Tue, Nov 3, 03:00 PM·15:00UTC",
       "datetime_local": "03/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 15h 19m"
+      "time_to": "in 15h 3m"
     },
     {
       "name": "EU CPI (YoY) (Oct)",
@@ -35,7 +35,7 @@
       "datetime_raw": "Wed, Nov 4, 02:45 PM·14:45UTC",
       "datetime_local": "04/11/2026 21:45",
       "impact": "high",
-      "time_to": "in 1d 15h"
+      "time_to": "in 1d 14h"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Oct)",
