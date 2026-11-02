@@ -7,14 +7,14 @@
       "datetime_raw": "Tue, Nov 3, 03:30 AM·03:30UTC",
       "datetime_local": "03/11/2026 10:30",
       "impact": "high",
-      "time_to": "in 4h 29m"
+      "time_to": "in 4h 9m"
     },
     {
       "name": "US JOLTS Job Openings (Sep)",
       "datetime_raw": "Tue, Nov 3, 03:00 PM·15:00UTC",
       "datetime_local": "03/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 15h 59m"
+      "time_to": "in 15h 39m"
     },
     {
       "name": "EU CPI (YoY) (Oct)",
@@ -28,7 +28,7 @@
       "datetime_raw": "Wed, Nov 4, 01:15 PM·13:15UTC",
       "datetime_local": "04/11/2026 20:15",
       "impact": "high",
-      "time_to": "in 1d 14h"
+      "time_to": "in 1d 13h"
     },
     {
       "name": "US S&P Global Services PMI (Oct)",
