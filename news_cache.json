@@ -7,49 +7,49 @@
       "datetime_raw": "Wed, Nov 4, 10:00 AM·10:00UTC",
       "datetime_local": "04/11/2026 17:00",
       "impact": "high",
-      "time_to": "in 16h 19m"
+      "time_to": "in 15h 58m"
     },
     {
       "name": "US ADP Nonfarm Employment Change (Oct)",
       "datetime_raw": "Wed, Nov 4, 01:15 PM·13:15UTC",
       "datetime_local": "04/11/2026 20:15",
       "impact": "high",
-      "time_to": "in 19h 34m"
+      "time_to": "in 19h 13m"
     },
     {
       "name": "US S&P Global Services PMI (Oct)",
       "datetime_raw": "Wed, Nov 4, 02:45 PM·14:45UTC",
       "datetime_local": "04/11/2026 21:45",
       "impact": "high",
-      "time_to": "in 21h 4m"
+      "time_to": "in 20h 43m"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Oct)",
       "datetime_raw": "Wed, Nov 4, 03:00 PM·15:00UTC",
       "datetime_local": "04/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 21h 19m"
+      "time_to": "in 20h 58m"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Oct)",
       "datetime_raw": "Wed, Nov 4, 03:00 PM·15:00UTC",
       "datetime_local": "04/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 21h 19m"
+      "time_to": "in 20h 58m"
     },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "Wed, Nov 4, 03:30 PM·15:30UTC",
       "datetime_local": "04/11/2026 22:30",
       "impact": "high",
-      "time_to": "in 21h 49m"
+      "time_to": "in 21h 28m"
     },
     {
       "name": "UK BoE Interest Rate Decision (Nov)",
       "datetime_raw": "Thu, Nov 5, 12:00 PM·12:00UTC",
       "datetime_local": "05/11/2026 19:00",
       "impact": "high",
-      "time_to": "in 1d 18h"
+      "time_to": "in 1d 17h"
     },
     {
       "name": "US Initial Jobless Claims",
