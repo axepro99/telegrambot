@@ -7,21 +7,21 @@
       "datetime_raw": "Tue, Nov 3, 03:00 PM·15:00UTC",
       "datetime_local": "03/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 39m 24s"
+      "time_to": "in 19m 26s"
     },
     {
       "name": "EU CPI (YoY) (Oct)",
       "datetime_raw": "Wed, Nov 4, 10:00 AM·10:00UTC",
       "datetime_local": "04/11/2026 17:00",
       "impact": "high",
-      "time_to": "in 19h 39m"
+      "time_to": "in 19h 19m"
     },
     {
       "name": "US ADP Nonfarm Employment Change (Oct)",
       "datetime_raw": "Wed, Nov 4, 01:15 PM·13:15UTC",
       "datetime_local": "04/11/2026 20:15",
       "impact": "high",
-      "time_to": "in 22h 54m"
+      "time_to": "in 22h 34m"
     },
     {
       "name": "US S&P Global Services PMI (Oct)",
@@ -49,7 +49,7 @@
       "datetime_raw": "Wed, Nov 4, 03:30 PM·15:30UTC",
       "datetime_local": "04/11/2026 22:30",
       "impact": "high",
-      "time_to": "in 1d 1h"
+      "time_to": "in 1d 0h"
     },
     {
       "name": "UK BoE Interest Rate Decision (Nov)",
@@ -63,28 +63,28 @@
       "datetime_raw": "Thu, Nov 5, 01:30 PM·13:30UTC",
       "datetime_local": "05/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 1d 23h"
+      "time_to": "in 1d 22h"
     },
     {
       "name": "US Nonfarm Payrolls (Oct)",
       "datetime_raw": "Fri, Nov 6, 01:30 PM·13:30UTC",
       "datetime_local": "06/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 23h"
+      "time_to": "in 2d 22h"
     },
     {
       "name": "US Unemployment Rate (Oct)",
       "datetime_raw": "Fri, Nov 6, 01:30 PM·13:30UTC",
       "datetime_local": "06/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 23h"
+      "time_to": "in 2d 22h"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Oct)",
       "datetime_raw": "Fri, Nov 6, 01:30 PM·13:30UTC",
       "datetime_local": "06/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 23h"
+      "time_to": "in 2d 22h"
     }
   ]
 }
