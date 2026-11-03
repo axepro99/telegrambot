@@ -7,21 +7,21 @@
       "datetime_raw": "Tue, Nov 3, 03:30 AM·03:30UTC",
       "datetime_local": "03/11/2026 10:30",
       "impact": "high",
-      "time_to": "in 3h 33m"
+      "time_to": "in 3h 28m"
     },
     {
       "name": "US JOLTS Job Openings (Sep)",
       "datetime_raw": "Tue, Nov 3, 03:00 PM·15:00UTC",
       "datetime_local": "03/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 15h 3m"
+      "time_to": "in 14h 58m"
     },
     {
       "name": "EU CPI (YoY) (Oct)",
       "datetime_raw": "Wed, Nov 4, 10:00 AM·10:00UTC",
       "datetime_local": "04/11/2026 17:00",
       "impact": "high",
-      "time_to": "in 1d 10h"
+      "time_to": "in 1d 9h"
     },
     {
       "name": "US ADP Nonfarm Employment Change (Oct)",
@@ -42,14 +42,14 @@
       "datetime_raw": "Wed, Nov 4, 03:00 PM·15:00UTC",
       "datetime_local": "04/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 1d 15h"
+      "time_to": "in 1d 14h"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Oct)",
       "datetime_raw": "Wed, Nov 4, 03:00 PM·15:00UTC",
       "datetime_local": "04/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 1d 15h"
+      "time_to": "in 1d 14h"
     },
     {
       "name": "US Crude Oil Inventories",
@@ -63,7 +63,7 @@
       "datetime_raw": "Thu, Nov 5, 12:00 PM·12:00UTC",
       "datetime_local": "05/11/2026 19:00",
       "impact": "high",
-      "time_to": "in 2d 12h"
+      "time_to": "in 2d 11h"
     },
     {
       "name": "US Initial Jobless Claims",
