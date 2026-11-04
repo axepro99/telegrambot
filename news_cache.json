@@ -1,167 +1,160 @@
 {
-  "last_news_sent_at": "2026-11-04T16:01:00.520489+07:00",
+  "last_news_sent_at": "2026-11-04T17:20:48.687104+07:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
-    {
-      "name": "EU CPI (YoY) (Oct)",
-      "datetime_raw": "Wed, Nov 4, 10:00 AM·10:00UTC",
-      "datetime_local": "04/11/2026 17:00",
-      "impact": "high",
-      "time_to": "in 39m 23s"
-    },
     {
       "name": "US ADP Nonfarm Employment Change (Oct)",
       "datetime_raw": "Wed, Nov 4, 01:15 PM·13:15UTC",
       "datetime_local": "04/11/2026 20:15",
       "impact": "high",
-      "time_to": "in 3h 54m"
+      "time_to": "in 2h 54m"
     },
     {
       "name": "US S&P Global Services PMI (Oct)",
       "datetime_raw": "Wed, Nov 4, 02:45 PM·14:45UTC",
       "datetime_local": "04/11/2026 21:45",
       "impact": "high",
-      "time_to": "in 5h 24m"
+      "time_to": "in 4h 24m"
     },
     {
       "name": "US ISM Non-Manufacturing Prices (Oct)",
       "datetime_raw": "Wed, Nov 4, 03:00 PM·15:00UTC",
       "datetime_local": "04/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 5h 39m"
+      "time_to": "in 4h 39m"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Oct)",
       "datetime_raw": "Wed, Nov 4, 03:00 PM·15:00UTC",
       "datetime_local": "04/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 5h 39m"
+      "time_to": "in 4h 39m"
     },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "Wed, Nov 4, 03:30 PM·15:30UTC",
       "datetime_local": "04/11/2026 22:30",
       "impact": "high",
-      "time_to": "in 6h 9m"
+      "time_to": "in 5h 9m"
     },
     {
       "name": "UK BoE Interest Rate Decision (Nov)",
       "datetime_raw": "Thu, Nov 5, 12:00 PM·12:00UTC",
       "datetime_local": "05/11/2026 19:00",
       "impact": "high",
-      "time_to": "in 1d 2h"
+      "time_to": "in 1d 1h"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Nov 5, 01:30 PM·13:30UTC",
       "datetime_local": "05/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 1d 4h"
+      "time_to": "in 1d 3h"
     },
     {
       "name": "US Nonfarm Payrolls (Oct)",
       "datetime_raw": "Fri, Nov 6, 01:30 PM·13:30UTC",
       "datetime_local": "06/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 4h"
+      "time_to": "in 2d 3h"
     },
     {
       "name": "US Unemployment Rate (Oct)",
       "datetime_raw": "Fri, Nov 6, 01:30 PM·13:30UTC",
       "datetime_local": "06/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 4h"
+      "time_to": "in 2d 3h"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Oct)",
       "datetime_raw": "Fri, Nov 6, 01:30 PM·13:30UTC",
       "datetime_local": "06/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 4h"
+      "time_to": "in 2d 3h"
     },
     {
       "name": "US CPI (MoM) (Oct)",
       "datetime_raw": "Tue, Nov 10, 01:30 PM·13:30UTC",
       "datetime_local": "10/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "US Core CPI (MoM) (Oct)",
       "datetime_raw": "Tue, Nov 10, 01:30 PM·13:30UTC",
       "datetime_local": "10/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "US CPI (YoY) (Oct)",
       "datetime_raw": "Tue, Nov 10, 01:30 PM·13:30UTC",
       "datetime_local": "10/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "US 10-Year Note Auction",
       "datetime_raw": "Tue, Nov 10, 06:00 PM·18:00UTC",
       "datetime_local": "11/11/2026 01:00",
       "impact": "high",
-      "time_to": "in 6d 8h"
+      "time_to": "in 6d 7h"
     },
     {
       "name": "DE German CPI (MoM) (Oct)",
       "datetime_raw": "Wed, Nov 11, 07:00 AM·07:00UTC",
       "datetime_local": "11/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 6d 21h"
+      "time_to": "in 6d 20h"
     },
     {
       "name": "UK GDP (YoY) (Q3)",
       "datetime_raw": "Thu, Nov 12, 07:00 AM·07:00UTC",
       "datetime_local": "12/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 7d 21h"
+      "time_to": "in 7d 20h"
     },
     {
       "name": "UK GDP (MoM) (Sep)",
       "datetime_raw": "Thu, Nov 12, 07:00 AM·07:00UTC",
       "datetime_local": "12/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 7d 21h"
+      "time_to": "in 7d 20h"
     },
     {
       "name": "UK GDP (QoQ) (Q3)",
       "datetime_raw": "Thu, Nov 12, 07:00 AM·07:00UTC",
       "datetime_local": "12/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 7d 21h"
+      "time_to": "in 7d 20h"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Nov 12, 01:30 PM·13:30UTC",
       "datetime_local": "12/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 8d 4h"
+      "time_to": "in 8d 3h"
     },
     {
       "name": "US Existing Home Sales (Oct)",
       "datetime_raw": "Thu, Nov 12, 03:00 PM·15:00UTC",
       "datetime_local": "12/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 8d 5h"
+      "time_to": "in 8d 4h"
     },
     {
       "name": "US 30-Year Bond Auction",
       "datetime_raw": "Thu, Nov 12, 06:00 PM·18:00UTC",
       "datetime_local": "13/11/2026 01:00",
       "impact": "high",
-      "time_to": "in 8d 8h"
+      "time_to": "in 8d 7h"
     },
     {
       "name": "US PPI (MoM) (Oct)",
       "datetime_raw": "Fri, Nov 13, 01:30 PM·13:30UTC",
       "datetime_local": "13/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 9d 4h"
+      "time_to": "in 9d 3h"
     }
   ]
 }
