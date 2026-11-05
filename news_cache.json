@@ -7,56 +7,56 @@
       "datetime_raw": "Thu, Nov 5, 12:00 PM·12:00UTC",
       "datetime_local": "05/11/2026 19:00",
       "impact": "high",
-      "time_to": "in 39m 19s"
+      "time_to": "in 19m 28s"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Nov 5, 01:30 PM·13:30UTC",
       "datetime_local": "05/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2h 9m"
+      "time_to": "in 1h 49m"
     },
     {
       "name": "US Nonfarm Payrolls (Oct)",
       "datetime_raw": "Fri, Nov 6, 01:30 PM·13:30UTC",
       "datetime_local": "06/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 1d 2h"
+      "time_to": "in 1d 1h"
     },
     {
       "name": "US Unemployment Rate (Oct)",
       "datetime_raw": "Fri, Nov 6, 01:30 PM·13:30UTC",
       "datetime_local": "06/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 1d 2h"
+      "time_to": "in 1d 1h"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Oct)",
       "datetime_raw": "Fri, Nov 6, 01:30 PM·13:30UTC",
       "datetime_local": "06/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 1d 2h"
+      "time_to": "in 1d 1h"
     },
     {
       "name": "US CPI (MoM) (Oct)",
       "datetime_raw": "Tue, Nov 10, 01:30 PM·13:30UTC",
       "datetime_local": "10/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 5d 2h"
+      "time_to": "in 5d 1h"
     },
     {
       "name": "US Core CPI (MoM) (Oct)",
       "datetime_raw": "Tue, Nov 10, 01:30 PM·13:30UTC",
       "datetime_local": "10/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 5d 2h"
+      "time_to": "in 5d 1h"
     },
     {
       "name": "US CPI (YoY) (Oct)",
       "datetime_raw": "Tue, Nov 10, 01:30 PM·13:30UTC",
       "datetime_local": "10/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 5d 2h"
+      "time_to": "in 5d 1h"
     },
     {
       "name": "US 10-Year Note Auction",
@@ -98,7 +98,7 @@
       "datetime_raw": "Thu, Nov 12, 01:30 PM·13:30UTC",
       "datetime_local": "12/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 7d 2h"
+      "time_to": "in 7d 1h"
     },
     {
       "name": "US Existing Home Sales (Oct)",
@@ -119,7 +119,7 @@
       "datetime_raw": "Fri, Nov 13, 01:30 PM·13:30UTC",
       "datetime_local": "13/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 8d 2h"
+      "time_to": "in 8d 1h"
     }
   ]
 }
