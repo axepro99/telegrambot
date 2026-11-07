@@ -7,21 +7,21 @@
       "datetime_raw": "Tue, Nov 10, 01:30 PM·13:30UTC",
       "datetime_local": "10/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 22h"
+      "time_to": "in 2d 21h"
     },
     {
       "name": "US Core CPI (MoM) (Oct)",
       "datetime_raw": "Tue, Nov 10, 01:30 PM·13:30UTC",
       "datetime_local": "10/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 22h"
+      "time_to": "in 2d 21h"
     },
     {
       "name": "US CPI (YoY) (Oct)",
       "datetime_raw": "Tue, Nov 10, 01:30 PM·13:30UTC",
       "datetime_local": "10/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 22h"
+      "time_to": "in 2d 21h"
     },
     {
       "name": "US 10-Year Note Auction",
@@ -63,7 +63,7 @@
       "datetime_raw": "Thu, Nov 12, 01:30 PM·13:30UTC",
       "datetime_local": "12/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 4d 22h"
+      "time_to": "in 4d 21h"
     },
     {
       "name": "US Existing Home Sales (Oct)",
@@ -84,7 +84,7 @@
       "datetime_raw": "Fri, Nov 13, 01:30 PM·13:30UTC",
       "datetime_local": "13/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 5d 22h"
+      "time_to": "in 5d 21h"
     }
   ]
 }
