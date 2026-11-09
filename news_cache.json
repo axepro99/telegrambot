@@ -7,56 +7,56 @@
       "datetime_raw": "Tue, Nov 10, 01:30 PM·13:30UTC",
       "datetime_local": "10/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 22h 49m"
+      "time_to": "in 22h 28m"
     },
     {
       "name": "US Core CPI (MoM) (Oct)",
       "datetime_raw": "Tue, Nov 10, 01:30 PM·13:30UTC",
       "datetime_local": "10/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 22h 49m"
+      "time_to": "in 22h 28m"
     },
     {
       "name": "US CPI (YoY) (Oct)",
       "datetime_raw": "Tue, Nov 10, 01:30 PM·13:30UTC",
       "datetime_local": "10/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 22h 49m"
+      "time_to": "in 22h 28m"
     },
     {
       "name": "US 10-Year Note Auction",
       "datetime_raw": "Tue, Nov 10, 06:00 PM·18:00UTC",
       "datetime_local": "11/11/2026 01:00",
       "impact": "high",
-      "time_to": "in 1d 3h"
+      "time_to": "in 1d 2h"
     },
     {
       "name": "DE German CPI (MoM) (Oct)",
       "datetime_raw": "Wed, Nov 11, 07:00 AM·07:00UTC",
       "datetime_local": "11/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 1d 16h"
+      "time_to": "in 1d 15h"
     },
     {
       "name": "UK GDP (YoY) (Q3)",
       "datetime_raw": "Thu, Nov 12, 07:00 AM·07:00UTC",
       "datetime_local": "12/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 2d 16h"
+      "time_to": "in 2d 15h"
     },
     {
       "name": "UK GDP (MoM) (Sep)",
       "datetime_raw": "Thu, Nov 12, 07:00 AM·07:00UTC",
       "datetime_local": "12/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 2d 16h"
+      "time_to": "in 2d 15h"
     },
     {
       "name": "UK GDP (QoQ) (Q3)",
       "datetime_raw": "Thu, Nov 12, 07:00 AM·07:00UTC",
       "datetime_local": "12/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 2d 16h"
+      "time_to": "in 2d 15h"
     },
     {
       "name": "US Initial Jobless Claims",
@@ -70,14 +70,14 @@
       "datetime_raw": "Thu, Nov 12, 03:00 PM·15:00UTC",
       "datetime_local": "12/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 3d 0h"
+      "time_to": "in 2d 23h"
     },
     {
       "name": "US 30-Year Bond Auction",
       "datetime_raw": "Thu, Nov 12, 06:00 PM·18:00UTC",
       "datetime_local": "13/11/2026 01:00",
       "impact": "high",
-      "time_to": "in 3d 3h"
+      "time_to": "in 3d 2h"
     },
     {
       "name": "US PPI (MoM) (Oct)",
