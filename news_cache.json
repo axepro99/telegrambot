@@ -7,35 +7,35 @@
       "datetime_raw": "Thu, Nov 12, 07:00 AM·07:00UTC",
       "datetime_local": "12/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 14h 39m"
+      "time_to": "in 14h 19m"
     },
     {
       "name": "UK GDP (MoM) (Sep)",
       "datetime_raw": "Thu, Nov 12, 07:00 AM·07:00UTC",
       "datetime_local": "12/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 14h 39m"
+      "time_to": "in 14h 19m"
     },
     {
       "name": "UK GDP (QoQ) (Q3)",
       "datetime_raw": "Thu, Nov 12, 07:00 AM·07:00UTC",
       "datetime_local": "12/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 14h 39m"
+      "time_to": "in 14h 19m"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Nov 12, 01:30 PM·13:30UTC",
       "datetime_local": "12/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 21h 9m"
+      "time_to": "in 20h 49m"
     },
     {
       "name": "US Existing Home Sales (Oct)",
       "datetime_raw": "Thu, Nov 12, 03:00 PM·15:00UTC",
       "datetime_local": "12/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 22h 39m"
+      "time_to": "in 22h 19m"
     },
     {
       "name": "US Crude Oil Inventories",
@@ -56,7 +56,7 @@
       "datetime_raw": "Fri, Nov 13, 01:30 PM·13:30UTC",
       "datetime_local": "13/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 1d 21h"
+      "time_to": "in 1d 20h"
     },
     {
       "name": "JP GDP (QoQ) (Q3)",
@@ -70,14 +70,14 @@
       "datetime_raw": "Tue, Nov 17, 01:30 PM·13:30UTC",
       "datetime_local": "17/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 5d 21h"
+      "time_to": "in 5d 20h"
     },
     {
       "name": "US Core Retail Sales (MoM) (Oct)",
       "datetime_raw": "Tue, Nov 17, 01:30 PM·13:30UTC",
       "datetime_local": "17/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 5d 21h"
+      "time_to": "in 5d 20h"
     },
     {
       "name": "UK CPI (YoY) (Oct)",
@@ -105,14 +105,14 @@
       "datetime_raw": "Thu, Nov 19, 01:30 PM·13:30UTC",
       "datetime_local": "19/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 7d 21h"
+      "time_to": "in 7d 20h"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Nov 19, 01:30 PM·13:30UTC",
       "datetime_local": "19/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 7d 21h"
+      "time_to": "in 7d 20h"
     }
   ]
 }
