@@ -7,49 +7,49 @@
       "datetime_raw": "Thu, Nov 12, 07:00 AM·07:00UTC",
       "datetime_local": "12/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 5h 19m"
+      "time_to": "in 4h 59m"
     },
     {
       "name": "UK GDP (MoM) (Sep)",
       "datetime_raw": "Thu, Nov 12, 07:00 AM·07:00UTC",
       "datetime_local": "12/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 5h 19m"
+      "time_to": "in 4h 59m"
     },
     {
       "name": "UK GDP (QoQ) (Q3)",
       "datetime_raw": "Thu, Nov 12, 07:00 AM·07:00UTC",
       "datetime_local": "12/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 5h 19m"
+      "time_to": "in 4h 59m"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Nov 12, 01:30 PM·13:30UTC",
       "datetime_local": "12/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 11h 49m"
+      "time_to": "in 11h 29m"
     },
     {
       "name": "US Existing Home Sales (Oct)",
       "datetime_raw": "Thu, Nov 12, 03:00 PM·15:00UTC",
       "datetime_local": "12/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 13h 19m"
+      "time_to": "in 12h 59m"
     },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "Thu, Nov 12, 05:00 PM·17:00UTC",
       "datetime_local": "13/11/2026 00:00",
       "impact": "high",
-      "time_to": "in 15h 19m"
+      "time_to": "in 14h 59m"
     },
     {
       "name": "US 30-Year Bond Auction",
       "datetime_raw": "Thu, Nov 12, 06:00 PM·18:00UTC",
       "datetime_local": "13/11/2026 01:00",
       "impact": "high",
-      "time_to": "in 16h 19m"
+      "time_to": "in 15h 59m"
     },
     {
       "name": "US PPI (MoM) (Oct)",
@@ -63,7 +63,7 @@
       "datetime_raw": "Sun, Nov 15, 11:50 PM·23:50UTC",
       "datetime_local": "16/11/2026 06:50",
       "impact": "high",
-      "time_to": "in 3d 22h"
+      "time_to": "in 3d 21h"
     },
     {
       "name": "US Retail Sales (MoM) (Oct)",
@@ -84,21 +84,21 @@
       "datetime_raw": "Wed, Nov 18, 07:00 AM·07:00UTC",
       "datetime_local": "18/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 6d 5h"
+      "time_to": "in 6d 4h"
     },
     {
       "name": "EU CPI (YoY) (Oct)",
       "datetime_raw": "Wed, Nov 18, 10:00 AM·10:00UTC",
       "datetime_local": "18/11/2026 17:00",
       "impact": "high",
-      "time_to": "in 6d 8h"
+      "time_to": "in 6d 7h"
     },
     {
       "name": "US FOMC Meeting Minutes",
       "datetime_raw": "Wed, Nov 18, 07:00 PM·19:00UTC",
       "datetime_local": "19/11/2026 02:00",
       "impact": "high",
-      "time_to": "in 6d 17h"
+      "time_to": "in 6d 16h"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Nov)",
