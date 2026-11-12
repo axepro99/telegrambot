@@ -7,21 +7,21 @@
       "datetime_raw": "Thu, Nov 12, 05:00 PM·17:00UTC",
       "datetime_local": "13/11/2026 00:00",
       "impact": "high",
-      "time_to": "in 1h 58m"
+      "time_to": "in 1h 39m"
     },
     {
       "name": "US 30-Year Bond Auction",
       "datetime_raw": "Thu, Nov 12, 06:00 PM·18:00UTC",
       "datetime_local": "13/11/2026 01:00",
       "impact": "high",
-      "time_to": "in 2h 58m"
+      "time_to": "in 2h 39m"
     },
     {
       "name": "US PPI (MoM) (Oct)",
       "datetime_raw": "Fri, Nov 13, 01:30 PM·13:30UTC",
       "datetime_local": "13/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 22h 28m"
+      "time_to": "in 22h 9m"
     },
     {
       "name": "JP GDP (QoQ) (Q3)",
