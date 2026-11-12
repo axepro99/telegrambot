@@ -7,35 +7,35 @@
       "datetime_raw": "Thu, Nov 12, 01:30 PM·13:30UTC",
       "datetime_local": "12/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 5h 9m"
+      "time_to": "in 4h 49m"
     },
     {
       "name": "US Existing Home Sales (Oct)",
       "datetime_raw": "Thu, Nov 12, 03:00 PM·15:00UTC",
       "datetime_local": "12/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 6h 39m"
+      "time_to": "in 6h 19m"
     },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "Thu, Nov 12, 05:00 PM·17:00UTC",
       "datetime_local": "13/11/2026 00:00",
       "impact": "high",
-      "time_to": "in 8h 39m"
+      "time_to": "in 8h 19m"
     },
     {
       "name": "US 30-Year Bond Auction",
       "datetime_raw": "Thu, Nov 12, 06:00 PM·18:00UTC",
       "datetime_local": "13/11/2026 01:00",
       "impact": "high",
-      "time_to": "in 9h 39m"
+      "time_to": "in 9h 19m"
     },
     {
       "name": "US PPI (MoM) (Oct)",
       "datetime_raw": "Fri, Nov 13, 01:30 PM·13:30UTC",
       "datetime_local": "13/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 1d 5h"
+      "time_to": "in 1d 4h"
     },
     {
       "name": "JP GDP (QoQ) (Q3)",
@@ -49,14 +49,14 @@
       "datetime_raw": "Tue, Nov 17, 01:30 PM·13:30UTC",
       "datetime_local": "17/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 5d 5h"
+      "time_to": "in 5d 4h"
     },
     {
       "name": "US Core Retail Sales (MoM) (Oct)",
       "datetime_raw": "Tue, Nov 17, 01:30 PM·13:30UTC",
       "datetime_local": "17/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 5d 5h"
+      "time_to": "in 5d 4h"
     },
     {
       "name": "UK CPI (YoY) (Oct)",
@@ -84,14 +84,14 @@
       "datetime_raw": "Thu, Nov 19, 01:30 PM·13:30UTC",
       "datetime_local": "19/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 7d 5h"
+      "time_to": "in 7d 4h"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Nov 19, 01:30 PM·13:30UTC",
       "datetime_local": "19/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 7d 5h"
+      "time_to": "in 7d 4h"
     }
   ]
 }
