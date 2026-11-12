@@ -1,41 +1,34 @@
 {
-  "last_news_sent_at": "2026-11-12T21:20:36.851062+07:00",
+  "last_news_sent_at": "2026-11-12T22:01:26.174426+07:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
-    {
-      "name": "US Existing Home Sales (Oct)",
-      "datetime_raw": "Thu, Nov 12, 03:00 PM·15:00UTC",
-      "datetime_local": "12/11/2026 22:00",
-      "impact": "high",
-      "time_to": "in 19m 22s"
-    },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "Thu, Nov 12, 05:00 PM·17:00UTC",
       "datetime_local": "13/11/2026 00:00",
       "impact": "high",
-      "time_to": "in 2h 19m"
+      "time_to": "in 1h 58m"
     },
     {
       "name": "US 30-Year Bond Auction",
       "datetime_raw": "Thu, Nov 12, 06:00 PM·18:00UTC",
       "datetime_local": "13/11/2026 01:00",
       "impact": "high",
-      "time_to": "in 3h 19m"
+      "time_to": "in 2h 58m"
     },
     {
       "name": "US PPI (MoM) (Oct)",
       "datetime_raw": "Fri, Nov 13, 01:30 PM·13:30UTC",
       "datetime_local": "13/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 22h 49m"
+      "time_to": "in 22h 28m"
     },
     {
       "name": "JP GDP (QoQ) (Q3)",
       "datetime_raw": "Sun, Nov 15, 11:50 PM·23:50UTC",
       "datetime_local": "16/11/2026 06:50",
       "impact": "high",
-      "time_to": "in 3d 9h"
+      "time_to": "in 3d 8h"
     },
     {
       "name": "US Retail Sales (MoM) (Oct)",
@@ -56,21 +49,21 @@
       "datetime_raw": "Wed, Nov 18, 07:00 AM·07:00UTC",
       "datetime_local": "18/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 5d 16h"
+      "time_to": "in 5d 15h"
     },
     {
       "name": "EU CPI (YoY) (Oct)",
       "datetime_raw": "Wed, Nov 18, 10:00 AM·10:00UTC",
       "datetime_local": "18/11/2026 17:00",
       "impact": "high",
-      "time_to": "in 5d 19h"
+      "time_to": "in 5d 18h"
     },
     {
       "name": "US FOMC Meeting Minutes",
       "datetime_raw": "Wed, Nov 18, 07:00 PM·19:00UTC",
       "datetime_local": "19/11/2026 02:00",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Nov)",
