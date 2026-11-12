@@ -7,28 +7,28 @@
       "datetime_raw": "Thu, Nov 12, 01:30 PM·13:30UTC",
       "datetime_local": "12/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 6h 28m"
+      "time_to": "in 6h 9m"
     },
     {
       "name": "US Existing Home Sales (Oct)",
       "datetime_raw": "Thu, Nov 12, 03:00 PM·15:00UTC",
       "datetime_local": "12/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 7h 58m"
+      "time_to": "in 7h 39m"
     },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "Thu, Nov 12, 05:00 PM·17:00UTC",
       "datetime_local": "13/11/2026 00:00",
       "impact": "high",
-      "time_to": "in 9h 58m"
+      "time_to": "in 9h 39m"
     },
     {
       "name": "US 30-Year Bond Auction",
       "datetime_raw": "Thu, Nov 12, 06:00 PM·18:00UTC",
       "datetime_local": "13/11/2026 01:00",
       "impact": "high",
-      "time_to": "in 10h 58m"
+      "time_to": "in 10h 39m"
     },
     {
       "name": "US PPI (MoM) (Oct)",
