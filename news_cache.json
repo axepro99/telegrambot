@@ -7,14 +7,14 @@
       "datetime_raw": "Fri, Nov 13, 01:30 PM·13:30UTC",
       "datetime_local": "13/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 11h 49m"
+      "time_to": "in 11h 29m"
     },
     {
       "name": "JP GDP (QoQ) (Q3)",
       "datetime_raw": "Sun, Nov 15, 11:50 PM·23:50UTC",
       "datetime_local": "16/11/2026 06:50",
       "impact": "high",
-      "time_to": "in 2d 22h"
+      "time_to": "in 2d 21h"
     },
     {
       "name": "US Retail Sales (MoM) (Oct)",
@@ -35,21 +35,21 @@
       "datetime_raw": "Wed, Nov 18, 07:00 AM·07:00UTC",
       "datetime_local": "18/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 5d 5h"
+      "time_to": "in 5d 4h"
     },
     {
       "name": "EU CPI (YoY) (Oct)",
       "datetime_raw": "Wed, Nov 18, 10:00 AM·10:00UTC",
       "datetime_local": "18/11/2026 17:00",
       "impact": "high",
-      "time_to": "in 5d 8h"
+      "time_to": "in 5d 7h"
     },
     {
       "name": "US FOMC Meeting Minutes",
       "datetime_raw": "Wed, Nov 18, 07:00 PM·19:00UTC",
       "datetime_local": "19/11/2026 02:00",
       "impact": "high",
-      "time_to": "in 5d 17h"
+      "time_to": "in 5d 16h"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Nov)",
