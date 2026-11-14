@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-11-14T15:20:33.818444+07:00",
+  "last_news_sent_at": "2026-11-14T15:55:24.650239+07:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -7,7 +7,7 @@
       "datetime_raw": "Sun, Nov 15, 11:50 PM·23:50UTC",
       "datetime_local": "16/11/2026 06:50",
       "impact": "high",
-      "time_to": "in 1d 15h"
+      "time_to": "in 1d 14h"
     },
     {
       "name": "US Retail Sales (MoM) (Oct)",
