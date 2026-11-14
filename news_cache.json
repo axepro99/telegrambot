@@ -28,21 +28,21 @@
       "datetime_raw": "Wed, Nov 18, 07:00 AM·07:00UTC",
       "datetime_local": "18/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 3d 22h"
+      "time_to": "in 3d 21h"
     },
     {
       "name": "EU CPI (YoY) (Oct)",
       "datetime_raw": "Wed, Nov 18, 10:00 AM·10:00UTC",
       "datetime_local": "18/11/2026 17:00",
       "impact": "high",
-      "time_to": "in 4d 1h"
+      "time_to": "in 4d 0h"
     },
     {
       "name": "US FOMC Meeting Minutes",
       "datetime_raw": "Wed, Nov 18, 07:00 PM·19:00UTC",
       "datetime_local": "19/11/2026 02:00",
       "impact": "high",
-      "time_to": "in 4d 10h"
+      "time_to": "in 4d 9h"
     },
     {
       "name": "US Philadelphia Fed Manufacturing Index (Nov)",
