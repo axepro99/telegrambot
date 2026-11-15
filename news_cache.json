@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-11-15T18:00:56.678673+07:00",
+  "last_news_sent_at": "2026-11-15T18:40:34.492207+07:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -7,21 +7,21 @@
       "datetime_raw": "Sun, Nov 15, 11:50 PM·23:50UTC",
       "datetime_local": "16/11/2026 06:50",
       "impact": "high",
-      "time_to": "in 12h 29m"
+      "time_to": "in 12h 9m"
     },
     {
       "name": "US Retail Sales (MoM) (Oct)",
       "datetime_raw": "Tue, Nov 17, 01:30 PM·13:30UTC",
       "datetime_local": "17/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 2h"
+      "time_to": "in 2d 1h"
     },
     {
       "name": "US Core Retail Sales (MoM) (Oct)",
       "datetime_raw": "Tue, Nov 17, 01:30 PM·13:30UTC",
       "datetime_local": "17/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 2h"
+      "time_to": "in 2d 1h"
     },
     {
       "name": "UK CPI (YoY) (Oct)",
@@ -49,14 +49,14 @@
       "datetime_raw": "Thu, Nov 19, 01:30 PM·13:30UTC",
       "datetime_local": "19/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 4d 2h"
+      "time_to": "in 4d 1h"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Thu, Nov 19, 01:30 PM·13:30UTC",
       "datetime_local": "19/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 4d 2h"
+      "time_to": "in 4d 1h"
     }
   ]
 }
