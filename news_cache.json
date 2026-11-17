@@ -7,28 +7,28 @@
       "datetime_raw": "Tue, Nov 17, 01:30 PM·13:30UTC",
       "datetime_local": "17/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 1h 29m"
+      "time_to": "in 1h 9m"
     },
     {
       "name": "US Core Retail Sales (MoM) (Oct)",
       "datetime_raw": "Tue, Nov 17, 01:30 PM·13:30UTC",
       "datetime_local": "17/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 1h 29m"
+      "time_to": "in 1h 9m"
     },
     {
       "name": "UK CPI (YoY) (Oct)",
       "datetime_raw": "Wed, Nov 18, 07:00 AM·07:00UTC",
       "datetime_local": "18/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 18h 59m"
+      "time_to": "in 18h 39m"
     },
     {
       "name": "EU CPI (YoY) (Oct)",
       "datetime_raw": "Wed, Nov 18, 10:00 AM·10:00UTC",
       "datetime_local": "18/11/2026 17:00",
       "impact": "high",
-      "time_to": "in 21h 59m"
+      "time_to": "in 21h 39m"
     },
     {
       "name": "US FOMC Meeting Minutes",
