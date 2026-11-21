@@ -21,14 +21,14 @@
       "datetime_raw": "Tue, Nov 24, 03:00 PM·15:00UTC",
       "datetime_local": "24/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 3d 6h"
+      "time_to": "in 3d 5h"
     },
     {
       "name": "DE German GDP (QoQ) (Q3)",
       "datetime_raw": "Wed, Nov 25, 07:00 AM·07:00UTC",
       "datetime_local": "25/11/2026 14:00",
       "impact": "high",
-      "time_to": "in 3d 22h"
+      "time_to": "in 3d 21h"
     },
     {
       "name": "US Core PCE Price Index (MoM) (Oct)",
@@ -70,7 +70,7 @@
       "datetime_raw": "Wed, Nov 25, 03:00 PM·15:00UTC",
       "datetime_local": "25/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 4d 6h"
+      "time_to": "in 4d 5h"
     }
   ]
 }
