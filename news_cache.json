@@ -7,14 +7,14 @@
       "datetime_raw": "Mon, Nov 23, 02:45 PM·14:45UTC",
       "datetime_local": "23/11/2026 21:45",
       "impact": "high",
-      "time_to": "in 19h 24m"
+      "time_to": "in 19h 4m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Nov, prelim)",
       "datetime_raw": "Mon, Nov 23, 02:45 PM·14:45UTC",
       "datetime_local": "23/11/2026 21:45",
       "impact": "high",
-      "time_to": "in 19h 24m"
+      "time_to": "in 19h 4m"
     },
     {
       "name": "US CB Consumer Confidence (Nov)",
@@ -35,35 +35,35 @@
       "datetime_raw": "Wed, Nov 25, 01:30 PM·13:30UTC",
       "datetime_local": "25/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 18h"
+      "time_to": "in 2d 17h"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Oct)",
       "datetime_raw": "Wed, Nov 25, 01:30 PM·13:30UTC",
       "datetime_local": "25/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 18h"
+      "time_to": "in 2d 17h"
     },
     {
       "name": "US GDP (QoQ) (Q3, prelim)",
       "datetime_raw": "Wed, Nov 25, 01:30 PM·13:30UTC",
       "datetime_local": "25/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 18h"
+      "time_to": "in 2d 17h"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Oct)",
       "datetime_raw": "Wed, Nov 25, 01:30 PM·13:30UTC",
       "datetime_local": "25/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 18h"
+      "time_to": "in 2d 17h"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Wed, Nov 25, 01:30 PM·13:30UTC",
       "datetime_local": "25/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2d 18h"
+      "time_to": "in 2d 17h"
     },
     {
       "name": "US New Home Sales (Oct)",
