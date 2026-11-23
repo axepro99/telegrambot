@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-11-23T15:40:38.122704+07:00",
+  "last_news_sent_at": "2026-11-23T16:20:36.544419+07:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -7,14 +7,14 @@
       "datetime_raw": "Mon, Nov 23, 02:45 PM·14:45UTC",
       "datetime_local": "23/11/2026 21:45",
       "impact": "high",
-      "time_to": "in 5h 43m"
+      "time_to": "in 5h 24m"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Nov, prelim)",
       "datetime_raw": "Mon, Nov 23, 02:45 PM·14:45UTC",
       "datetime_local": "23/11/2026 21:45",
       "impact": "high",
-      "time_to": "in 5h 43m"
+      "time_to": "in 5h 24m"
     },
     {
       "name": "US CB Consumer Confidence (Nov)",
