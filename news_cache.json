@@ -7,49 +7,49 @@
       "datetime_raw": "Wed, Nov 25, 01:30 PM·13:30UTC",
       "datetime_local": "25/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2h 38m"
+      "time_to": "in 2h 29m"
     },
     {
       "name": "US Core PCE Price Index (YoY) (Oct)",
       "datetime_raw": "Wed, Nov 25, 01:30 PM·13:30UTC",
       "datetime_local": "25/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2h 38m"
+      "time_to": "in 2h 29m"
     },
     {
       "name": "US GDP (QoQ) (Q3, prelim)",
       "datetime_raw": "Wed, Nov 25, 01:30 PM·13:30UTC",
       "datetime_local": "25/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2h 38m"
+      "time_to": "in 2h 29m"
     },
     {
       "name": "US Durable Goods Orders (MoM) (Oct)",
       "datetime_raw": "Wed, Nov 25, 01:30 PM·13:30UTC",
       "datetime_local": "25/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2h 38m"
+      "time_to": "in 2h 29m"
     },
     {
       "name": "US Initial Jobless Claims",
       "datetime_raw": "Wed, Nov 25, 01:30 PM·13:30UTC",
       "datetime_local": "25/11/2026 20:30",
       "impact": "high",
-      "time_to": "in 2h 38m"
+      "time_to": "in 2h 29m"
     },
     {
       "name": "US New Home Sales (Oct)",
       "datetime_raw": "Wed, Nov 25, 03:00 PM·15:00UTC",
       "datetime_local": "25/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 4h 8m"
+      "time_to": "in 3h 59m"
     },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "Wed, Nov 25, 03:30 PM·15:30UTC",
       "datetime_local": "25/11/2026 22:30",
       "impact": "high",
-      "time_to": "in 4h 38m"
+      "time_to": "in 4h 29m"
     },
     {
       "name": "CN Manufacturing PMI (Nov)",
@@ -63,7 +63,7 @@
       "datetime_raw": "Mon, Nov 30, 01:00 PM·13:00UTC",
       "datetime_local": "30/11/2026 20:00",
       "impact": "high",
-      "time_to": "in 5d 2h"
+      "time_to": "in 5d 1h"
     },
     {
       "name": "US Chicago PMI (Nov)",
@@ -77,7 +77,7 @@
       "datetime_raw": "Tue, Dec 1, 10:00 AM·10:00UTC",
       "datetime_local": "01/12/2026 17:00",
       "impact": "high",
-      "time_to": "in 5d 23h"
+      "time_to": "in 5d 22h"
     },
     {
       "name": "US S&P Global Manufacturing PMI (Nov)",
@@ -91,21 +91,21 @@
       "datetime_raw": "Tue, Dec 1, 03:00 PM·15:00UTC",
       "datetime_local": "01/12/2026 22:00",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "US ISM Manufacturing Prices (Nov)",
       "datetime_raw": "Tue, Dec 1, 03:00 PM·15:00UTC",
       "datetime_local": "01/12/2026 22:00",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "US JOLTS Job Openings (Oct)",
       "datetime_raw": "Tue, Dec 1, 03:00 PM·15:00UTC",
       "datetime_local": "01/12/2026 22:00",
       "impact": "high",
-      "time_to": "in 6d 4h"
+      "time_to": "in 6d 3h"
     },
     {
       "name": "US ADP Nonfarm Employment Change (Nov)",
@@ -133,14 +133,14 @@
       "datetime_raw": "Thu, Dec 3, 03:00 PM·15:00UTC",
       "datetime_local": "03/12/2026 22:00",
       "impact": "high",
-      "time_to": "in 8d 4h"
+      "time_to": "in 8d 3h"
     },
     {
       "name": "US ISM Non-Manufacturing PMI (Nov)",
       "datetime_raw": "Thu, Dec 3, 03:00 PM·15:00UTC",
       "datetime_local": "03/12/2026 22:00",
       "impact": "high",
-      "time_to": "in 8d 4h"
+      "time_to": "in 8d 3h"
     },
     {
       "name": "US Average Hourly Earnings (MoM) (Nov)",
