@@ -7,14 +7,14 @@
       "datetime_raw": "Wed, Nov 25, 03:00 PM·15:00UTC",
       "datetime_local": "25/11/2026 22:00",
       "impact": "high",
-      "time_to": "in 58m 54s"
+      "time_to": "in 39m 23s"
     },
     {
       "name": "US Crude Oil Inventories",
       "datetime_raw": "Wed, Nov 25, 03:30 PM·15:30UTC",
       "datetime_local": "25/11/2026 22:30",
       "impact": "high",
-      "time_to": "in 1h 28m"
+      "time_to": "in 1h 9m"
     },
     {
       "name": "CN Manufacturing PMI (Nov)",
@@ -77,7 +77,7 @@
       "datetime_raw": "Wed, Dec 2, 01:15 PM·13:15UTC",
       "datetime_local": "02/12/2026 20:15",
       "impact": "high",
-      "time_to": "in 6d 23h"
+      "time_to": "in 6d 22h"
     },
     {
       "name": "US Initial Jobless Claims",
