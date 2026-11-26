@@ -1,5 +1,5 @@
 {
-  "last_news_sent_at": "2026-11-26T21:40:38.758760+07:00",
+  "last_news_sent_at": "2026-11-26T22:20:36.943015+07:00",
   "cache_created_at": "2026-07-30T13:30:49.558279-03:00",
   "events": [
     {
@@ -63,7 +63,7 @@
       "datetime_raw": "Wed, Dec 2, 01:15 PM·13:15UTC",
       "datetime_local": "02/12/2026 20:15",
       "impact": "high",
-      "time_to": "in 5d 22h"
+      "time_to": "in 5d 21h"
     },
     {
       "name": "US Initial Jobless Claims",
